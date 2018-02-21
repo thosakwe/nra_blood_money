@@ -15,17 +15,15 @@ AngelConfigurer configureServer(FileSystem fileSystem) {
     // Typically, you want to mount controllers first, after any global middleware.
     await app.configure(controllers.configureServer);
 
-    if (app.isProduction) {
-      var publicDir = fileSystem.directory('build/web');
-      var indexHtml = publicDir.childFile('index.html');
+    var publicDir =
+        fileSystem.directory(app.isProduction ? 'build/web' : 'web');
+    var indexHtml = publicDir.childFile('index.html');
 
-      app.use((RequestContext req, ResponseContext res) async {
-        if (!req.accepts('text/html', strict: true))
-          return true;
-        res.headers['content-type'] = 'text/html';
-        await indexHtml.openRead().pipe(res);
-      });
-    }
+    app.use((RequestContext req, ResponseContext res) async {
+      if (!req.accepts('text/html', strict: true)) return true;
+      res.headers['content-type'] = 'text/html';
+      await indexHtml.openRead().pipe(res);
+    });
 
     // Throw a 404 if no route matched the request.
     app.use(() => throw new AngelHttpException.notFound());
