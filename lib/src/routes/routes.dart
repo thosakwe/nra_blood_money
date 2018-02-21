@@ -15,40 +15,19 @@ AngelConfigurer configureServer(FileSystem fileSystem) {
     // Typically, you want to mount controllers first, after any global middleware.
     await app.configure(controllers.configureServer);
 
-    // Render `views/hello.jl` when a user visits the application root.
-    app.get(
-        '/', (RequestContext req, ResponseContext res) => res.render('hello'));
+    if (app.isProduction) {
+      var publicDir = fileSystem.directory('build/web');
+      var indexHtml = publicDir.childFile('index.html');
 
-    // Mount static server at web in development.
-    // This variant of `VirtualDirectory` also sends `Cache-Control` headers.
-    //
-    // In production, however, prefer serving static files through NGINX or a
-    // similar reverse proxy.
-    //
-    // Read the following two sources for documentation:
-    // * https://medium.com/the-angel-framework/serving-static-files-with-the-angel-framework-2ddc7a2b84ae
-    // * https://github.com/angel-dart/static
-    var vDir = new CachingVirtualDirectory(
-      app,
-      fileSystem,
-      source: fileSystem.directory('web'),
-    );
-    app.use(vDir.handleRequest);
+      app.use((RequestContext req, ResponseContext res) async {
+        if (!req.accepts('text/html', strict: true))
+          return true;
+        res.headers['content-type'] = 'text/html';
+        await indexHtml.openRead().pipe(res);
+      });
+    }
 
     // Throw a 404 if no route matched the request.
     app.use(() => throw new AngelHttpException.notFound());
-
-    // Set our application up to handle different errors.
-    //
-    // Read the following for documentation:
-    // * https://github.com/angel-dart/angel/wiki/Error-Handling
-    app.errorHandler = (e, req, res) async {
-      if (e.statusCode == 404) {
-        return await res
-            .render('error', {'message': 'No file exists at ${req.path}.'});
-      }
-
-      return await res.render('error', {'message': e.message});
-    };
   };
 }
