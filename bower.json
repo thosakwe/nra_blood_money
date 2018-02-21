@@ -1,0 +1,22 @@
+{
+  "name": "blood_money",
+  "authors": [
+    "Tobe O <thosakwe@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./web/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "font-awesome": "^5.0.6"
+  }
+}
