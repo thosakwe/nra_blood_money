@@ -2,8 +2,15 @@
 <link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">
 <link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
 <link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/iron-icons/communication-icons.html">
+<link rel="import" href="../../bower_components/iron-icons/editor-icons.html">
 <link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/iron-icons/social-icons.html">
+<link rel="import" href="../../bower_components/iron-image/iron-image.html">
 <link rel="import" href="../../bower_components/iron-list/iron-list.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/paper-dialog/paper-dialog.html">
+<link rel="import" href="../../bower_components/paper-dialog-scrollable/paper-dialog-scrollable.html">
 <link rel="import" href="../../bower_components/paper-drawer-panel/paper-drawer-panel.html">
 <link rel="import" href="../../bower_components/paper-fab/paper-fab.html">
 <link rel="import" href="../../bower_components/paper-header-panel/paper-header-panel.html">
@@ -25,6 +32,10 @@
                 @apply(--layout-vertical);
             }
 
+            #drawer-header {
+                background-size: cover;
+            }
+
             iron-list {
                 margin-top: 1em;
             }
@@ -38,14 +49,13 @@
                 position: fixed;
                 bottom: 1em;
                 right: 1em;
-                z-index: 999;
             }
 
             paper-icon-item {
                 color: var(--primary-text-color);
             }
 
-            paper-toolbar {
+            paper-scroll-header-panel paper-toolbar {
                 box-shadow: 0 5px 6px -3px rgba(0, 0, 0, 0.4);
             }
 
@@ -56,16 +66,43 @@
             }
         </style>
 
-        <paper-fab icon="add"></paper-fab>
-
         <paper-drawer-panel id="drawer" force-narrow right-drawer>
-            <paper-header-panel slot="drawer">
-                <paper-listbox>
-                    <paper-icon-item>
-                        <iron-icon icon="favorite" slot="item-icon"></iron-icon>
-                        Yup
-                    </paper-icon-item>
-                </paper-listbox>
+            <paper-header-panel mode="seamed" slot="drawer">
+                <paper-toolbar id="drawer-header" class="tall" style$="[[__computeDrawerHeaderStyle(s)]]">
+                    <div class="title" slot="bottom" style="margin-left: 0;">[[s.name]]</div>
+                    <paper-icon-button icon="star" slot="bottom">
+                        <!-- TODO: Create a list of "favorites" -->
+                    </paper-icon-button>
+                </paper-toolbar>
+                <div>
+                    <paper-listbox>
+                        <paper-icon-item>
+                            <iron-icon icon="social:location-city" slot="item-icon"></iron-icon>
+                            [[s.position]] in [[s.state]]
+                        </paper-icon-item>
+
+                        <paper-icon-item>
+                            <iron-icon icon="editor:attach-money" slot="item-icon"></iron-icon>
+                            <!-- TODO: Format this -->
+                            [[s.money_from_nra]]
+                        </paper-icon-item>
+                        <!-- TODO: Divider -->
+
+                        <paper-icon-item>
+                            <iron-icon icon="social:public" slot="item-icon"></iron-icon>
+                            Website
+                        </paper-icon-item>
+                        <paper-icon-item>
+                            <iron-icon icon="communication:phone" slot="item-icon"></iron-icon>
+                            Call
+                        </paper-icon-item>
+                        <paper-icon-item>
+                            <iron-icon icon="mail" slot="item-icon"></iron-icon>
+                            Email
+                        </paper-icon-item>
+                    </paper-listbox>
+                    [[s.bio]]
+                </div>
             </paper-header-panel>
 
             <paper-scroll-header-panel slot="main" condenses>
@@ -82,18 +119,23 @@
                         <paper-tab>OTHER</paper-tab>
                     </paper-tabs>
                 </paper-toolbar>
-                <paper-listbox slot="content">
-                    <template is="dom-repeat" items="[[politicians]]" as="p">
-                        <paper-icon-item on-tap="__selectItem" data-item$="[[p]]">
-                            <div class="avatar" slot="item-icon">
-                                <img src$="[[p.image_url]]" alt$="[[p.name]]">
-                            </div>
-                            <paper-item-body>
-                                <div>[[p.name]]</div>
-                            </paper-item-body>
-                        </paper-icon-item>
-                    </template>
-                </paper-listbox>
+
+                <div>
+                    <paper-listbox id="list" on-selected-changed="__selectItem" slot="content">
+                        <template is="dom-repeat" items="[[politicians]]" as="p">
+                            <paper-icon-item data-item="[[p]]">
+                                <div class="avatar" slot="item-icon">
+                                    <img src$="[[p.image_url]]" alt$="[[p.name]]">
+                                </div>
+                                <paper-item-body>
+                                    <div>[[p.name]]</div>
+                                </paper-item-body>
+                            </paper-icon-item>
+                        </template>
+                    </paper-listbox>
+
+                    <paper-fab icon="add"></paper-fab>
+                </div>
             </paper-scroll-header-panel>
         </paper-drawer-panel>
     </template>
@@ -108,8 +150,17 @@
           return 'blood-list';
         }
 
+        __computeDrawerHeaderStyle(s) {
+          if (s) {
+            return `background-image: url('${s.image_url}');`;
+          }
+        }
+
         __selectItem(e) {
-          this.$.drawer.openDrawer();
+          if (e.detail.value === -1) return;
+          this.$.drawer.togglePanel();
+          this.s = this.politicians[e.detail.value];
+          this.$.list.select(-1);
         }
       }
 

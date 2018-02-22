@@ -19,7 +19,8 @@
     "paper-scroll-header-panel": "PolymerElements/paper-scroll-header-panel#^2.0.0",
     "iron-list": "PolymerElements/iron-list#^2.0.12",
     "paper-tabs": "PolymerElements/paper-tabs#^2.0.0",
-    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#^2.0.0"
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#^2.0.0",
+    "paper-button": "PolymerElements/paper-button#^2.0.0"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^6.0.0",
