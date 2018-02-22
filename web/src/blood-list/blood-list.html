@@ -74,9 +74,6 @@
             <paper-header-panel mode="seamed" slot="drawer">
                 <paper-toolbar id="drawer-header" class="tall" style$="[[__computeDrawerHeaderStyle(s)]]">
                     <div class="title" slot="bottom" style="margin-left: 0;">[[s.name]]</div>
-                    <paper-icon-button icon="star-border" slot="bottom">
-                        <!-- TODO: Create a list of "favorites" -->
-                    </paper-icon-button>
                 </paper-toolbar>
                 <div>
                     <paper-listbox>
@@ -142,7 +139,6 @@
                                         <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
                                     </div>
                                 </paper-item-body>
-                                <paper-icon-button icon="star-border"></paper-icon-button>
                             </paper-icon-item>
                         </template>
                     </paper-listbox>
