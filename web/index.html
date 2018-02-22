@@ -15,8 +15,25 @@
     <link rel="import" href="/src/blood-money/blood-money.html">
 
     <style>
-        blood-money {
+        html, body, blood-money {
+            --primary-color: var(--dark-theme-background-color);
+            --accent-color: var(--primary-color);
+            --primary-background-color: #f1f1f1;
+
+            /*
+            --primary-text-color: var(--dark-theme-text-color);
+            --primary-background-color: var(--dark-theme-background-color);
+            --secondary-text-color: var(--dark-theme-secondary-color);
+            --disabled-text-color: var(--dark-theme-disabled-color);
+            --divider-color: var(--dark-theme-divider-color);
+            --error-color: var(--paper-deep-orange-a700);
+            */
+
+
+            background-color: var(--primary-background-color);
             height: 100%;
+            margin: 0;
+            padding: 0;
         }
     </style>
 </head>

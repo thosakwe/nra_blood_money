@@ -2,6 +2,7 @@
 <link rel="import" href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../blood-list/blood-list.html">
 
 <dom-module id="blood-money">
     <template>
@@ -11,6 +12,10 @@
                 @apply(--layout-fullbleed);
                 @apply(--layout-vertical);
             }
+
+            blood-list {
+                @apply(--layout-flex);
+            }
         </style>
 
         <iron-ajax last-response="{{politicians}}" handle-as="json" url="/api/politicians" auto></iron-ajax>
@@ -19,6 +24,8 @@
                 data="{{politicians}}"
                 persisted-data="{{persistedPoliticians}}">
         </app-indexeddb-mirror>
+
+        <blood-list politicians="[[politicians]]"></blood-list>
     </template>
 
     <script>
