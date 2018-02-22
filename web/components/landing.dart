@@ -1,7 +1,10 @@
 import 'package:angular/angular.dart';
+import '../providers/politician_service.dart';
+import 'package:blood_money/models.dart';
 
 @Component(
     selector: 'landing-page',
+    directives: const [COMMON_DIRECTIVES],
     template: '''
 <section class="hero is-dark is-bold is-fullheight">
   <div id="backdrop"></div>
@@ -11,6 +14,7 @@ import 'package:angular/angular.dart';
         #VoteThemOut.
       </h1>
       <h2 class="subtitle">
+        <span *ngIf="p.items.isNotEmpty">{{ p.items.length }}</span>
         NRA-hugging politicians <strong>refuse</strong> to act as innocents die.
       </h2>
       <a class="button is-dark is-inverted is-outlined">
@@ -32,4 +36,8 @@ import 'package:angular/angular.dart';
 }
 ''',
     ])
-class LandingComponent {}
+class LandingComponent {
+  final PoliticianService p;
+
+  LandingComponent(this.p);
+}
