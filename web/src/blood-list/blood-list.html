@@ -112,7 +112,7 @@
                         NRA-Friendly Politicians
                     </div>
                     <paper-icon-button icon="search" slot="top"></paper-icon-button>
-                    <paper-tabs class="fit" slot="bottom" selected="0">
+                    <paper-tabs class="fit" slot="bottom" selected="{{tab}}">
                         <paper-tab>ALL</paper-tab>
                         <paper-tab>SENATE</paper-tab>
                         <paper-tab>HOUSE</paper-tab>
@@ -121,9 +121,10 @@
                 </paper-toolbar>
 
                 <div>
-                    <paper-listbox id="list" on-selected-changed="__selectItem" slot="content">
-                        <template is="dom-repeat" items="[[politicians]]" as="p">
-                            <paper-icon-item data-item="[[p]]">
+                    <!-- TODO: Empty state -->
+                    <paper-listbox id="list" slot="content">
+                        <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter">
+                            <paper-icon-item on-tap="__selectItem">
                                 <div class="avatar" slot="item-icon">
                                     <img src$="[[p.image_url]]" alt$="[[p.name]]">
                                 </div>
@@ -150,17 +151,47 @@
           return 'blood-list';
         }
 
+        static get properties() {
+          return {
+            tab: {
+              type: Number,
+              value: 0
+            }
+          };
+        }
+
+        static get observers() {
+          return [
+            '__tabChanged(tab)'
+          ];
+        }
+
         __computeDrawerHeaderStyle(s) {
           if (s) {
             return `background-image: url('${s.image_url}');`;
           }
         }
 
+        __filter(p) {
+          switch (this.tab) {
+            case 1:
+              return p.position === 'Senator';
+            case 2:
+              return p.position === 'Representative';
+            case 3:
+              return p.position !== 'Senator' && p.position !== 'Representative';
+            default:
+              return true;
+          }
+        }
+
         __selectItem(e) {
-          if (e.detail.value === -1) return;
+          this.s = e.model.p;
           this.$.drawer.togglePanel();
-          this.s = this.politicians[e.detail.value];
-          this.$.list.select(-1);
+        }
+
+        __tabChanged(tab) {
+          this.$.listRepeat.render();
         }
       }
 
