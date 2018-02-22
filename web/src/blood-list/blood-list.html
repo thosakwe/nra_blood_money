@@ -91,8 +91,10 @@
 
                         <paper-icon-item>
                             <iron-icon icon="editor:attach-money" slot="item-icon"></iron-icon>
-                            <!-- TODO: Format this -->
-                            [[s.money_from_nra]]
+                            <paper-item-body two-line>
+                                <div>[[__formatMoney(s.money_from_nra)]]</div>
+                                <div secondary>from the NRA</div>
+                            </paper-item-body>
                         </paper-icon-item>
 
                         <paper-icon-item>
@@ -180,6 +182,10 @@
           if (s) {
             return `background-image: url('${s.image_url}');`;
           }
+        }
+
+        __formatMoney(amt) {
+          return amt.toLocaleString();
         }
 
         __filter(p) {
