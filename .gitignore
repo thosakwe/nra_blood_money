@@ -89,4 +89,4 @@ logs/
 .DS_Store
 server_log.txt
 
-bower_components
+web/bower_components

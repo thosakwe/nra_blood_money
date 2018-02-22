@@ -35,5 +35,6 @@ transformers:
   - dart_to_js_script_rewriter
   - angel_configuration
   - angular:
+      $include: ["web**.dart"]
       entry_points:
         - web/main.dart

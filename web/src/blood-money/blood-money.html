@@ -1,0 +1,32 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="blood-money">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class BloodMoney extends Polymer.Element {
+      static get is() { return 'blood-money'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'blood-money'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(BloodMoney.is, BloodMoney);
+  </script>
+</dom-module>
