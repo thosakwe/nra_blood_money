@@ -1,10 +1,11 @@
 import 'package:angular/angular.dart';
+import 'package:angular_router/angular_router.dart';
 import '../providers/politician_service.dart';
 import 'package:blood_money/models.dart';
 
 @Component(
     selector: 'landing-page',
-    directives: const [COMMON_DIRECTIVES],
+    directives: const [COMMON_DIRECTIVES, ROUTER_DIRECTIVES],
     template: '''
 <section class="hero is-dark is-bold is-fullheight">
   <div id="backdrop"></div>
@@ -17,7 +18,7 @@ import 'package:blood_money/models.dart';
         <span *ngIf="p.items.isNotEmpty">{{ p.items.length }}</span>
         NRA-hugging politicians <strong>refuse</strong> to act as innocents die.
       </h2>
-      <a class="button is-dark is-inverted is-outlined">
+      <a [routerLink]="['../List']" class="button is-dark is-inverted is-outlined">
         See who's taking blood money &gt;
       </a>
     </div>
