@@ -64,29 +64,36 @@
                 height: 2.5em;
                 margin-right: 1em;
             }
+
+            .divider {
+                border-bottom: 1px solid var(--divider-color);
+            }
         </style>
 
         <paper-drawer-panel id="drawer" force-narrow right-drawer>
             <paper-header-panel mode="seamed" slot="drawer">
                 <paper-toolbar id="drawer-header" class="tall" style$="[[__computeDrawerHeaderStyle(s)]]">
                     <div class="title" slot="bottom" style="margin-left: 0;">[[s.name]]</div>
-                    <paper-icon-button icon="star" slot="bottom">
+                    <paper-icon-button icon="star-border" slot="bottom">
                         <!-- TODO: Create a list of "favorites" -->
                     </paper-icon-button>
                 </paper-toolbar>
                 <div>
                     <paper-listbox>
-                        <paper-icon-item>
-                            <iron-icon icon="social:location-city" slot="item-icon"></iron-icon>
-                            [[s.position]] in [[s.state]]
-                        </paper-icon-item>
+                        <paper-item disabled>
+                            <paper-item-body two-line>
+                                <div style="color: var(--primary-text-color);">About</div>
+                                <div secondary>[[s.bio]]</div>
+                            </paper-item-body>
+                        </paper-item>
+
+                        <div class="divider"></div>
 
                         <paper-icon-item>
                             <iron-icon icon="editor:attach-money" slot="item-icon"></iron-icon>
                             <!-- TODO: Format this -->
                             [[s.money_from_nra]]
                         </paper-icon-item>
-                        <!-- TODO: Divider -->
 
                         <paper-icon-item>
                             <iron-icon icon="social:public" slot="item-icon"></iron-icon>
@@ -101,7 +108,6 @@
                             Email
                         </paper-icon-item>
                     </paper-listbox>
-                    [[s.bio]]
                 </div>
             </paper-header-panel>
 
@@ -128,9 +134,13 @@
                                 <div class="avatar" slot="item-icon">
                                     <img src$="[[p.image_url]]" alt$="[[p.name]]">
                                 </div>
-                                <paper-item-body>
+                                <paper-item-body two-line>
                                     <div>[[p.name]]</div>
+                                    <div secondary>
+                                        <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
+                                    </div>
                                 </paper-item-body>
+                                <paper-icon-button icon="star-border"></paper-icon-button>
                             </paper-icon-item>
                         </template>
                     </paper-listbox>

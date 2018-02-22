@@ -1,5 +1,13 @@
 [
   {
+    "name": "Donald Trump",
+    "image_url": "/images/pol/donald_trump.jpg",
+    "position": "President",
+    "state": "United States",
+    "bio": "#45",
+    "money_from_nra": 30000000.00
+  },
+  {
     "name": "Marco Rubio",
     "image_url": "/images/pol/marco_rubio.jpg",
     "position": "Senator",
