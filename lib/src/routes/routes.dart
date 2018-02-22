@@ -16,6 +16,7 @@ AngelConfigurer configureServer(FileSystem fileSystem) {
     await app.configure(controllers.configureServer);
 
     if (app.isProduction) {
+      // TODO: Get correct path to production build index.html
       var publicDir = fileSystem.directory('build/web');
       var indexHtml = publicDir.childFile('index.html');
 
@@ -24,6 +25,12 @@ AngelConfigurer configureServer(FileSystem fileSystem) {
         res.headers['content-type'] = 'text/html';
         await indexHtml.openRead().pipe(res);
       });
+    } else {
+      var vDir = new VirtualDirectory(app, fileSystem);
+      app.use(waterfall([
+        vDir.handleRequest,
+        vDir.pushState('index.html', accepts: ['text/html']),
+      ]));
     }
 
     // Throw a 404 if no route matched the request.
