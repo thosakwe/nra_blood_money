@@ -3,11 +3,13 @@ import 'package:angel_configuration/browser.dart';
 import 'package:angular/angular.dart';
 import 'package:angular_router/angular_router.dart';
 import 'components/blood_money.dart';
+import 'providers/providers.dart';
 
 void main() {
   String basePath;
   List providers = [
     ROUTER_PROVIDERS,
+    bloodMoneyProviders,
   ];
 
   if (config('debug')) {
