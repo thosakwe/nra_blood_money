@@ -1,4 +1,5 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/polymer/lib/elements/dom-if.html">
 <link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">
 <link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
 <link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
@@ -36,13 +37,18 @@
                 background-size: cover;
             }
 
+            #left-toolbar {
+                background-image: url('/images/drawer.jpeg');
+                background-size: cover;
+            }
+
             iron-list {
                 margin-top: 1em;
             }
 
             paper-drawer-panel, paper-scroll-header-panel, paper-header-panel, paper-listbox {
                 @apply(--layout-flex);
-                background-color: transparent;
+                background-color: var(--primary-background-color);
             }
 
             paper-fab {
@@ -56,7 +62,9 @@
             }
 
             paper-scroll-header-panel paper-toolbar {
+                /*
                 box-shadow: 0 5px 6px -3px rgba(0, 0, 0, 0.4);
+                */
             }
 
             .avatar img {
@@ -65,87 +73,132 @@
                 margin-right: 1em;
             }
 
+            .bio, paper-item-body {
+                overflow-wrap: break-word;
+            }
+
             .divider {
                 border-bottom: 1px solid var(--divider-color);
             }
+
+            .item-link {
+                text-decoration: none;
+            }
         </style>
 
-        <paper-drawer-panel id="drawer" force-narrow right-drawer>
+        <paper-drawer-panel id="leftDrawer">
             <paper-header-panel mode="seamed" slot="drawer">
-                <paper-toolbar id="drawer-header" class="tall" style$="[[__computeDrawerHeaderStyle(s)]]">
-                    <div class="title" slot="bottom" style="margin-left: 0;">[[s.name]]</div>
+                <paper-toolbar id="left-toolbar" class="tall" slot="header">
+                    <div class="title" slot="bottom" style="margin-left: 0;">
+                        #VoteThemOut
+                    </div>
                 </paper-toolbar>
-                <div>
-                    <paper-listbox>
-                        <paper-item disabled>
-                            <paper-item-body two-line>
-                                <div style="color: var(--primary-text-color);">About</div>
-                                <div secondary>[[s.bio]]</div>
-                            </paper-item-body>
-                        </paper-item>
-
-                        <div class="divider"></div>
-
-                        <paper-icon-item>
-                            <iron-icon icon="editor:attach-money" slot="item-icon"></iron-icon>
-                            <paper-item-body two-line>
-                                <div>[[__formatMoney(s.money_from_nra)]]</div>
-                                <div secondary>from the NRA</div>
-                            </paper-item-body>
-                        </paper-icon-item>
-
-                        <paper-icon-item>
-                            <iron-icon icon="social:public" slot="item-icon"></iron-icon>
-                            Website
-                        </paper-icon-item>
-                        <paper-icon-item>
-                            <iron-icon icon="communication:phone" slot="item-icon"></iron-icon>
-                            Call
-                        </paper-icon-item>
-                        <paper-icon-item>
-                            <iron-icon icon="mail" slot="item-icon"></iron-icon>
-                            Email
-                        </paper-icon-item>
-                    </paper-listbox>
-                </div>
+                <paper-listbox>
+                    <paper-icon-item>
+                        <iron-icon icon="list" slot="item-icon"></iron-icon>
+                        List
+                    </paper-icon-item>
+                    <paper-icon-item>
+                        <iron-icon icon="info" slot="item-icon"></iron-icon>
+                        About
+                    </paper-icon-item>
+                    <paper-icon-item>
+                        <iron-icon icon="social:group-add" slot="item-icon"></iron-icon>
+                        Contribute
+                    </paper-icon-item>
+                </paper-listbox>
             </paper-header-panel>
 
-            <paper-scroll-header-panel slot="main" condenses>
-                <paper-toolbar class="medium-tall" slot="header">
-                    <paper-icon-button icon="chevron-left" slot="top"></paper-icon-button>
-                    <div class="title" slot="top">
-                        NRA-Friendly Politicians
-                    </div>
-                    <paper-icon-button icon="search" slot="top"></paper-icon-button>
-                    <paper-tabs class="fit" slot="bottom" selected="{{tab}}">
-                        <paper-tab>ALL</paper-tab>
-                        <paper-tab>SENATE</paper-tab>
-                        <paper-tab>HOUSE</paper-tab>
-                        <paper-tab>OTHER</paper-tab>
-                    </paper-tabs>
-                </paper-toolbar>
-
-                <div>
-                    <!-- TODO: Empty state -->
-                    <paper-listbox id="list" slot="content">
-                        <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter">
-                            <paper-icon-item on-tap="__selectItem">
-                                <div class="avatar" slot="item-icon">
-                                    <img src$="[[p.image_url]]" alt$="[[p.name]]">
-                                </div>
+            <paper-drawer-panel slot="main" id="drawer" force-narrow right-drawer>
+                <paper-header-panel mode="seamed" slot="drawer">
+                    <paper-toolbar id="drawer-header" class="tall" style$="[[__computeDrawerHeaderStyle(s)]]">
+                        <div class="title" slot="bottom" style="margin-left: 0;">[[s.name]]</div>
+                    </paper-toolbar>
+                    <div>
+                        <paper-listbox>
+                            <paper-item disabled>
                                 <paper-item-body two-line>
-                                    <div>[[p.name]]</div>
-                                    <div secondary>
-                                        <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
-                                    </div>
+                                    <div style="color: var(--primary-text-color);">About</div>
+                                    <div class="bio" secondary>[[s.bio]]</div>
+                                </paper-item-body>
+                            </paper-item>
+
+                            <div class="divider"></div>
+
+                            <paper-icon-item>
+                                <iron-icon icon="editor:attach-money" slot="item-icon"></iron-icon>
+                                <paper-item-body two-line>
+                                    <div>[[__formatMoney(s.money_from_nra)]]</div>
+                                    <div secondary>from the NRA</div>
                                 </paper-item-body>
                             </paper-icon-item>
-                        </template>
-                    </paper-listbox>
 
-                    <paper-fab icon="add"></paper-fab>
-                </div>
-            </paper-scroll-header-panel>
+                            <template is="dom-if" if="[[p.website]]">
+                                <a class="item-link" href$="[[p.website]]" tabindex="-1"><paper-icon-item>
+                                    <iron-icon icon="social:public" slot="item-icon"></iron-icon>
+                                    Website
+                                </paper-icon-item>
+                                </a>
+                            </template>
+                            </paper-icon-item>
+                            <template is="dom-if" if="[[p.phone]]">
+                                <a class="item-link" href$="tel:[[p.phone]]" tabindex="-1">
+                                    <paper-icon-item>
+                                        <iron-icon icon="communication:phone" slot="item-icon"></iron-icon>
+                                        Call
+                                    </paper-icon-item>
+                                </a>
+                            </template>
+                            <template is="dom-if" if="[[p.email]]">
+                                <a class="item-link" href$="mailto:[[p.email]]" tabindex="-1">
+                                    <paper-icon-item>
+                                        <iron-icon icon="mail" slot="item-icon"></iron-icon>
+                                        Email
+                                    </paper-icon-item>
+                                </a>
+                            </template>
+                        </paper-listbox>
+                    </div>
+                </paper-header-panel>
+
+                <paper-scroll-header-panel slot="main" condenses>
+                    <paper-toolbar class="medium-tall" slot="header">
+                        <paper-icon-button on-tap="__toggleDrawer" icon="menu" slot="top"></paper-icon-button>
+                        <div class="title" slot="top">
+                            NRA-Friendly Politicians
+                        </div>
+                        <paper-icon-button icon="search" slot="top"></paper-icon-button>
+                        <paper-tabs class="fit" slot="bottom" selected="{{tab}}">
+                            <paper-tab>ALL</paper-tab>
+                            <paper-tab>SENATE</paper-tab>
+                            <paper-tab>HOUSE</paper-tab>
+                            <paper-tab>OTHER</paper-tab>
+                        </paper-tabs>
+                    </paper-toolbar>
+
+                    <div>
+                        <!-- TODO: Empty state -->
+                        <paper-listbox id="list" slot="content">
+                            <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter">
+                                <paper-icon-item on-tap="__selectItem">
+                                    <div class="avatar" slot="item-icon">
+                                        <img src$="[[p.image_url]]" alt$="[[p.name]]">
+                                    </div>
+                                    <paper-item-body two-line>
+                                        <div>[[p.name]]</div>
+                                        <div secondary>
+                                            <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
+                                        </div>
+                                    </paper-item-body>
+                                </paper-icon-item>
+                            </template>
+                        </paper-listbox>
+
+                        <paper-fab icon="add"></paper-fab>
+                    </div>
+                </paper-scroll-header-panel>
+            </paper-drawer-panel>
+
         </paper-drawer-panel>
     </template>
 
@@ -204,6 +257,10 @@
 
         __tabChanged(tab) {
           this.$.listRepeat.render();
+        }
+
+        __toggleDrawer() {
+          this.$.leftDrawer.togglePanel();
         }
       }
 

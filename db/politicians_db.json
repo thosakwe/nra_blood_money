@@ -4,6 +4,7 @@
     "image_url": "/images/pol/donald_trump.jpg",
     "position": "President",
     "state": "United States",
+    "party": "Republican",
     "bio": "#45",
     "money_from_nra": 30000000.00
   },
@@ -11,8 +12,9 @@
     "name": "Marco Rubio",
     "image_url": "/images/pol/marco_rubio.jpg",
     "position": "Senator",
+    "party": "Republican",
     "state": "Florida",
-    "bio": "Marco Rubio is... BIO TODO",
+    "bio": "Marco Antonio Rubio is an American politician, attorney, and the junior United States Senator for Florida. A Republican Party member, he was previously Speaker of the Florida House of Representatives.",
     "money_from_nra": 3300000.00
   }
 ]
