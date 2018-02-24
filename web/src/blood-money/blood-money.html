@@ -177,6 +177,7 @@
           }
 
           // On success, select the desired page.
+          this.$.leftDrawer.closeDrawer();
           promise
             .then(() => {
               this.$.pages.select(page);
@@ -188,7 +189,6 @@
             .then(() => {
               // Set loading to `false`.
               this.loading = false;
-              console.info(this.preload);
             });
         }
 

@@ -15,11 +15,19 @@
         </style>
 
         <paper-header-panel>
-            <paper-toolbar slot="header"></paper-toolbar>
-            <div>
+            <paper-toolbar slot="header">
+                <template is="dom-if" if="[[!desktop]]">
+                    <paper-icon-button on-tap="__goHome" icon="chevron-left" slot="top"></paper-icon-button>
+                    <div class="title" slot="top">About</div>
+                </template>
+            </paper-toolbar>
+
+            <div class="fit">
                 <paper-card>
                     <div class="card-content">
                         About...
+                    </div>
+                    <div class="card-actions">
                     </div>
                 </paper-card>
             </div>
@@ -30,6 +38,10 @@
       class AboutPage extends Polymer.Element {
         static get is() {
           return 'about-page';
+        }
+
+        __goHome() {
+          location.href = '/';
         }
       }
 
