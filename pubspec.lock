@@ -109,30 +109,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.1"
-  angular:
-    description:
-      name: angular
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.0.0+2"
-  angular_compiler:
-    description:
-      name: angular_compiler
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.3.0+1"
-  angular_forms:
-    description:
-      name: angular_forms
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.0"
-  angular_router:
-    description:
-      name: angular_router
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.2"
   args:
     description:
       name: args
@@ -265,12 +241,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.9+1"
-  dart_to_js_script_rewriter:
-    description:
-      name: dart_to_js_script_rewriter
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.3"
   dotenv:
     description:
       name: dotenv
