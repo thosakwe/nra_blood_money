@@ -79,6 +79,10 @@
                 border-bottom: 1px solid var(--divider-color);
             }
 
+            .divider:focus {
+                outline: none;
+            }
+
             .item-link {
                 text-decoration: none;
             }
@@ -105,7 +109,7 @@
                             </paper-item-body>
                         </paper-item>
 
-                        <div class="divider"></div>
+                        <div class="divider" tabindex="-1"></div>
 
                         <paper-icon-item>
                             <iron-icon icon="editor:attach-money" slot="item-icon"></iron-icon>
