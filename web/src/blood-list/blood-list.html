@@ -1,6 +1,8 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../../bower_components/polymer/lib/elements/dom-if.html">
 <link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">
+<link rel="import" href="../../bower_components/app-route/app-route.html">
+<link rel="import" href="../../bower_components/app-route/app-location.html">
 <link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
 <link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
 <link rel="import" href="../../bower_components/iron-icons/communication-icons.html">
@@ -36,11 +38,6 @@
             }
 
             #drawer-header {
-                background-size: cover;
-            }
-
-            #left-toolbar {
-                background-image: url('/images/drawer.jpeg');
                 background-size: cover;
             }
 
@@ -90,125 +87,101 @@
 
         <search-dialog id="searchDialog" search="{{search}}"></search-dialog>
 
-        <paper-drawer-panel id="leftDrawer">
+
+        <paper-drawer-panel id="drawer" force-narrow right-drawer>
             <paper-header-panel mode="seamed" slot="drawer">
-                <paper-toolbar id="left-toolbar" class="tall" slot="header">
-                    <div class="title" slot="bottom" style="margin-left: 0;">
-                        #VoteThemOut
-                    </div>
+                <paper-toolbar id="drawer-header" class="tall" style$="[[__computeDrawerHeaderStyle(s)]]">
+                    <div class="title" slot="bottom" style="margin-left: 0;">[[s.name]]</div>
                 </paper-toolbar>
-                <paper-listbox>
-                    <paper-icon-item>
-                        <iron-icon icon="list" slot="item-icon"></iron-icon>
-                        List
-                    </paper-icon-item>
-                    <paper-icon-item>
-                        <iron-icon icon="info" slot="item-icon"></iron-icon>
-                        About
-                    </paper-icon-item>
-                    <paper-icon-item>
-                        <iron-icon icon="social:group-add" slot="item-icon"></iron-icon>
-                        Contribute
-                    </paper-icon-item>
-                </paper-listbox>
-            </paper-header-panel>
+                <div>
+                    <paper-listbox>
+                        <paper-item disabled>
+                            <paper-item-body two-line>
+                                <div style="color: var(--primary-text-color);">About</div>
+                                <div class="bio" secondary>[[s.bio]]</div>
+                            </paper-item-body>
+                        </paper-item>
 
-            <paper-drawer-panel slot="main" id="drawer" force-narrow right-drawer>
-                <paper-header-panel mode="seamed" slot="drawer">
-                    <paper-toolbar id="drawer-header" class="tall" style$="[[__computeDrawerHeaderStyle(s)]]">
-                        <div class="title" slot="bottom" style="margin-left: 0;">[[s.name]]</div>
-                    </paper-toolbar>
-                    <div>
-                        <paper-listbox>
-                            <paper-item disabled>
-                                <paper-item-body two-line>
-                                    <div style="color: var(--primary-text-color);">About</div>
-                                    <div class="bio" secondary>[[s.bio]]</div>
-                                </paper-item-body>
-                            </paper-item>
+                        <div class="divider"></div>
 
-                            <div class="divider"></div>
+                        <paper-icon-item>
+                            <iron-icon icon="editor:attach-money" slot="item-icon"></iron-icon>
+                            <paper-item-body two-line>
+                                <div>[[__formatMoney(s.money_from_nra)]]</div>
+                                <div secondary>from the NRA</div>
+                            </paper-item-body>
+                        </paper-icon-item>
 
-                            <paper-icon-item>
-                                <iron-icon icon="editor:attach-money" slot="item-icon"></iron-icon>
-                                <paper-item-body two-line>
-                                    <div>[[__formatMoney(s.money_from_nra)]]</div>
-                                    <div secondary>from the NRA</div>
-                                </paper-item-body>
-                            </paper-icon-item>
-
-                            <template is="dom-if" if="[[s.website]]">
-                                <a class="item-link" href$="[[s.website]]" tabindex="-1" target="_blank">
-                                    <paper-icon-item>
-                                        <iron-icon icon="social:public" slot="item-icon"></iron-icon>
-                                        <paper-item-body two-line>
-                                            <div>Website</div>
-                                            <div secondary>[[s.website]]</div>
-                                        </paper-item-body>
-                                    </paper-icon-item>
-                                </a>
-                            </template>
-
-                            <template is="dom-if" if="[[s.phone]]">
-                                <a class="item-link" href$="tel:[[s.phone]]" tabindex="-1">
-                                    <paper-icon-item>
-                                        <iron-icon icon="communication:phone" slot="item-icon"></iron-icon>
-                                        <paper-item-body two-line>
-                                            <div>Phone</div>
-                                            <div secondary>[[s.phone]]</div>
-                                        </paper-item-body>
-                                    </paper-icon-item>
-                                </a>
-                            </template>
-
-                            <template is="dom-if" if="[[s.email]]">
-                                <a class="item-link" href$="mailto:[[s.email]]" tabindex="-1">
-                                    <paper-icon-item>
-                                        <iron-icon icon="mail" slot="item-icon"></iron-icon>
-                                        Email
-                                    </paper-icon-item>
-                                </a>
-                            </template>
-                        </paper-listbox>
-                    </div>
-                </paper-header-panel>
-
-                <paper-scroll-header-panel slot="main" condenses>
-                    <paper-toolbar class="medium-tall" slot="header">
-                        <paper-icon-button on-tap="__toggleDrawer" icon="menu" slot="top"></paper-icon-button>
-                        <div class="title" slot="top">
-                            NRA-Friendly Politicians
-                        </div>
-                        <paper-icon-button on-tap="__openSearch" icon="search" slot="top"></paper-icon-button>
-                        <paper-tabs class="fit" slot="bottom" selected="{{tab}}">
-                            <paper-tab>ALL</paper-tab>
-                            <paper-tab>SENATE</paper-tab>
-                            <paper-tab>HOUSE</paper-tab>
-                            <paper-tab>OTHER</paper-tab>
-                        </paper-tabs>
-                    </paper-toolbar>
-
-                    <div>
-                        <!-- TODO: Empty state -->
-                        <paper-listbox id="list" slot="content">
-                            <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter">
-                                <paper-icon-item on-tap="__selectItem">
-                                    <div class="avatar" slot="item-icon">
-                                        <img src$="[[p.image_url]]" alt$="[[p.name]]">
-                                    </div>
+                        <template is="dom-if" if="[[s.website]]">
+                            <a class="item-link" href$="[[s.website]]" tabindex="-1" target="_blank">
+                                <paper-icon-item>
+                                    <iron-icon icon="social:public" slot="item-icon"></iron-icon>
                                     <paper-item-body two-line>
-                                        <div>[[p.name]]</div>
-                                        <div secondary>
-                                            <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
-                                        </div>
+                                        <div>Website</div>
+                                        <div secondary>[[s.website]]</div>
                                     </paper-item-body>
                                 </paper-icon-item>
-                            </template>
-                        </paper-listbox>
-                    </div>
-                </paper-scroll-header-panel>
-            </paper-drawer-panel>
+                            </a>
+                        </template>
 
+                        <template is="dom-if" if="[[s.phone]]">
+                            <a class="item-link" href$="tel:[[s.phone]]" tabindex="-1">
+                                <paper-icon-item>
+                                    <iron-icon icon="communication:phone" slot="item-icon"></iron-icon>
+                                    <paper-item-body two-line>
+                                        <div>Phone</div>
+                                        <div secondary>[[s.phone]]</div>
+                                    </paper-item-body>
+                                </paper-icon-item>
+                            </a>
+                        </template>
+
+                        <template is="dom-if" if="[[s.email]]">
+                            <a class="item-link" href$="mailto:[[s.email]]" tabindex="-1">
+                                <paper-icon-item>
+                                    <iron-icon icon="mail" slot="item-icon"></iron-icon>
+                                    Email
+                                </paper-icon-item>
+                            </a>
+                        </template>
+                    </paper-listbox>
+                </div>
+            </paper-header-panel>
+
+            <paper-scroll-header-panel slot="main" condenses>
+                <paper-toolbar class="medium-tall" slot="header">
+                    <paper-icon-button on-tap="__toggleDrawer" icon="menu" slot="top"></paper-icon-button>
+                    <div class="title" slot="top">
+                        NRA-Friendly Politicians
+                    </div>
+                    <paper-icon-button on-tap="__openSearch" icon="search" slot="top"></paper-icon-button>
+                    <paper-tabs class="fit" slot="bottom" selected="{{tab}}">
+                        <paper-tab>ALL</paper-tab>
+                        <paper-tab>SENATE</paper-tab>
+                        <paper-tab>HOUSE</paper-tab>
+                        <paper-tab>OTHER</paper-tab>
+                    </paper-tabs>
+                </paper-toolbar>
+
+                <div>
+                    <!-- TODO: Empty state -->
+                    <paper-listbox id="list" slot="content">
+                        <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter">
+                            <paper-icon-item on-tap="__selectItem">
+                                <div class="avatar" slot="item-icon">
+                                    <img src$="[[p.image_url]]" alt$="[[p.name]]">
+                                </div>
+                                <paper-item-body two-line>
+                                    <div>[[p.name]]</div>
+                                    <div secondary>
+                                        <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
+                                    </div>
+                                </paper-item-body>
+                            </paper-icon-item>
+                        </template>
+                    </paper-listbox>
+                </div>
+            </paper-scroll-header-panel>
         </paper-drawer-panel>
     </template>
 

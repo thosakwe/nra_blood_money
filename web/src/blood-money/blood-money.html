@@ -2,6 +2,12 @@
 <link rel="import" href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/paper-drawer-panel/paper-drawer-panel.html">
+<link rel="import" href="../../bower_components/paper-header-panel/paper-header-panel.html">
+<link rel="import" href="../../bower_components/paper-item/paper-icon-item.html">
+<link rel="import" href="../../bower_components/paper-item/paper-item-body.html">
+<link rel="import" href="../../bower_components/paper-listbox/paper-listbox.html">
+<link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
 <link rel="import" href="../blood-list/blood-list.html">
 
 <dom-module id="blood-money">
@@ -13,19 +19,57 @@
                 @apply(--layout-vertical);
             }
 
-            blood-list {
+            #left-toolbar {
+                background-image: url('/images/drawer.jpeg');
+                background-size: cover;
+            }
+
+            blood-list, paper-drawer-panel, paper-header-panel, iron-pages {
                 @apply(--layout-flex);
+                background-color: var(--primary-background-color);
             }
         </style>
 
         <iron-ajax last-response="{{politicians}}" handle-as="json" url="/api/politicians" auto></iron-ajax>
+
         <app-indexeddb-mirror
                 key="politicians"
                 data="{{politicians}}"
                 persisted-data="{{persistedPoliticians}}">
         </app-indexeddb-mirror>
 
-        <blood-list politicians="[[politicians]]"></blood-list>
+        <app-location route="{{route}}"></app-location>
+
+        <app-route data="{{routeData}}" route="{{route}}" pattern="/:page"></app-route>
+
+        <paper-drawer-panel id="leftDrawer">
+            <paper-header-panel mode="seamed" slot="drawer">
+                <paper-toolbar id="left-toolbar" class="tall" slot="header">
+                    <div class="title" slot="bottom" style="margin-left: 0;">
+                        #VoteThemOut
+                    </div>
+                </paper-toolbar>
+                <paper-listbox attr-for-selected="name" selected="{{routeData.page}}">
+                    <paper-icon-item name="">
+                        <iron-icon icon="list" slot="item-icon"></iron-icon>
+                        List
+                    </paper-icon-item>
+                    <paper-icon-item name="about">
+                        <iron-icon icon="info" slot="item-icon"></iron-icon>
+                        About
+                    </paper-icon-item>
+                    <paper-icon-item name="contribute">
+                        <iron-icon icon="social:group-add" slot="item-icon"></iron-icon>
+                        Contribute
+                    </paper-icon-item>
+                </paper-listbox>
+            </paper-header-panel>
+
+            <iron-pages id="pages" attr-for-selected="name" slot="main">
+                <blood-list data-src="/src/blood-list/blood-list.html" name=""
+                            politicians="[[politicians]]"></blood-list>
+            </iron-pages>
+        </paper-drawer-panel>
     </template>
 
     <script>
@@ -36,6 +80,76 @@
       class BloodMoney extends Polymer.Element {
         static get is() {
           return 'blood-money';
+        }
+
+        static get observers() {
+          return [
+            '__pageChanged(routeData.page)'
+          ];
+        }
+
+        static get properties() {
+          return {
+            loading: {
+              type: Boolean,
+              value: false
+            },
+            preload: {
+              type: Array,
+              value: []
+            }
+          };
+        }
+
+        __pageChanged(page) {
+          let promise;
+
+          // Find corresponding page
+          const targetPage = this.$.pages.querySelector(`[name="${page}"]`);
+
+          if (!targetPage) {
+            // If there is no page, don't bother trying to load it.
+            promise = Promise.reject(new Error('Unknown page.'));
+          } else {
+            const dataSrc = targetPage.dataset['src'];
+
+            if (!dataSrc) {
+              // If there is no async import, don't bother trying to load it.
+              promise = Promise.resolve();
+            } else {
+              // Check if we've loaded this page already.
+              for (let i = 0; i < this.preload.length; i++) {
+                if (this.preload[i] === dataSrc) {
+                  promise = Promise.resolve();
+                  break;
+                }
+              }
+
+              // If not, then load the page.
+              if (!promise) {
+                promise = new Promise((resolve, reject) => {
+                  this.loading = true;
+                  Polymer.importHref(dataSrc, resolve, reject);
+                }).then(() => {
+                  // Mark this page as 'pre-loaded'.
+                  this.preload.push(dataSrc);
+                });
+              }
+            }
+          }
+
+          // On success, select the desired page.
+          promise
+            .then(() => {
+              this.$.pages.select(page);
+            })
+            .catch(e => {
+              // TODO: On failure, show a toast
+            })
+            .then(() => {
+              // Set loading to `false`.
+              this.loading = false;
+            });
         }
       }
 
