@@ -1,14 +1,21 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/polymer/lib/elements/dom-if.html">
 <link rel="import" href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/iron-icons/social-icons.html">
 <link rel="import" href="../../bower_components/iron-media-query/iron-media-query.html">
+<link rel="import" href="../../bower_components/iron-pages/iron-pages.html">
 <link rel="import" href="../../bower_components/paper-drawer-panel/paper-drawer-panel.html">
 <link rel="import" href="../../bower_components/paper-header-panel/paper-header-panel.html">
 <link rel="import" href="../../bower_components/paper-item/paper-icon-item.html">
 <link rel="import" href="../../bower_components/paper-item/paper-item-body.html">
 <link rel="import" href="../../bower_components/paper-listbox/paper-listbox.html">
+<link rel="import" href="../../bower_components/paper-progress/paper-progress.html">
+<link rel="import" href="../../bower_components/paper-toast/paper-toast.html">
 <link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
+<link rel="import" href="../about-page/about-page.html">
 <link rel="import" href="../blood-list/blood-list.html">
 
 <dom-module id="blood-money">
@@ -25,7 +32,7 @@
                 background-size: cover;
             }
 
-            blood-list, paper-drawer-panel, paper-header-panel, iron-pages {
+            about-page, blood-list, paper-drawer-panel, paper-header-panel, iron-pages {
                 @apply(--layout-flex);
                 background-color: var(--primary-background-color);
             }
@@ -68,14 +75,23 @@
                 </paper-listbox>
             </paper-header-panel>
 
-            <iron-pages id="pages" attr-for-selected="name" slot="main">
-                <blood-list
-                        data-src="/src/blood-list/blood-list.html"
-                        name=""
-                        politicians="[[politicians]]">
-                </blood-list>
-            </iron-pages>
+            <div slot="main">
+                <template is="dom-if" if="[[loading]]">
+                    <paper-progress></paper-progress>
+                </template>
+
+                <iron-pages id="pages" attr-for-selected="name">
+                    <div data-src="/src/blood-list/blood-list.html" name="">
+                        <blood-list desktop="[[desktop]]" politicians="[[politicians]]"></blood-list>
+                    </div>
+                    <div data-src="/src/about-page/about-page.html" name="about">
+                        <about-page desktop="[[desktop]]"></about-page>
+                    </div>
+                </iron-pages>
+            </div>
         </paper-drawer-panel>
+
+        <paper-toast on-iron-overlay-closed="__toastClosed" id="toast">[[error]]</paper-toast>
     </template>
 
     <script>
@@ -90,6 +106,7 @@
 
         static get observers() {
           return [
+            '__errorChanged(error)',
             '__pageChanged(routeData.page)'
           ];
         }
@@ -98,13 +115,19 @@
           return {
             loading: {
               type: Boolean,
-              value: false
+              value: true
             },
             preload: {
               type: Array,
               value: []
             }
           };
+        }
+
+        __errorChanged(error) {
+          if (error) {
+            this.$.toast.open();
+          }
         }
 
         __pageChanged(page) {
@@ -151,11 +174,17 @@
             })
             .catch(e => {
               // TODO: On failure, show a toast
+              this.error = e.message || e.toString();
             })
             .then(() => {
               // Set loading to `false`.
               this.loading = false;
+              console.info(this.preload);
             });
+        }
+
+        __toastClosed() {
+          this.error = null;
         }
       }
 
