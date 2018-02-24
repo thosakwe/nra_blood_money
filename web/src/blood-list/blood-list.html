@@ -261,7 +261,7 @@
         }
 
         __toggleDrawer() {
-          this.$.leftDrawer.togglePanel();
+          this.dispatchEvent(new CustomEvent('drawer'));
         }
       }
 
