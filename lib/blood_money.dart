@@ -14,7 +14,7 @@ const FileSystem fs = const LocalFileSystem();
 /// Configures the server instance.
 Future configureServer(Angel app) async {
   // Enable CORS
-  app.use(cors());
+  // app.use(cors());
 
   // Set up our application, using the plug-ins defined with this project.
   await app.configure(configuration.configureServer(fs));
