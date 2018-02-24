@@ -9,8 +9,16 @@
 <dom-module id="about-page">
     <template>
         <style>
+            paper-card {
+                width: 100%;
+            }
+
             paper-header-panel {
                 height: 100%;
+            }
+
+            .fit {
+                padding: 1em;
             }
         </style>
 
@@ -18,20 +26,18 @@
             <paper-toolbar slot="header">
                 <template is="dom-if" if="[[!desktop]]">
                     <paper-icon-button on-tap="__goHome" icon="chevron-left" slot="top"></paper-icon-button>
-                    <div class="title" slot="top">About</div>
                 </template>
+                <div class="title" slot="top">About</div>
             </paper-toolbar>
-
-            <div class="fit">
-                <paper-card>
-                    <div class="card-content">
-                        About...
-                    </div>
-                    <div class="card-actions">
-                    </div>
-                </paper-card>
-            </div>
         </paper-header-panel>
+
+        <div class="fit">
+            <paper-card heading="Yeet">
+                <div class="card-content">
+                    About...
+                </div>
+            </paper-card>
+        </div>
     </template>
 
     <script>
@@ -41,7 +47,7 @@
         }
 
         __goHome() {
-          location.href = '/';
+          this.dispatchEvent(new CustomEvent('back'));
         }
       }
 

@@ -89,12 +89,15 @@
                 </template>
 
                 <iron-pages id="pages" attr-for-selected="name">
-                    <div data-src="/src/blood-list/blood-list.html" name="">
-                        <blood-list desktop="[[desktop]]" politicians="[[politicians]]"></blood-list>
-                    </div>
-                    <div data-src="/src/about-page/about-page.html" name="about">
-                        <about-page desktop="[[desktop]]"></about-page>
-                    </div>
+                    <blood-list
+                            data-src="/src/blood-list/blood-list.html"
+                            name=""
+                            desktop="[[desktop]]"
+                            politicians="[[politicians]]"></blood-list>
+                    <about-page
+                            data-src="/src/about-page/about-page.html"
+                            name="about"
+                            desktop="[[desktop]]"></about-page>
                 </iron-pages>
             </div>
         </paper-drawer-panel>
