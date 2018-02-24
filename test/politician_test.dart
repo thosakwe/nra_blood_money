@@ -1,4 +1,4 @@
-import 'package:angel_client/angel_client.dart';
+import 'package:angel_client/angel_client.dart' show Service;
 import 'package:angel_framework/angel_framework.dart' show Angel;
 import 'package:angel_validate/angel_validate.dart';
 import 'package:angel_test/angel_test.dart';
