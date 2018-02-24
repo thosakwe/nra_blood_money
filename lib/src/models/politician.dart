@@ -7,6 +7,15 @@ part 'politician.g.dart';
 
 @serializable
 class _Politician extends Model {
-  String name, imageUrl, position, state, bio, tweetId, phone, email, twitter;
+  String name,
+      imageUrl,
+      position,
+      state,
+      bio,
+      tweetId,
+      phone,
+      email,
+      website,
+      twitter;
   num moneyFromNra;
 }

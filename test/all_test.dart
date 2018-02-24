@@ -1,6 +1,9 @@
-import 'package:blood_money/blood_money.dart';
-import 'package:angel_framework/angel_framework.dart';
+import 'package:angel_client/angel_client.dart';
+import 'package:angel_framework/angel_framework.dart' show Angel;
+import 'package:angel_validate/angel_validate.dart';
 import 'package:angel_test/angel_test.dart';
+import 'package:blood_money/blood_money.dart';
+import 'package:blood_money/models.dart';
 import 'package:test/test.dart';
 
 // Angel also includes facilities to make testing easier.
@@ -21,23 +24,46 @@ import 'package:test/test.dart';
 
 main() async {
   TestClient client;
+  Service politicianService;
 
   setUp(() async {
     var app = new Angel();
     await app.configure(configureServer);
 
     client = await connectTo(app);
+    politicianService = client.service('api/politicians');
   });
 
   tearDown(() async {
     await client.close();
   });
 
-  test('index returns 200', () async {
-    // Request a resource at the given path.
-    var response = await client.get('/');
+  var politicianValidator = new Validator({
+    'name*,bio*,state*,tweet_id,phone,twitter': isString,
+    'email': isEmail,
+    'website': matches(new RegExp(r'^https?://[^\n]+$')),
+    'position*': anyOf(
+      isIn(['Senator', 'Representative', 'President']),
+      anyOf(
+        // i.e. `Florida Senator`
+        contains('Senator'),
+        contains('Representative'),
+      ),
+    ),
+    'money_from_nra': [
+      isNum,
+      greaterThanOrEqualTo(1.0),
+    ]
+  });
 
-    // Expect a 200 response.
-    expect(response, hasStatus(200));
+  test('all politicians are valid', () async {
+    var politicians = await politicianService.index();
+    expect(
+      politicians,
+      allOf(
+        isList,
+        everyElement(politicianValidator),
+      ),
+    );
   });
 }
