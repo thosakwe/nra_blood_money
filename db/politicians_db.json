@@ -6,7 +6,8 @@
     "state": "United States",
     "party": "Republican",
     "bio": "#45",
-    "money_from_nra": 30000000.00
+    "money_from_nra": 30000000.00,
+    "website": "http://www.donaldjtrump.com"
   },
   {
     "name": "Marco Rubio",
@@ -15,6 +16,8 @@
     "party": "Republican",
     "state": "Florida",
     "bio": "Marco Antonio Rubio is an American politician, attorney, and the junior United States Senator for Florida. A Republican Party member, he was previously Speaker of the Florida House of Representatives.",
-    "money_from_nra": 3300000.00
+    "money_from_nra": 3300000.00,
+    "website": "https://www.rubio.senate.gov",
+    "phone": "202-224-3041"
   }
 ]

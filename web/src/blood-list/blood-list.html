@@ -133,24 +133,32 @@
                                 </paper-item-body>
                             </paper-icon-item>
 
-                            <template is="dom-if" if="[[p.website]]">
-                                <a class="item-link" href$="[[p.website]]" tabindex="-1"><paper-icon-item>
-                                    <iron-icon icon="social:public" slot="item-icon"></iron-icon>
-                                    Website
-                                </paper-icon-item>
-                                </a>
-                            </template>
-                            </paper-icon-item>
-                            <template is="dom-if" if="[[p.phone]]">
-                                <a class="item-link" href$="tel:[[p.phone]]" tabindex="-1">
+                            <template is="dom-if" if="[[s.website]]">
+                                <a class="item-link" href$="[[s.website]]" tabindex="-1" target="_blank">
                                     <paper-icon-item>
-                                        <iron-icon icon="communication:phone" slot="item-icon"></iron-icon>
-                                        Call
+                                        <iron-icon icon="social:public" slot="item-icon"></iron-icon>
+                                        <paper-item-body two-line>
+                                            <div>Website</div>
+                                            <div secondary>[[s.website]]</div>
+                                        </paper-item-body>
                                     </paper-icon-item>
                                 </a>
                             </template>
-                            <template is="dom-if" if="[[p.email]]">
-                                <a class="item-link" href$="mailto:[[p.email]]" tabindex="-1">
+
+                            <template is="dom-if" if="[[s.phone]]">
+                                <a class="item-link" href$="tel:[[s.phone]]" tabindex="-1">
+                                    <paper-icon-item>
+                                        <iron-icon icon="communication:phone" slot="item-icon"></iron-icon>
+                                        <paper-item-body two-line>
+                                            <div>Phone</div>
+                                            <div secondary>[[s.phone]]</div>
+                                        </paper-item-body>
+                                    </paper-icon-item>
+                                </a>
+                            </template>
+
+                            <template is="dom-if" if="[[s.email]]">
+                                <a class="item-link" href$="mailto:[[s.email]]" tabindex="-1">
                                     <paper-icon-item>
                                         <iron-icon icon="mail" slot="item-icon"></iron-icon>
                                         Email
@@ -193,8 +201,6 @@
                                 </paper-icon-item>
                             </template>
                         </paper-listbox>
-
-                        <paper-fab icon="add"></paper-fab>
                     </div>
                 </paper-scroll-header-panel>
             </paper-drawer-panel>
