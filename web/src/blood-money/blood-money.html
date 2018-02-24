@@ -48,7 +48,7 @@
 
         <iron-ajax last-response="{{politicians}}" handle-as="json" url="/api/politicians" auto></iron-ajax>
 
-        <iron-media-query query="(min-width: 769px)" query-matches="{{!desktop}}"></iron-media-query>
+        <iron-media-query query="(max-width: 768px)" query-matches="{{!desktop}}"></iron-media-query>
 
         <app-indexeddb-mirror
                 key="politicians"

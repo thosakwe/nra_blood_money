@@ -148,7 +148,9 @@
 
             <paper-scroll-header-panel slot="main" condenses>
                 <paper-toolbar class="medium-tall" slot="header">
-                    <paper-icon-button on-tap="__toggleDrawer" icon="menu" slot="top"></paper-icon-button>
+                    <template is="dom-if" if="[[!desktop]]">
+                        <paper-icon-button on-tap="__toggleDrawer" icon="menu" slot="top"></paper-icon-button>
+                    </template>
                     <div class="title" slot="top">
                         NRA-Friendly Politicians
                     </div>
