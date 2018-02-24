@@ -16,8 +16,7 @@ AngelConfigurer configureServer(FileSystem fileSystem) {
     await app.configure(controllers.configureServer);
 
     if (app.isProduction) {
-      // TODO: Get correct path to production build index.html
-      var publicDir = fileSystem.directory('build/web');
+      var publicDir = fileSystem.directory('build/es5-bundled');
       var indexHtml = publicDir.childFile('index.html');
 
       app.use((RequestContext req, ResponseContext res) async {
