@@ -3,7 +3,6 @@ import 'package:angel_framework/angel_framework.dart' show Angel;
 import 'package:angel_validate/angel_validate.dart';
 import 'package:angel_test/angel_test.dart';
 import 'package:blood_money/blood_money.dart';
-import 'package:blood_money/models.dart';
 import 'package:test/test.dart';
 
 // Angel also includes facilities to make testing easier.

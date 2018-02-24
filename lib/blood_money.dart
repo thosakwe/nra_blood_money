@@ -1,7 +1,6 @@
 library blood_money;
 
 import 'dart:async';
-import 'package:angel_cors/angel_cors.dart';
 import 'package:angel_framework/angel_framework.dart';
 import 'package:file/file.dart';
 import 'package:file/local.dart';
