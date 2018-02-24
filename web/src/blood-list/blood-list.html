@@ -21,6 +21,7 @@
 <link rel="import" href="../../bower_components/paper-item/paper-item-body.html">
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/paper-listbox/paper-listbox.html">
+<link rel="import" href="../../bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html">
 <link rel="import" href="../../bower_components/paper-tabs/paper-tab.html">
 <link rel="import" href="../../bower_components/paper-tabs/paper-tabs.html">
 <link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
@@ -80,6 +81,10 @@
 
             .item-link {
                 text-decoration: none;
+            }
+
+            .title {
+                margin-left: 0;
             }
         </style>
 
@@ -163,24 +168,23 @@
                     </paper-tabs>
                 </paper-toolbar>
 
-                <div>
-                    <!-- TODO: Empty state -->
-                    <paper-listbox id="list" slot="content">
-                        <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter">
-                            <paper-icon-item on-tap="__selectItem">
-                                <div class="avatar" slot="item-icon">
-                                    <img src$="[[p.image_url]]" alt$="[[p.name]]">
+
+                <!-- TODO: Empty state -->
+                <paper-listbox id="list" slot="content">
+                    <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter">
+                        <paper-icon-item on-tap="__selectItem">
+                            <div class="avatar" slot="item-icon">
+                                <img src$="[[p.image_url]]" alt$="[[p.name]]">
+                            </div>
+                            <paper-item-body two-line>
+                                <div>[[p.name]]</div>
+                                <div secondary>
+                                    <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
                                 </div>
-                                <paper-item-body two-line>
-                                    <div>[[p.name]]</div>
-                                    <div secondary>
-                                        <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
-                                    </div>
-                                </paper-item-body>
-                            </paper-icon-item>
-                        </template>
-                    </paper-listbox>
-                </div>
+                            </paper-item-body>
+                        </paper-icon-item>
+                    </template>
+                </paper-listbox>
             </paper-scroll-header-panel>
         </paper-drawer-panel>
     </template>

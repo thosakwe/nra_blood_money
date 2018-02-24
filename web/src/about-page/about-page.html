@@ -3,41 +3,79 @@
 <link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../../bower_components/paper-card/paper-card.html">
 <link rel="import" href="../../bower_components/paper-header-panel/paper-header-panel.html">
+<link rel="import" href="../../bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html">
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
 
 <dom-module id="about-page">
     <template>
         <style>
-            paper-card {
-                width: 100%;
+            :host {
+                @apply(--layout);
+                @apply(--layout-fullbleed);
+                @apply(--layout-vertical);
             }
 
-            paper-header-panel {
-                height: 100%;
+            a {
+                color: var(--primary-color);
+            }
+
+            paper-card {
+                width: 100%;
+
+                --paper-card-header-image: {
+                    height: 400px;
+                };
+            }
+
+            paper-scroll-header-panel {
+                @apply(--layout-flex);
             }
 
             .fit {
                 padding: 1em;
             }
+
+            .title {
+                margin-left: 0;
+            }
         </style>
 
-        <paper-header-panel>
+        <paper-scroll-header-panel>
             <paper-toolbar slot="header">
                 <template is="dom-if" if="[[!desktop]]">
                     <paper-icon-button on-tap="__goHome" icon="chevron-left" slot="top"></paper-icon-button>
                 </template>
                 <div class="title" slot="top">About</div>
             </paper-toolbar>
-        </paper-header-panel>
 
-        <div class="fit">
-            <paper-card heading="Yeet">
-                <div class="card-content">
-                    About...
-                </div>
-            </paper-card>
-        </div>
+            <div class="fit" slot="content">
+                <paper-card image="/images/never_again.jpg">
+                    <div class="card-content">
+                        This website was created after nationwide demonstrations in 2018
+                        following the Valentine's Day shooting at Marjory Stoneman Douglas
+                        high school in Parkland, FL.
+                        <br><br>
+                        As a fellow resident of Broward County, FL, and as someone who is
+                        deeply concerned with the violent gun culture in the United States,
+                        I can not sit silently and let more innocent lives be lost to firearms.
+                        <br><br>
+                        The purpose of this website is to expose United States politicians who
+                        gladly take donations from the National Rifle Association, a lobbyist
+                        group notorious for spreading far-right propaganda and virtually
+                        paying its way through the U.S. government.
+                        <br><br>
+                        Elected officials who value wealth over the welfare of their constituents
+                        have no place in a democracy; their corruption will be met with swift removal
+                        from office when their incumbency is up for re-election.
+                        <br><br>
+                        It's on us now. We have the power. And we have to use it.
+                        <br><br>
+                        - <a href="https://twitter.com/thosakwe">Tobe Osakwe</a>
+                    </div>
+                </paper-card>
+            </div>
+        </paper-scroll-header-panel>
     </template>
 
     <script>
