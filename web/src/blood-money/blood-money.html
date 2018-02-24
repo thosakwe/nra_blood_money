@@ -18,8 +18,6 @@
 <link rel="import" href="../../bower_components/paper-progress/paper-progress.html">
 <link rel="import" href="../../bower_components/paper-toast/paper-toast.html">
 <link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
-<link rel="lazy-import" href="../about-page/about-page.html">
-<link rel="lazy-import" href="../blood-list/blood-list.html">
 
 <dom-module id="blood-money">
     <template>
@@ -100,6 +98,11 @@
                             data-src="/src/about-page/about-page.html"
                             name="about"
                             desktop="[[desktop]]"></about-page>
+                    <how-to-contribute
+                            on-back="__goHome"
+                            data-src="/src/how-to-contribute/how-to-contribute.html"
+                            name="contribute"
+                            desktop="[[desktop]]"></how-to-contribute>
                 </iron-pages>
             </div>
         </paper-drawer-panel>
