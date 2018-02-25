@@ -91,7 +91,7 @@
                 margin-left: 0;
             }
 
-            paper-item [secondary] {
+            paper-item [secondary]:last-of-type {
                 white-space: pre-wrap !important;
                 margin-bottom: 1em;
             }
@@ -110,6 +110,9 @@
                         <paper-item disabled>
                             <paper-item-body two-line>
                                 <div style="color: var(--primary-text-color);">About</div>
+                                <div secondary style="font-weight: bold;">
+                                    Next election in [[s.election.month]]/[[s.election.year]]
+                                </div>
                                 <div class="bio" secondary>[[s.bio]]</div>
                             </paper-item-body>
                         </paper-item>
