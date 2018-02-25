@@ -2,7 +2,9 @@
   "entrypoint": "index.html",
   "shell": "src/blood-money/blood-money.html",
   "fragments": [
-    "src/blood-list/blood-list.html"
+    "src/about-page/about-page.html",
+    "src/blood-list/blood-list.html",
+    "src/how-to-contribute/how-to-contribute.html"
   ],
   "sources": [
     "src/**/*",
