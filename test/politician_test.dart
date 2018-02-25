@@ -53,7 +53,18 @@ main() async {
     'money_from_nra': [
       isNum,
       greaterThanOrEqualTo(1.0),
-    ]
+    ],
+    'election': new Validator({
+      'month*': [
+        isInt,
+        greaterThanOrEqualTo(1),
+        lessThanOrEqualTo(12),
+      ],
+      'year*': [
+        isInt,
+        greaterThanOrEqualTo(new DateTime.now().toUtc().year),
+      ],
+    })
   });
 
   test('all politicians are valid', () async {
