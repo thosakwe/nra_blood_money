@@ -10,9 +10,12 @@
     <!-- See https://goo.gl/OOhYW5 -->
     <link rel="manifest" href="/manifest.json">
     <link rel="icon" href="/images/never_again.jpg">
-
-    <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
-    <script src="/bower_components/web-animations-js/web-animations-next-lite.min.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="#VoteThemOut">
+    <link rel="apple-touch-icon" href="/images/never_again.jpg">
+    <meta name="msapplication-TileImage" content="/images/never_again.jpg">
+    <meta name="msapplication-TileColor" content="#212121">
 
     <link rel="import" href="/src/blood-money/blood-money.html">
 
@@ -31,7 +34,6 @@
             --error-color: var(--paper-deep-orange-a700);
             */
 
-
             background-color: var(--primary-background-color);
             height: 100%;
             margin: 0;
@@ -41,5 +43,14 @@
 </head>
 <body>
 <blood-money></blood-money>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('service-worker.js');
+    });
+  }
+</script>
+<script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+<script src="/bower_components/web-animations-js/web-animations-next-lite.min.js"></script>
 </body>
 </html>
