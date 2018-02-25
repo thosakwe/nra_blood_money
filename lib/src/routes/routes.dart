@@ -10,22 +10,18 @@ import 'controllers/controllers.dart' as controllers;
 /// See the wiki for information about routing, requests, and responses:
 /// * https://github.com/angel-dart/angel/wiki/Basic-Routing
 /// * https://github.com/angel-dart/angel/wiki/Requests-&-Responses
-AngelConfigurer configureServer(FileSystem fileSystem) {
+AngelConfigurer configureServer(FileSystem fs) {
   return (Angel app) async {
     // Typically, you want to mount controllers first, after any global middleware.
     await app.configure(controllers.configureServer);
 
     if (app.isProduction) {
-      var publicDir = fileSystem.directory('build/es5-bundled');
-      var indexHtml = publicDir.childFile('index.html');
-
-      app.use((RequestContext req, ResponseContext res) async {
-        if (!req.accepts('text/html', strict: true)) return true;
-        res.headers['content-type'] = 'text/html';
-        await indexHtml.openRead().pipe(res);
-      });
+      var publicDir = fs.directory('build/es5-bundled');
+      var vDir =
+          new CachingVirtualDirectory(app, fs, source: publicDir);
+      app.use(vDir.pushState('index.html', accepts: ['text/html']));
     } else {
-      var vDir = new VirtualDirectory(app, fileSystem);
+      var vDir = new VirtualDirectory(app, fs);
       app.use(waterfall([
         vDir.handleRequest,
         vDir.pushState('index.html', accepts: ['text/html']),
