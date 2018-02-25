@@ -8,8 +8,8 @@
   "background_color": "#f1f1f1",
   "icons": [
     {
-      "src": "images/never_again.jpg",
-      "type": "image/jpeg",
+      "src": "images/never_again.png",
+      "type": "image/png",
       "sizes": "400x400"
     }
   ]
