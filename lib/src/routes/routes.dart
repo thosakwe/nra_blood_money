@@ -16,9 +16,10 @@ AngelConfigurer configureServer(FileSystem fs) {
     await app.configure(controllers.configureServer);
 
     if (app.isProduction) {
-      var publicDir = fs.directory('build/es5-bundled');
+      var publicDir = fs.directory('web/build/es5-bundled');
       var vDir =
           new CachingVirtualDirectory(app, fs, source: publicDir);
+      //app.use(vDir.handleRequest);
       app.use(vDir.pushState('index.html', accepts: ['text/html']));
     } else {
       var vDir = new VirtualDirectory(app, fs);
