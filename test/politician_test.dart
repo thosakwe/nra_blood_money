@@ -38,7 +38,8 @@ main() async {
   });
 
   var politicianValidator = new Validator({
-    'name*,bio*,state*,tweet_id,phone,twitter': isString,
+    'name*,state*,tweet_id,phone,twitter': isString,
+    'bio*': maxLength(255),
     'email': isEmail,
     'website': matches(new RegExp(r'^https?://[^\n]+$')),
     'position*': anyOf(
