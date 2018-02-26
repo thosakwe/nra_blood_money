@@ -13,6 +13,7 @@ class _Politician extends Model {
       state,
       bio,
       tweetId,
+      party,
       phone,
       email,
       website,

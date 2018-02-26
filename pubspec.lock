@@ -313,6 +313,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.9.6"
+  http_throttle:
+    description:
+      name: http_throttle
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
   id:
     description:
       name: id

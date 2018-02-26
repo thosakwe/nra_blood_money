@@ -29,10 +29,16 @@ class Politician extends _Politician {
   String tweetId;
 
   @override
+  String party;
+
+  @override
   String phone;
 
   @override
   String email;
+
+  @override
+  String website;
 
   @override
   String twitter;
@@ -54,8 +60,10 @@ class Politician extends _Politician {
       this.state,
       this.bio,
       this.tweetId,
+      this.party,
       this.phone,
       this.email,
+      this.website,
       this.twitter,
       this.moneyFromNra,
       this.createdAt,
@@ -70,8 +78,10 @@ class Politician extends _Politician {
         state: data['state'],
         bio: data['bio'],
         tweetId: data['tweet_id'],
+        party: data['party'],
         phone: data['phone'],
         email: data['email'],
+        website: data['website'],
         twitter: data['twitter'],
         moneyFromNra: data['money_from_nra'],
         createdAt: data['created_at'] is DateTime
@@ -94,8 +104,10 @@ class Politician extends _Politician {
         'state': state,
         'bio': bio,
         'tweet_id': tweetId,
+        'party': party,
         'phone': phone,
         'email': email,
+        'website': website,
         'twitter': twitter,
         'money_from_nra': moneyFromNra,
         'created_at': createdAt == null ? null : createdAt.toIso8601String(),
