@@ -39,6 +39,7 @@ main() async {
 
   var politicianValidator = new Validator({
     'name*,state*,tweet_id,phone,twitter': isString,
+    'party*': isIn(['Democrat', 'Republican']),
     'email': isEmail,
     'website': matches(new RegExp(r'^https?://[^\n]+$')),
     'position*': anyOf(
