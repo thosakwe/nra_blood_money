@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:blood_money/models.dart';
 import 'package:html/parser.dart' as html;
 import 'package:http/http.dart' as http;
 
@@ -8,6 +9,7 @@ final Uri recipsUrl = Uri.parse(
 main() async {
   var client = new http.Client();
   var cycles = await getCycles(client);
+  await Future.wait(cycles.map((cycle) => fetchFromCycle(cycle, client)));
   client.close();
 }
 
@@ -22,5 +24,25 @@ Future<List<int>> getCycles(http.Client client) async {
 
   return $options.map(($option) {
     return int.parse($option.text);
+  }).toList();
+}
+
+Future<List<Politician>> fetchFromCycle(int cycle, http.Client client) async {
+  var url = recipsUrl.replace(
+    queryParameters: new Map.from(recipsUrl.queryParameters)
+      ..['cycle'] = cycle.toString(),
+  );
+  var response = await client.get(url);
+  var doc = html.parse(response.body);
+  var $table = doc.querySelector('table');
+  var $trs = $table.querySelector('tbody').querySelectorAll('tr');
+  print('Cycle $cycle: ${$trs.length} Donation Record(s)');
+
+  return $trs.map(($tr) {
+    // Parse name
+
+    return new Politician(
+
+    );
   }).toList();
 }
