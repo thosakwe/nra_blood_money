@@ -103,6 +103,12 @@ Future<List<Politician>> fetchFromCycle(int cycle) async {
       // Special case for Bob Latta
       if (p.name == 'Robert Latta') p.name = 'Bob Latta';
 
+      // Guess website
+      if (p.position == 'Senator')
+        p.website = 'https://${names[0].toLowerCase()}.senate.gov';
+      else if (p.position == 'Representative')
+        p.website = 'https://${names[0].toLowerCase()}.house.gov';
+
       var moneyMatch = moneyValid.firstMatch($tds[5].text);
 
       if (moneyMatch == null) return null;
