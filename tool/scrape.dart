@@ -23,13 +23,9 @@ main() async {
   var pool = await LoadBalancer.create(
       Platform.numberOfProcessors, IsolateRunner.spawn);
 
-  /*
   var scrapeTasks = cycles.map((cycle) {
     return pool.run(fetchFromCycle, cycle);
   });
-  */
-
-  var scrapeTasks = [pool.run(fetchFromCycle, 2016)];
 
   var polticians = await Future
       .wait(scrapeTasks)
