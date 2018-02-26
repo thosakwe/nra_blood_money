@@ -67,6 +67,13 @@
                 */
             }
 
+            .avatar {
+                height: 3em;
+                width: 3em;
+                background-size: cover;
+                border-radius: 50%;
+            }
+
             .avatar img {
                 border-radius: 50%;
                 height: 2.5em;
@@ -186,8 +193,7 @@
                 <paper-listbox id="list" slot="content">
                     <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter">
                         <paper-icon-item on-tap="__selectItem">
-                            <div class="avatar" slot="item-icon">
-                                <img src$="[[p.image_url]]" alt$="[[p.name]]">
+                            <div class="avatar" slot="item-icon" style="[[__computeDrawerHeaderStyle(p)]]">
                             </div>
                             <paper-item-body two-line>
                                 <div>[[p.name]]</div>
