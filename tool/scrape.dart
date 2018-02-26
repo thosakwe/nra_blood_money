@@ -13,6 +13,8 @@ final Uri recipsUrl = Uri.parse(
 
 final Uri wikipediaIndex = Uri.parse('https://en.wikipedia.org/w/index.php');
 
+final RegExp commaOrSpace = new RegExp(r'[, ]');
+
 final RegExp moneyValid = new RegExp(r'[0-9,.]+');
 
 main() async {
@@ -77,7 +79,12 @@ Future<List<Politician>> fetchFromCycle(int cycle) async {
       if ($tds[7].text.contains('Los')) return null;
 
       // Parse name, etc.
-      var names = $tds[0].text.split(',').map((s) => s.trim()).toList();
+      var names = $tds[0]
+          .text
+          .split(commaOrSpace)
+          .map((s) => s.trim())
+          .where((s) => s.isNotEmpty)
+          .toList();
       var now = new DateTime.now();
 
       var p = new Politician(
@@ -90,6 +97,12 @@ Future<List<Politician>> fetchFromCycle(int cycle) async {
       );
 
       if (p.state.isEmpty) p.state = 'USA';
+
+      // Get rid of "three-name" situations
+      if (names.length == 3) {
+        p.name = '${names[1]} ${names[0]}';
+        //print('$names - ${names.length}');
+      }
 
       var moneyMatch = moneyValid.firstMatch($tds[5].text);
 
@@ -129,10 +142,9 @@ Future<Politician> scrapeWikipedia(Politician p, http.BaseClient client) async {
     'go': 'Go',
   });
   http.Response response;
-  print('Scraping $url');
 
   try {
-    var response = await client.get(url);
+    response = await client.get(url);
     var redirect = response.headers['location'];
     //print('${p.name} -> $redirect');
 
@@ -146,8 +158,9 @@ Future<Politician> scrapeWikipedia(Politician p, http.BaseClient client) async {
             .attributes['src'];
 
     return p;
-  } catch (e) {
-    print('Error: ${p.name}');
+  } catch (e, st) {
+    print('Error: ${p.name} - $e');
+    print(st);
     var file = new File('scrape/${p.name}.html');
     await file.create(recursive: true);
     await file.writeAsString(response?.body);

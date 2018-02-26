@@ -13,8 +13,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 11438118,
-    "created_at": "2018-02-26T11:58:32.108106",
-    "updated_at": "2018-02-26T11:58:32.108106"
+    "created_at": "2018-02-26T12:06:55.947687",
+    "updated_at": "2018-02-26T12:06:55.947687"
   },
   {
     "id": null,
@@ -30,8 +30,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1008030,
-    "created_at": "2018-02-26T11:58:32.115524",
-    "updated_at": "2018-02-26T11:58:32.115524"
+    "created_at": "2018-02-26T12:06:55.956088",
+    "updated_at": "2018-02-26T12:06:55.956088"
   },
   {
     "id": null,
@@ -47,8 +47,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 731400,
-    "created_at": "2018-02-26T11:58:32.115842",
-    "updated_at": "2018-02-26T11:58:32.115842"
+    "created_at": "2018-02-26T12:06:55.956389",
+    "updated_at": "2018-02-26T12:06:55.956389"
   },
   {
     "id": null,
@@ -64,8 +64,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 710629,
-    "created_at": "2018-02-26T11:58:32.116045",
-    "updated_at": "2018-02-26T11:58:32.116045"
+    "created_at": "2018-02-26T12:06:55.956630",
+    "updated_at": "2018-02-26T12:06:55.956630"
   },
   {
     "id": null,
@@ -81,8 +81,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 600954,
-    "created_at": "2018-02-26T11:58:32.116259",
-    "updated_at": "2018-02-26T11:58:32.116259"
+    "created_at": "2018-02-26T12:06:55.956963",
+    "updated_at": "2018-02-26T12:06:55.956963"
   },
   {
     "id": null,
@@ -98,8 +98,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 440645,
-    "created_at": "2018-02-26T11:58:32.116440",
-    "updated_at": "2018-02-26T11:58:32.116440"
+    "created_at": "2018-02-26T12:06:55.957381",
+    "updated_at": "2018-02-26T12:06:55.957381"
   },
   {
     "id": null,
@@ -115,8 +115,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 396121,
-    "created_at": "2018-02-26T11:58:32.116594",
-    "updated_at": "2018-02-26T11:58:32.116594"
+    "created_at": "2018-02-26T12:06:55.957789",
+    "updated_at": "2018-02-26T12:06:55.957789"
   },
   {
     "id": null,
@@ -132,8 +132,25 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 215786,
-    "created_at": "2018-02-26T11:58:32.116852",
-    "updated_at": "2018-02-26T11:58:32.116852"
+    "created_at": "2018-02-26T12:06:55.958341",
+    "updated_at": "2018-02-26T12:06:55.958341"
+  },
+  {
+    "id": null,
+    "name": "Richard Shelby",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Richard_Shelby%2C_official_portrait%2C_112th_Congress.jpg/220px-Richard_Shelby%2C_official_portrait%2C_112th_Congress.jpg",
+    "position": "Senator",
+    "state": "AL",
+    "bio": null,
+    "tweet_id": null,
+    "party": "Republican",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "twitter": null,
+    "money_from_nra": 167441,
+    "created_at": "2018-02-26T12:06:55.958900",
+    "updated_at": "2018-02-26T12:06:55.958900"
   },
   {
     "id": null,
@@ -149,8 +166,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 153893,
-    "created_at": "2018-02-26T11:58:32.117154",
-    "updated_at": "2018-02-26T11:58:32.117154"
+    "created_at": "2018-02-26T12:06:55.959399",
+    "updated_at": "2018-02-26T12:06:55.959399"
   },
   {
     "id": null,
@@ -166,8 +183,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 113785,
-    "created_at": "2018-02-26T11:58:32.117423",
-    "updated_at": "2018-02-26T11:58:32.117423"
+    "created_at": "2018-02-26T12:06:55.960059",
+    "updated_at": "2018-02-26T12:06:55.960059"
   },
   {
     "id": null,
@@ -183,8 +200,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 111194,
-    "created_at": "2018-02-26T11:58:32.117621",
-    "updated_at": "2018-02-26T11:58:32.117621"
+    "created_at": "2018-02-26T12:06:55.960531",
+    "updated_at": "2018-02-26T12:06:55.960531"
   },
   {
     "id": null,
@@ -200,8 +217,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 94556,
-    "created_at": "2018-02-26T11:58:32.117888",
-    "updated_at": "2018-02-26T11:58:32.117888"
+    "created_at": "2018-02-26T12:06:55.961369",
+    "updated_at": "2018-02-26T12:06:55.961369"
   },
   {
     "id": null,
@@ -217,8 +234,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 62557,
-    "created_at": "2018-02-26T11:58:32.118267",
-    "updated_at": "2018-02-26T11:58:32.118267"
+    "created_at": "2018-02-26T12:06:55.962198",
+    "updated_at": "2018-02-26T12:06:55.962198"
   },
   {
     "id": null,
@@ -234,8 +251,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 44021,
-    "created_at": "2018-02-26T11:58:32.119127",
-    "updated_at": "2018-02-26T11:58:32.119127"
+    "created_at": "2018-02-26T12:06:55.963099",
+    "updated_at": "2018-02-26T12:06:55.963099"
   },
   {
     "id": null,
@@ -251,8 +268,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 39579,
-    "created_at": "2018-02-26T11:58:32.119611",
-    "updated_at": "2018-02-26T11:58:32.119611"
+    "created_at": "2018-02-26T12:06:55.964598",
+    "updated_at": "2018-02-26T12:06:55.964598"
   },
   {
     "id": null,
@@ -268,8 +285,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 37551,
-    "created_at": "2018-02-26T11:58:32.120428",
-    "updated_at": "2018-02-26T11:58:32.120428"
+    "created_at": "2018-02-26T12:06:55.965333",
+    "updated_at": "2018-02-26T12:06:55.965333"
   },
   {
     "id": null,
@@ -285,8 +302,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 36989,
-    "created_at": "2018-02-26T11:58:32.120758",
-    "updated_at": "2018-02-26T11:58:32.120758"
+    "created_at": "2018-02-26T12:06:55.965932",
+    "updated_at": "2018-02-26T12:06:55.965932"
   },
   {
     "id": null,
@@ -302,8 +319,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 35312,
-    "created_at": "2018-02-26T11:58:32.121082",
-    "updated_at": "2018-02-26T11:58:32.121082"
+    "created_at": "2018-02-26T12:06:55.966408",
+    "updated_at": "2018-02-26T12:06:55.966408"
   },
   {
     "id": null,
@@ -319,8 +336,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 29064,
-    "created_at": "2018-02-26T11:58:32.122037",
-    "updated_at": "2018-02-26T11:58:32.122037"
+    "created_at": "2018-02-26T12:06:55.967649",
+    "updated_at": "2018-02-26T12:06:55.967649"
   },
   {
     "id": null,
@@ -336,8 +353,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 30259,
-    "created_at": "2018-02-26T11:58:32.122412",
-    "updated_at": "2018-02-26T11:58:32.122412"
+    "created_at": "2018-02-26T12:06:55.968378",
+    "updated_at": "2018-02-26T12:06:55.968378"
   },
   {
     "id": null,
@@ -353,8 +370,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 28313,
-    "created_at": "2018-02-26T11:58:32.122726",
-    "updated_at": "2018-02-26T11:58:32.122726"
+    "created_at": "2018-02-26T12:06:55.968753",
+    "updated_at": "2018-02-26T12:06:55.968753"
   },
   {
     "id": null,
@@ -370,8 +387,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 26569,
-    "created_at": "2018-02-26T11:58:32.123013",
-    "updated_at": "2018-02-26T11:58:32.123013"
+    "created_at": "2018-02-26T12:06:55.969182",
+    "updated_at": "2018-02-26T12:06:55.969182"
   },
   {
     "id": null,
@@ -387,8 +404,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 25506,
-    "created_at": "2018-02-26T11:58:32.123585",
-    "updated_at": "2018-02-26T11:58:32.123585"
+    "created_at": "2018-02-26T12:06:55.969503",
+    "updated_at": "2018-02-26T12:06:55.969503"
   },
   {
     "id": null,
@@ -404,8 +421,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 18423,
-    "created_at": "2018-02-26T11:58:32.124184",
-    "updated_at": "2018-02-26T11:58:32.124184"
+    "created_at": "2018-02-26T12:06:55.970146",
+    "updated_at": "2018-02-26T12:06:55.970146"
   },
   {
     "id": null,
@@ -421,8 +438,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 16106,
-    "created_at": "2018-02-26T11:58:32.124510",
-    "updated_at": "2018-02-26T11:58:32.124510"
+    "created_at": "2018-02-26T12:06:55.970959",
+    "updated_at": "2018-02-26T12:06:55.970959"
   },
   {
     "id": null,
@@ -438,8 +455,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 15871,
-    "created_at": "2018-02-26T11:58:32.124646",
-    "updated_at": "2018-02-26T11:58:32.124646"
+    "created_at": "2018-02-26T12:06:55.971265",
+    "updated_at": "2018-02-26T12:06:55.971265"
   },
   {
     "id": null,
@@ -455,8 +472,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 14478,
-    "created_at": "2018-02-26T11:58:32.124863",
-    "updated_at": "2018-02-26T11:58:32.124863"
+    "created_at": "2018-02-26T12:06:55.971634",
+    "updated_at": "2018-02-26T12:06:55.971634"
   },
   {
     "id": null,
@@ -472,8 +489,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 14072,
-    "created_at": "2018-02-26T11:58:32.125056",
-    "updated_at": "2018-02-26T11:58:32.125056"
+    "created_at": "2018-02-26T12:06:55.971898",
+    "updated_at": "2018-02-26T12:06:55.971898"
   },
   {
     "id": null,
@@ -489,8 +506,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 13990,
-    "created_at": "2018-02-26T11:58:32.125188",
-    "updated_at": "2018-02-26T11:58:32.125188"
+    "created_at": "2018-02-26T12:06:55.972163",
+    "updated_at": "2018-02-26T12:06:55.972163"
   },
   {
     "id": null,
@@ -506,8 +523,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 12508,
-    "created_at": "2018-02-26T11:58:32.125322",
-    "updated_at": "2018-02-26T11:58:32.125322"
+    "created_at": "2018-02-26T12:06:55.972514",
+    "updated_at": "2018-02-26T12:06:55.972514"
   },
   {
     "id": null,
@@ -523,8 +540,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 12040,
-    "created_at": "2018-02-26T11:58:32.125584",
-    "updated_at": "2018-02-26T11:58:32.125584"
+    "created_at": "2018-02-26T12:06:55.973233",
+    "updated_at": "2018-02-26T12:06:55.973233"
   },
   {
     "id": null,
@@ -540,8 +557,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 10694,
-    "created_at": "2018-02-26T11:58:32.125715",
-    "updated_at": "2018-02-26T11:58:32.125715"
+    "created_at": "2018-02-26T12:06:55.973478",
+    "updated_at": "2018-02-26T12:06:55.973478"
   },
   {
     "id": null,
@@ -557,8 +574,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 10285,
-    "created_at": "2018-02-26T11:58:32.125845",
-    "updated_at": "2018-02-26T11:58:32.125845"
+    "created_at": "2018-02-26T12:06:55.973718",
+    "updated_at": "2018-02-26T12:06:55.973718"
   },
   {
     "id": null,
@@ -574,8 +591,25 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 10023,
-    "created_at": "2018-02-26T11:58:32.126066",
-    "updated_at": "2018-02-26T11:58:32.126066"
+    "created_at": "2018-02-26T12:06:55.974033",
+    "updated_at": "2018-02-26T12:06:55.974033"
+  },
+  {
+    "id": null,
+    "name": "David Joyce",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
+    "position": "Representative",
+    "state": "OH",
+    "bio": null,
+    "tweet_id": null,
+    "party": "Republican",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "twitter": null,
+    "money_from_nra": 10020,
+    "created_at": "2018-02-26T12:06:55.974344",
+    "updated_at": "2018-02-26T12:06:55.974344"
   },
   {
     "id": null,
@@ -591,8 +625,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 9487,
-    "created_at": "2018-02-26T11:58:32.126448",
-    "updated_at": "2018-02-26T11:58:32.126448"
+    "created_at": "2018-02-26T12:06:55.974685",
+    "updated_at": "2018-02-26T12:06:55.974685"
   },
   {
     "id": null,
@@ -608,8 +642,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 9476,
-    "created_at": "2018-02-26T11:58:32.126580",
-    "updated_at": "2018-02-26T11:58:32.126580"
+    "created_at": "2018-02-26T12:06:55.974968",
+    "updated_at": "2018-02-26T12:06:55.974968"
   },
   {
     "id": null,
@@ -625,8 +659,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 8441,
-    "created_at": "2018-02-26T11:58:32.126803",
-    "updated_at": "2018-02-26T11:58:32.126803"
+    "created_at": "2018-02-26T12:06:55.975556",
+    "updated_at": "2018-02-26T12:06:55.975556"
   },
   {
     "id": null,
@@ -642,8 +676,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 7656,
-    "created_at": "2018-02-26T11:58:32.126936",
-    "updated_at": "2018-02-26T11:58:32.126936"
+    "created_at": "2018-02-26T12:06:55.975883",
+    "updated_at": "2018-02-26T12:06:55.975883"
   },
   {
     "id": null,
@@ -659,8 +693,25 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 7553,
-    "created_at": "2018-02-26T11:58:32.127066",
-    "updated_at": "2018-02-26T11:58:32.127066"
+    "created_at": "2018-02-26T12:06:55.976223",
+    "updated_at": "2018-02-26T12:06:55.976223"
+  },
+  {
+    "id": null,
+    "name": "Ryan Zinke",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Ryan_Zinke_official_portrait.jpg/220px-Ryan_Zinke_official_portrait.jpg",
+    "position": "Representative",
+    "state": "MT",
+    "bio": null,
+    "tweet_id": null,
+    "party": "Republican",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "twitter": null,
+    "money_from_nra": 6868,
+    "created_at": "2018-02-26T12:06:55.976543",
+    "updated_at": "2018-02-26T12:06:55.976543"
   },
   {
     "id": null,
@@ -676,8 +727,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 6640,
-    "created_at": "2018-02-26T11:58:32.127369",
-    "updated_at": "2018-02-26T11:58:32.127369"
+    "created_at": "2018-02-26T12:06:55.976885",
+    "updated_at": "2018-02-26T12:06:55.976885"
   },
   {
     "id": null,
@@ -693,8 +744,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 6242,
-    "created_at": "2018-02-26T11:58:32.127503",
-    "updated_at": "2018-02-26T11:58:32.127503"
+    "created_at": "2018-02-26T12:06:55.977087",
+    "updated_at": "2018-02-26T12:06:55.977087"
   },
   {
     "id": null,
@@ -710,8 +761,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5992,
-    "created_at": "2018-02-26T11:58:32.127673",
-    "updated_at": "2018-02-26T11:58:32.127673"
+    "created_at": "2018-02-26T12:06:55.977241",
+    "updated_at": "2018-02-26T12:06:55.977241"
   },
   {
     "id": null,
@@ -727,8 +778,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5848,
-    "created_at": "2018-02-26T11:58:32.127812",
-    "updated_at": "2018-02-26T11:58:32.127812"
+    "created_at": "2018-02-26T12:06:55.977390",
+    "updated_at": "2018-02-26T12:06:55.977390"
   },
   {
     "id": null,
@@ -744,8 +795,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5174,
-    "created_at": "2018-02-26T11:58:32.127940",
-    "updated_at": "2018-02-26T11:58:32.127940"
+    "created_at": "2018-02-26T12:06:55.977577",
+    "updated_at": "2018-02-26T12:06:55.977577"
   },
   {
     "id": null,
@@ -761,8 +812,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5223,
-    "created_at": "2018-02-26T11:58:32.128084",
-    "updated_at": "2018-02-26T11:58:32.128084"
+    "created_at": "2018-02-26T12:06:55.977814",
+    "updated_at": "2018-02-26T12:06:55.977814"
   },
   {
     "id": null,
@@ -778,8 +829,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5165,
-    "created_at": "2018-02-26T11:58:32.128216",
-    "updated_at": "2018-02-26T11:58:32.128216"
+    "created_at": "2018-02-26T12:06:55.978037",
+    "updated_at": "2018-02-26T12:06:55.978037"
   },
   {
     "id": null,
@@ -795,8 +846,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5001,
-    "created_at": "2018-02-26T11:58:32.128434",
-    "updated_at": "2018-02-26T11:58:32.128434"
+    "created_at": "2018-02-26T12:06:55.978779",
+    "updated_at": "2018-02-26T12:06:55.978779"
   },
   {
     "id": null,
@@ -812,8 +863,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4321,
-    "created_at": "2018-02-26T11:58:32.128740",
-    "updated_at": "2018-02-26T11:58:32.128740"
+    "created_at": "2018-02-26T12:06:55.979096",
+    "updated_at": "2018-02-26T12:06:55.979096"
   },
   {
     "id": null,
@@ -829,8 +880,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3740,
-    "created_at": "2018-02-26T11:58:32.128960",
-    "updated_at": "2018-02-26T11:58:32.128960"
+    "created_at": "2018-02-26T12:06:55.979342",
+    "updated_at": "2018-02-26T12:06:55.979342"
   },
   {
     "id": null,
@@ -846,8 +897,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3551,
-    "created_at": "2018-02-26T11:58:32.129132",
-    "updated_at": "2018-02-26T11:58:32.129132"
+    "created_at": "2018-02-26T12:06:55.979577",
+    "updated_at": "2018-02-26T12:06:55.979577"
   },
   {
     "id": null,
@@ -863,8 +914,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3408,
-    "created_at": "2018-02-26T11:58:32.129298",
-    "updated_at": "2018-02-26T11:58:32.129298"
+    "created_at": "2018-02-26T12:06:55.980027",
+    "updated_at": "2018-02-26T12:06:55.980027"
   },
   {
     "id": null,
@@ -880,8 +931,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3120,
-    "created_at": "2018-02-26T11:58:32.129459",
-    "updated_at": "2018-02-26T11:58:32.129459"
+    "created_at": "2018-02-26T12:06:55.980185",
+    "updated_at": "2018-02-26T12:06:55.980185"
   },
   {
     "id": null,
@@ -897,8 +948,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3119,
-    "created_at": "2018-02-26T11:58:32.129618",
-    "updated_at": "2018-02-26T11:58:32.129618"
+    "created_at": "2018-02-26T12:06:55.980334",
+    "updated_at": "2018-02-26T12:06:55.980334"
   },
   {
     "id": null,
@@ -914,8 +965,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2904,
-    "created_at": "2018-02-26T11:58:32.129773",
-    "updated_at": "2018-02-26T11:58:32.129773"
+    "created_at": "2018-02-26T12:06:55.980479",
+    "updated_at": "2018-02-26T12:06:55.980479"
   },
   {
     "id": null,
@@ -931,8 +982,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2865,
-    "created_at": "2018-02-26T11:58:32.130082",
-    "updated_at": "2018-02-26T11:58:32.130082"
+    "created_at": "2018-02-26T12:06:55.980638",
+    "updated_at": "2018-02-26T12:06:55.980638"
   },
   {
     "id": null,
@@ -948,8 +999,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2818,
-    "created_at": "2018-02-26T11:58:32.130458",
-    "updated_at": "2018-02-26T11:58:32.130458"
+    "created_at": "2018-02-26T12:06:55.980787",
+    "updated_at": "2018-02-26T12:06:55.980787"
   },
   {
     "id": null,
@@ -965,8 +1016,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2583,
-    "created_at": "2018-02-26T11:58:32.130865",
-    "updated_at": "2018-02-26T11:58:32.130865"
+    "created_at": "2018-02-26T12:06:55.980931",
+    "updated_at": "2018-02-26T12:06:55.980931"
   },
   {
     "id": null,
@@ -982,8 +1033,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2447,
-    "created_at": "2018-02-26T11:58:32.131110",
-    "updated_at": "2018-02-26T11:58:32.131110"
+    "created_at": "2018-02-26T12:06:55.981111",
+    "updated_at": "2018-02-26T12:06:55.981111"
   },
   {
     "id": null,
@@ -999,8 +1050,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2436,
-    "created_at": "2018-02-26T11:58:32.131283",
-    "updated_at": "2018-02-26T11:58:32.131283"
+    "created_at": "2018-02-26T12:06:55.981353",
+    "updated_at": "2018-02-26T12:06:55.981353"
   },
   {
     "id": null,
@@ -1016,8 +1067,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2435,
-    "created_at": "2018-02-26T11:58:32.131422",
-    "updated_at": "2018-02-26T11:58:32.131422"
+    "created_at": "2018-02-26T12:06:55.981587",
+    "updated_at": "2018-02-26T12:06:55.981587"
   },
   {
     "id": null,
@@ -1033,8 +1084,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2312,
-    "created_at": "2018-02-26T11:58:32.131553",
-    "updated_at": "2018-02-26T11:58:32.131553"
+    "created_at": "2018-02-26T12:06:55.981926",
+    "updated_at": "2018-02-26T12:06:55.981926"
   },
   {
     "id": null,
@@ -1050,8 +1101,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2273,
-    "created_at": "2018-02-26T11:58:32.131686",
-    "updated_at": "2018-02-26T11:58:32.131686"
+    "created_at": "2018-02-26T12:06:55.982246",
+    "updated_at": "2018-02-26T12:06:55.982246"
   },
   {
     "id": null,
@@ -1067,8 +1118,25 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2179,
-    "created_at": "2018-02-26T11:58:32.131915",
-    "updated_at": "2018-02-26T11:58:32.131915"
+    "created_at": "2018-02-26T12:06:55.982843",
+    "updated_at": "2018-02-26T12:06:55.982843"
+  },
+  {
+    "id": null,
+    "name": "Scott Taylor",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
+    "position": "Representative",
+    "state": "VA",
+    "bio": null,
+    "tweet_id": null,
+    "party": "Republican",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "twitter": null,
+    "money_from_nra": 1790,
+    "created_at": "2018-02-26T12:06:55.983146",
+    "updated_at": "2018-02-26T12:06:55.983146"
   },
   {
     "id": null,
@@ -1084,8 +1152,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1699,
-    "created_at": "2018-02-26T11:58:32.132317",
-    "updated_at": "2018-02-26T11:58:32.132317"
+    "created_at": "2018-02-26T12:06:55.983464",
+    "updated_at": "2018-02-26T12:06:55.983464"
   },
   {
     "id": null,
@@ -1101,8 +1169,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1374,
-    "created_at": "2018-02-26T11:58:32.132618",
-    "updated_at": "2018-02-26T11:58:32.132618"
+    "created_at": "2018-02-26T12:06:55.983834",
+    "updated_at": "2018-02-26T12:06:55.983834"
   },
   {
     "id": null,
@@ -1118,8 +1186,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1341,
-    "created_at": "2018-02-26T11:58:32.132790",
-    "updated_at": "2018-02-26T11:58:32.132790"
+    "created_at": "2018-02-26T12:06:55.984177",
+    "updated_at": "2018-02-26T12:06:55.984177"
   },
   {
     "id": null,
@@ -1135,8 +1203,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1174,
-    "created_at": "2018-02-26T11:58:32.132953",
-    "updated_at": "2018-02-26T11:58:32.132953"
+    "created_at": "2018-02-26T12:06:55.984397",
+    "updated_at": "2018-02-26T12:06:55.984397"
   },
   {
     "id": null,
@@ -1152,8 +1220,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1013,
-    "created_at": "2018-02-26T11:58:32.133576",
-    "updated_at": "2018-02-26T11:58:32.133576"
+    "created_at": "2018-02-26T12:06:55.984903",
+    "updated_at": "2018-02-26T12:06:55.984903"
   },
   {
     "id": null,
@@ -1169,8 +1237,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 934,
-    "created_at": "2018-02-26T11:58:32.133938",
-    "updated_at": "2018-02-26T11:58:32.133938"
+    "created_at": "2018-02-26T12:06:55.985266",
+    "updated_at": "2018-02-26T12:06:55.985266"
   },
   {
     "id": null,
@@ -1186,8 +1254,25 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 816,
-    "created_at": "2018-02-26T11:58:32.134710",
-    "updated_at": "2018-02-26T11:58:32.134710"
+    "created_at": "2018-02-26T12:06:55.986529",
+    "updated_at": "2018-02-26T12:06:55.986529"
+  },
+  {
+    "id": null,
+    "name": "Michael Turner",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
+    "position": "Representative",
+    "state": "OH",
+    "bio": null,
+    "tweet_id": null,
+    "party": "Republican",
+    "phone": null,
+    "email": null,
+    "website": null,
+    "twitter": null,
+    "money_from_nra": 757,
+    "created_at": "2018-02-26T12:06:55.987721",
+    "updated_at": "2018-02-26T12:06:55.987721"
   },
   {
     "id": null,
@@ -1203,8 +1288,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 702,
-    "created_at": "2018-02-26T11:58:32.135532",
-    "updated_at": "2018-02-26T11:58:32.135532"
+    "created_at": "2018-02-26T12:06:55.988328",
+    "updated_at": "2018-02-26T12:06:55.988328"
   },
   {
     "id": null,
@@ -1220,8 +1305,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 693,
-    "created_at": "2018-02-26T11:58:32.135919",
-    "updated_at": "2018-02-26T11:58:32.135919"
+    "created_at": "2018-02-26T12:06:55.990047",
+    "updated_at": "2018-02-26T12:06:55.990047"
   },
   {
     "id": null,
@@ -1237,8 +1322,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 427,
-    "created_at": "2018-02-26T11:58:32.138149",
-    "updated_at": "2018-02-26T11:58:32.138149"
+    "created_at": "2018-02-26T12:06:55.991872",
+    "updated_at": "2018-02-26T12:06:55.991872"
   },
   {
     "id": null,
@@ -1254,8 +1339,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 361,
-    "created_at": "2018-02-26T11:58:32.138408",
-    "updated_at": "2018-02-26T11:58:32.138408"
+    "created_at": "2018-02-26T12:06:55.992137",
+    "updated_at": "2018-02-26T12:06:55.992137"
   },
   {
     "id": null,
@@ -1271,8 +1356,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 333,
-    "created_at": "2018-02-26T11:58:32.138858",
-    "updated_at": "2018-02-26T11:58:32.138858"
+    "created_at": "2018-02-26T12:06:55.992391",
+    "updated_at": "2018-02-26T12:06:55.992391"
   },
   {
     "id": null,
@@ -1288,7 +1373,7 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 121,
-    "created_at": "2018-02-26T11:58:32.139198",
-    "updated_at": "2018-02-26T11:58:32.139198"
+    "created_at": "2018-02-26T12:06:55.992846",
+    "updated_at": "2018-02-26T12:06:55.992846"
   }
 ]
