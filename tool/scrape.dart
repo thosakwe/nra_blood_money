@@ -104,6 +104,9 @@ Future<List<Politician>> fetchFromCycle(int cycle) async {
         //print('$names - ${names.length}');
       }
 
+      // Special case for Bob Latta
+      if (p.name == 'Robert Latta') p.name = 'Bob Latta';
+
       var moneyMatch = moneyValid.firstMatch($tds[5].text);
 
       if (moneyMatch == null) return null;
@@ -158,9 +161,8 @@ Future<Politician> scrapeWikipedia(Politician p, http.BaseClient client) async {
             .attributes['src'];
 
     return p;
-  } catch (e, st) {
-    print('Error: ${p.name} - $e');
-    print(st);
+  } catch (e) {
+    print('Error scraping ${p.name}.');
     var file = new File('scrape/${p.name}.html');
     await file.create(recursive: true);
     await file.writeAsString(response?.body);
