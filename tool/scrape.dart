@@ -31,6 +31,27 @@ main() async {
       .wait(scrapeTasks)
       .then<List<Politician>>((list) => list.reduce((a, b) => a..addAll(b)));
 
+  var uniquePoliticians = <Politician>[];
+
+  for (var p in polticians) {
+    var existing = uniquePoliticians.firstWhere((pp) => pp.name == p.name,
+        orElse: () => null);
+
+    if (existing == null)
+      uniquePoliticians.add(p);
+    else {
+      existing
+        ..website ??= p.website
+        ..position ??= p.position
+        ..imageUrl ??= p.imageUrl
+        ..state ??= p.state
+        ..email ??= p.email
+        ..phone ??= p.phone
+        ..party ??= p.party
+        ..moneyFromNra += p.moneyFromNra;
+    }
+  }
+
   var dbFile = new File('db/politicians_db.json');
   await dbFile.create(recursive: true);
 
