@@ -10,6 +10,8 @@ import 'package:http/http.dart' as http;
 final Uri recipsUrl = Uri.parse(
     'https://www.opensecrets.org/outsidespending/recips.php?cycle=2010&cmte=National%20Rifle%20Assn');
 
+final Uri wikipediaIndex = Uri.parse('https://en.wikipedia.org/w/index.php');
+
 final RegExp moneyValid = new RegExp(r'[0-9,.]+');
 
 main() async {
@@ -17,9 +19,14 @@ main() async {
   var cycles = await getCycles(client);
   var pool = await LoadBalancer.create(
       Platform.numberOfProcessors, IsolateRunner.spawn);
+
+  /*
   var scrapeTasks = cycles.map((cycle) {
     return pool.run(fetchFromCycle, cycle);
   });
+  */
+
+  var scrapeTasks = [pool.run(fetchFromCycle, 2018)];
 
   var polticians = await Future
       .wait(scrapeTasks)
@@ -58,13 +65,13 @@ Future<List<Politician>> fetchFromCycle(int cycle) async {
     var $trs = $table.querySelector('tbody').querySelectorAll('tr');
     print('Cycle $cycle: ${$trs.length} Donation Record(s)');
 
-    return Future.wait($trs.map(($tr) async {
+    return await Future.wait($trs.map(($tr) async {
       var $tds = $tr.querySelectorAll('td');
 
       // Don't waste time parsing losers
       if ($tds[7].text.contains('Los')) return null;
 
-      // Parse name
+      // Parse name, etc.
       var names = $tds[0].text.split(',').map((s) => s.trim()).toList();
       var now = new DateTime.now();
 
@@ -89,9 +96,33 @@ Future<List<Politician>> fetchFromCycle(int cycle) async {
       // Don't document anyone who didn't receive donations.
       if (moneyForString <= 0) return null;
 
+      // Scrape Wikipedia for info...
+      p = await scrapeWikipedia(p, client);
       return p;
     })).then((it) => it.where((p) => p != null).toList());
   } finally {
     client.close();
   }
+}
+
+Future<Politician> scrapeWikipedia(Politician p, http.BaseClient client) async {
+  // search=donald+trump&title=Special%3ASearch&go=Go
+  var url = wikipediaIndex.replace(queryParameters: {
+    'search': p.name,
+    'title': 'Special Search',
+    'go': 'Go',
+  });
+  var response = await client.get(url);
+  var redirect = response.headers['location'];
+  //print('${p.name} -> $redirect');
+  var file = new File('scrape/${p.name}.html');
+  await file.create(recursive: true);
+  await file.writeAsString(response.body);
+
+  // TODO: Find correct link on sports page
+  var doc = html.parse(response.body);
+  p.imageUrl = 'https:' +
+      doc.querySelectorAll('a.image')[0].querySelector('img').attributes['src'];
+
+  return p;
 }
