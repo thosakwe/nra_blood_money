@@ -38,10 +38,14 @@ main() async {
   });
 
   var politicianValidator = new Validator({
-    'name*,state*,tweet_id,phone,twitter': isString,
+    'name*,state*': isString,
+    'tweet_id,phone,twitter': anyOf(isNull, isString),
     'party*': isIn(['Democrat', 'Republican']),
-    'email': isEmail,
-    'website': matches(new RegExp(r'^https?://[^\n]+$')),
+    'email': anyOf(isNull, isEmail),
+    'website': anyOf(
+      isNull,
+      matches(new RegExp(r'^https?://[^\n]+$')),
+    ),
     'position*': anyOf(
       isIn(['Senator', 'Representative', 'President']),
       anyOf(
@@ -69,12 +73,11 @@ main() async {
 
   test('all politicians are valid', () async {
     var politicians = await politicianService.index();
-    expect(
-      politicians,
-      allOf(
-        isList,
-        everyElement(politicianValidator),
-      ),
-    );
+    expect(politicians, isList);
+
+    for (var p in politicians) {
+      print('Validating ${p["name"]}');
+      expect(p, politicianValidator);
+    }
   });
 }
