@@ -191,7 +191,7 @@
 
                 <!-- TODO: Empty state -->
                 <paper-listbox id="list" slot="content">
-                    <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter">
+                    <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter" sort="__sort">
                         <paper-icon-item on-tap="__selectItem">
                             <div class="avatar" slot="item-icon" style="[[__computeDrawerHeaderStyle(p)]]">
                             </div>
@@ -290,6 +290,10 @@
         __selectItem(e) {
           this.s = e.model.p;
           this.$.drawer.togglePanel();
+        }
+
+        __sort(b, a) {
+          return a.money_from_nra - b.money_from_nra;
         }
 
         __toggleDrawer() {
