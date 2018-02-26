@@ -10,6 +10,8 @@ import 'package:http/http.dart' as http;
 final Uri recipsUrl = Uri.parse(
     'https://www.opensecrets.org/outsidespending/recips.php?cycle=2010&cmte=National%20Rifle%20Assn');
 
+final RegExp moneyValid = new RegExp(r'[0-9,.]+');
+
 main() async {
   var client = new http.Client();
   var cycles = await getCycles(client);
@@ -56,17 +58,39 @@ Future<List<Politician>> fetchFromCycle(int cycle) async {
     var $trs = $table.querySelector('tbody').querySelectorAll('tr');
     print('Cycle $cycle: ${$trs.length} Donation Record(s)');
 
-    return $trs.map(($tr) {
+    return Future.wait($trs.map(($tr) async {
       var $tds = $tr.querySelectorAll('td');
+
+      // Don't waste time parsing losers
+      if ($tds[7].text.contains('Los')) return null;
 
       // Parse name
       var names = $tds[0].text.split(',').map((s) => s.trim()).toList();
+      var now = new DateTime.now();
 
-      return new Politician(
+      var p = new Politician(
         name: '${names[1]} ${names[0]}',
         party: $tds[1].text == 'D' ? 'Democrat' : 'Republican',
+        state: $tds[2].text,
+        position: $tds[3].text == 'Senate' ? 'Senator' : 'Representative',
+        createdAt: now,
+        updatedAt: now,
       );
-    }).toList();
+
+      if (p.state.isEmpty) p.state = 'USA';
+
+      var moneyMatch = moneyValid.firstMatch($tds[5].text);
+
+      if (moneyMatch == null) return null;
+
+      var moneyForString =
+          p.moneyFromNra = num.parse(moneyMatch[0].replaceAll(',', ''));
+
+      // Don't document anyone who didn't receive donations.
+      if (moneyForString <= 0) return null;
+
+      return p;
+    })).then((it) => it.where((p) => p != null).toList());
   } finally {
     client.close();
   }
