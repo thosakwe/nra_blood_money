@@ -13,8 +13,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 73009,
-    "created_at": "2018-02-26T12:09:53.003929",
-    "updated_at": "2018-02-26T12:09:53.003929"
+    "created_at": "2018-02-26T12:19:55.419851",
+    "updated_at": "2018-02-26T12:19:55.419851"
   },
   {
     "id": null,
@@ -30,8 +30,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 21997,
-    "created_at": "2018-02-26T12:09:53.007109",
-    "updated_at": "2018-02-26T12:09:53.007109"
+    "created_at": "2018-02-26T12:19:55.423445",
+    "updated_at": "2018-02-26T12:19:55.423445"
   },
   {
     "id": null,
@@ -47,8 +47,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3979,
-    "created_at": "2018-02-26T12:09:53.007540",
-    "updated_at": "2018-02-26T12:09:53.007540"
+    "created_at": "2018-02-26T12:19:55.423890",
+    "updated_at": "2018-02-26T12:19:55.423890"
   },
   {
     "id": null,
@@ -64,8 +64,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3079,
-    "created_at": "2018-02-26T12:09:53.007962",
-    "updated_at": "2018-02-26T12:09:53.007962"
+    "created_at": "2018-02-26T12:19:55.424309",
+    "updated_at": "2018-02-26T12:19:55.424309"
   },
   {
     "id": null,
@@ -81,8 +81,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 11438118,
-    "created_at": "2018-02-26T12:09:53.200592",
-    "updated_at": "2018-02-26T12:09:53.200592"
+    "created_at": "2018-02-26T12:19:55.590380",
+    "updated_at": "2018-02-26T12:19:55.590380"
   },
   {
     "id": null,
@@ -98,8 +98,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1008030,
-    "created_at": "2018-02-26T12:09:53.225439",
-    "updated_at": "2018-02-26T12:09:53.225439"
+    "created_at": "2018-02-26T12:19:55.723631",
+    "updated_at": "2018-02-26T12:19:55.723631"
   },
   {
     "id": null,
@@ -115,8 +115,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 731400,
-    "created_at": "2018-02-26T12:09:53.225914",
-    "updated_at": "2018-02-26T12:09:53.225914"
+    "created_at": "2018-02-26T12:19:55.724240",
+    "updated_at": "2018-02-26T12:19:55.724240"
   },
   {
     "id": null,
@@ -132,8 +132,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 710629,
-    "created_at": "2018-02-26T12:09:53.226543",
-    "updated_at": "2018-02-26T12:09:53.226543"
+    "created_at": "2018-02-26T12:19:55.724699",
+    "updated_at": "2018-02-26T12:19:55.724699"
   },
   {
     "id": null,
@@ -149,8 +149,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 600954,
-    "created_at": "2018-02-26T12:09:53.227079",
-    "updated_at": "2018-02-26T12:09:53.227079"
+    "created_at": "2018-02-26T12:19:55.725136",
+    "updated_at": "2018-02-26T12:19:55.725136"
   },
   {
     "id": null,
@@ -166,25 +166,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 440645,
-    "created_at": "2018-02-26T12:09:53.235640",
-    "updated_at": "2018-02-26T12:09:53.235640"
-  },
-  {
-    "id": null,
-    "name": "Ron Johnson",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Senator",
-    "state": "WI",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 396121,
-    "created_at": "2018-02-26T12:09:53.239001",
-    "updated_at": "2018-02-26T12:09:53.239001"
+    "created_at": "2018-02-26T12:19:55.728584",
+    "updated_at": "2018-02-26T12:19:55.728584"
   },
   {
     "id": null,
@@ -200,8 +183,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 215786,
-    "created_at": "2018-02-26T12:09:53.239660",
-    "updated_at": "2018-02-26T12:09:53.239660"
+    "created_at": "2018-02-26T12:19:55.729986",
+    "updated_at": "2018-02-26T12:19:55.729986"
   },
   {
     "id": null,
@@ -217,25 +200,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 167441,
-    "created_at": "2018-02-26T12:09:53.244297",
-    "updated_at": "2018-02-26T12:09:53.244297"
-  },
-  {
-    "id": null,
-    "name": "John Kennedy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/John_F._Kennedy%2C_White_House_photo_portrait%2C_looking_up.jpg/220px-John_F._Kennedy%2C_White_House_photo_portrait%2C_looking_up.jpg",
-    "position": "Senator",
-    "state": "LA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 153893,
-    "created_at": "2018-02-26T12:09:53.244784",
-    "updated_at": "2018-02-26T12:09:53.244784"
+    "created_at": "2018-02-26T12:19:55.730314",
+    "updated_at": "2018-02-26T12:19:55.730314"
   },
   {
     "id": null,
@@ -251,8 +217,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 113785,
-    "created_at": "2018-02-26T12:09:53.246825",
-    "updated_at": "2018-02-26T12:09:53.246825"
+    "created_at": "2018-02-26T12:19:55.731122",
+    "updated_at": "2018-02-26T12:19:55.731122"
   },
   {
     "id": null,
@@ -268,8 +234,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 111194,
-    "created_at": "2018-02-26T12:09:53.247300",
-    "updated_at": "2018-02-26T12:09:53.247300"
+    "created_at": "2018-02-26T12:19:55.731422",
+    "updated_at": "2018-02-26T12:19:55.731422"
   },
   {
     "id": null,
@@ -285,8 +251,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 94556,
-    "created_at": "2018-02-26T12:09:53.247913",
-    "updated_at": "2018-02-26T12:09:53.247913"
+    "created_at": "2018-02-26T12:19:55.733478",
+    "updated_at": "2018-02-26T12:19:55.733478"
   },
   {
     "id": null,
@@ -302,8 +268,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 62557,
-    "created_at": "2018-02-26T12:09:53.250510",
-    "updated_at": "2018-02-26T12:09:53.250510"
+    "created_at": "2018-02-26T12:19:55.737371",
+    "updated_at": "2018-02-26T12:19:55.737371"
   },
   {
     "id": null,
@@ -319,8 +285,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 44021,
-    "created_at": "2018-02-26T12:09:53.252432",
-    "updated_at": "2018-02-26T12:09:53.252432"
+    "created_at": "2018-02-26T12:19:55.738824",
+    "updated_at": "2018-02-26T12:19:55.738824"
   },
   {
     "id": null,
@@ -336,8 +302,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 39579,
-    "created_at": "2018-02-26T12:09:53.253423",
-    "updated_at": "2018-02-26T12:09:53.253423"
+    "created_at": "2018-02-26T12:19:55.740106",
+    "updated_at": "2018-02-26T12:19:55.740106"
   },
   {
     "id": null,
@@ -353,8 +319,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 37551,
-    "created_at": "2018-02-26T12:09:53.254113",
-    "updated_at": "2018-02-26T12:09:53.254113"
+    "created_at": "2018-02-26T12:19:55.741354",
+    "updated_at": "2018-02-26T12:19:55.741354"
   },
   {
     "id": null,
@@ -370,25 +336,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 36989,
-    "created_at": "2018-02-26T12:09:53.254568",
-    "updated_at": "2018-02-26T12:09:53.254568"
-  },
-  {
-    "id": null,
-    "name": "Mike Gallagher",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "WI",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 35312,
-    "created_at": "2018-02-26T12:09:53.254957",
-    "updated_at": "2018-02-26T12:09:53.254957"
+    "created_at": "2018-02-26T12:19:55.742058",
+    "updated_at": "2018-02-26T12:19:55.742058"
   },
   {
     "id": null,
@@ -404,8 +353,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 29064,
-    "created_at": "2018-02-26T12:09:53.256173",
-    "updated_at": "2018-02-26T12:09:53.256173"
+    "created_at": "2018-02-26T12:19:55.745287",
+    "updated_at": "2018-02-26T12:19:55.745287"
   },
   {
     "id": null,
@@ -421,8 +370,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 30259,
-    "created_at": "2018-02-26T12:09:53.256828",
-    "updated_at": "2018-02-26T12:09:53.256828"
+    "created_at": "2018-02-26T12:19:55.746165",
+    "updated_at": "2018-02-26T12:19:55.746165"
   },
   {
     "id": null,
@@ -438,8 +387,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 28313,
-    "created_at": "2018-02-26T12:09:53.257211",
-    "updated_at": "2018-02-26T12:09:53.257211"
+    "created_at": "2018-02-26T12:19:55.747011",
+    "updated_at": "2018-02-26T12:19:55.747011"
   },
   {
     "id": null,
@@ -455,8 +404,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 26569,
-    "created_at": "2018-02-26T12:09:53.259982",
-    "updated_at": "2018-02-26T12:09:53.259982"
+    "created_at": "2018-02-26T12:19:55.747661",
+    "updated_at": "2018-02-26T12:19:55.747661"
   },
   {
     "id": null,
@@ -472,25 +421,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 25506,
-    "created_at": "2018-02-26T12:09:53.260547",
-    "updated_at": "2018-02-26T12:09:53.260547"
-  },
-  {
-    "id": null,
-    "name": "David Young",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "IA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 18423,
-    "created_at": "2018-02-26T12:09:53.261843",
-    "updated_at": "2018-02-26T12:09:53.261843"
+    "created_at": "2018-02-26T12:19:55.748562",
+    "updated_at": "2018-02-26T12:19:55.748562"
   },
   {
     "id": null,
@@ -506,8 +438,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 16106,
-    "created_at": "2018-02-26T12:09:53.262976",
-    "updated_at": "2018-02-26T12:09:53.262976"
+    "created_at": "2018-02-26T12:19:55.750673",
+    "updated_at": "2018-02-26T12:19:55.750673"
   },
   {
     "id": null,
@@ -523,8 +455,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 15871,
-    "created_at": "2018-02-26T12:09:53.263363",
-    "updated_at": "2018-02-26T12:09:53.263363"
+    "created_at": "2018-02-26T12:19:55.751135",
+    "updated_at": "2018-02-26T12:19:55.751135"
   },
   {
     "id": null,
@@ -540,8 +472,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 14478,
-    "created_at": "2018-02-26T12:09:53.264899",
-    "updated_at": "2018-02-26T12:09:53.264899"
+    "created_at": "2018-02-26T12:19:55.757196",
+    "updated_at": "2018-02-26T12:19:55.757196"
   },
   {
     "id": null,
@@ -557,8 +489,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 14072,
-    "created_at": "2018-02-26T12:09:53.265549",
-    "updated_at": "2018-02-26T12:09:53.265549"
+    "created_at": "2018-02-26T12:19:55.758707",
+    "updated_at": "2018-02-26T12:19:55.758707"
   },
   {
     "id": null,
@@ -574,8 +506,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 13990,
-    "created_at": "2018-02-26T12:09:53.265950",
-    "updated_at": "2018-02-26T12:09:53.265950"
+    "created_at": "2018-02-26T12:19:55.759604",
+    "updated_at": "2018-02-26T12:19:55.759604"
   },
   {
     "id": null,
@@ -591,25 +523,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 12508,
-    "created_at": "2018-02-26T12:09:53.266446",
-    "updated_at": "2018-02-26T12:09:53.266446"
-  },
-  {
-    "id": null,
-    "name": "Kevin McCarthy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "CA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 12040,
-    "created_at": "2018-02-26T12:09:53.267223",
-    "updated_at": "2018-02-26T12:09:53.267223"
+    "created_at": "2018-02-26T12:19:55.761328",
+    "updated_at": "2018-02-26T12:19:55.761328"
   },
   {
     "id": null,
@@ -625,8 +540,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 10694,
-    "created_at": "2018-02-26T12:09:53.268409",
-    "updated_at": "2018-02-26T12:09:53.268409"
+    "created_at": "2018-02-26T12:19:55.769856",
+    "updated_at": "2018-02-26T12:19:55.769856"
   },
   {
     "id": null,
@@ -642,8 +557,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 10285,
-    "created_at": "2018-02-26T12:09:53.268937",
-    "updated_at": "2018-02-26T12:09:53.268937"
+    "created_at": "2018-02-26T12:19:55.771226",
+    "updated_at": "2018-02-26T12:19:55.771226"
   },
   {
     "id": null,
@@ -659,59 +574,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 10023,
-    "created_at": "2018-02-26T12:09:53.269314",
-    "updated_at": "2018-02-26T12:09:53.269314"
-  },
-  {
-    "id": null,
-    "name": "David Joyce",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "OH",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 10020,
-    "created_at": "2018-02-26T12:09:53.269662",
-    "updated_at": "2018-02-26T12:09:53.269662"
-  },
-  {
-    "id": null,
-    "name": "Steve Knight",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "CA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 9487,
-    "created_at": "2018-02-26T12:09:53.270010",
-    "updated_at": "2018-02-26T12:09:53.270010"
-  },
-  {
-    "id": null,
-    "name": "Richard Hudson",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "NC",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 9476,
-    "created_at": "2018-02-26T12:09:53.270350",
-    "updated_at": "2018-02-26T12:09:53.270350"
+    "created_at": "2018-02-26T12:19:55.776432",
+    "updated_at": "2018-02-26T12:19:55.776432"
   },
   {
     "id": null,
@@ -727,8 +591,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 8441,
-    "created_at": "2018-02-26T12:09:53.274621",
-    "updated_at": "2018-02-26T12:09:53.274621"
+    "created_at": "2018-02-26T12:19:55.866396",
+    "updated_at": "2018-02-26T12:19:55.866396"
   },
   {
     "id": null,
@@ -744,8 +608,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 7656,
-    "created_at": "2018-02-26T12:09:53.275049",
-    "updated_at": "2018-02-26T12:09:53.275049"
+    "created_at": "2018-02-26T12:19:55.867166",
+    "updated_at": "2018-02-26T12:19:55.867166"
   },
   {
     "id": null,
@@ -761,8 +625,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 7553,
-    "created_at": "2018-02-26T12:09:53.275806",
-    "updated_at": "2018-02-26T12:09:53.275806"
+    "created_at": "2018-02-26T12:19:55.869115",
+    "updated_at": "2018-02-26T12:19:55.869115"
   },
   {
     "id": null,
@@ -778,42 +642,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 6868,
-    "created_at": "2018-02-26T12:09:53.276179",
-    "updated_at": "2018-02-26T12:09:53.276179"
-  },
-  {
-    "id": null,
-    "name": "Doug Collins",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "GA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 6640,
-    "created_at": "2018-02-26T12:09:53.276531",
-    "updated_at": "2018-02-26T12:09:53.276531"
-  },
-  {
-    "id": null,
-    "name": "James Comer",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "KY",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 6242,
-    "created_at": "2018-02-26T12:09:53.277080",
-    "updated_at": "2018-02-26T12:09:53.277080"
+    "created_at": "2018-02-26T12:19:55.869471",
+    "updated_at": "2018-02-26T12:19:55.869471"
   },
   {
     "id": null,
@@ -829,8 +659,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5992,
-    "created_at": "2018-02-26T12:09:53.277476",
-    "updated_at": "2018-02-26T12:09:53.277476"
+    "created_at": "2018-02-26T12:19:55.873816",
+    "updated_at": "2018-02-26T12:19:55.873816"
   },
   {
     "id": null,
@@ -846,42 +676,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5848,
-    "created_at": "2018-02-26T12:09:53.277907",
-    "updated_at": "2018-02-26T12:09:53.277907"
-  },
-  {
-    "id": null,
-    "name": "Tom Garrett",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Tom_Garrett_1937.jpg/250px-Tom_Garrett_1937.jpg",
-    "position": "Representative",
-    "state": "VA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 5174,
-    "created_at": "2018-02-26T12:09:53.278632",
-    "updated_at": "2018-02-26T12:09:53.278632"
-  },
-  {
-    "id": null,
-    "name": "Mike Johnson",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "LA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 5223,
-    "created_at": "2018-02-26T12:09:53.279067",
-    "updated_at": "2018-02-26T12:09:53.279067"
+    "created_at": "2018-02-26T12:19:55.874134",
+    "updated_at": "2018-02-26T12:19:55.874134"
   },
   {
     "id": null,
@@ -897,8 +693,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5165,
-    "created_at": "2018-02-26T12:09:53.279359",
-    "updated_at": "2018-02-26T12:09:53.279359"
+    "created_at": "2018-02-26T12:19:55.875750",
+    "updated_at": "2018-02-26T12:19:55.875750"
   },
   {
     "id": null,
@@ -914,8 +710,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5001,
-    "created_at": "2018-02-26T12:09:53.280523",
-    "updated_at": "2018-02-26T12:09:53.280523"
+    "created_at": "2018-02-26T12:19:55.879354",
+    "updated_at": "2018-02-26T12:19:55.879354"
   },
   {
     "id": null,
@@ -931,8 +727,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4321,
-    "created_at": "2018-02-26T12:09:53.280886",
-    "updated_at": "2018-02-26T12:09:53.280886"
+    "created_at": "2018-02-26T12:19:55.880219",
+    "updated_at": "2018-02-26T12:19:55.880219"
   },
   {
     "id": null,
@@ -948,8 +744,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3740,
-    "created_at": "2018-02-26T12:09:53.282507",
-    "updated_at": "2018-02-26T12:09:53.282507"
+    "created_at": "2018-02-26T12:19:55.880721",
+    "updated_at": "2018-02-26T12:19:55.880721"
   },
   {
     "id": null,
@@ -965,8 +761,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3551,
-    "created_at": "2018-02-26T12:09:53.282899",
-    "updated_at": "2018-02-26T12:09:53.282899"
+    "created_at": "2018-02-26T12:19:55.881228",
+    "updated_at": "2018-02-26T12:19:55.881228"
   },
   {
     "id": null,
@@ -982,8 +778,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3408,
-    "created_at": "2018-02-26T12:09:53.283233",
-    "updated_at": "2018-02-26T12:09:53.283233"
+    "created_at": "2018-02-26T12:19:55.881613",
+    "updated_at": "2018-02-26T12:19:55.881613"
   },
   {
     "id": null,
@@ -999,25 +795,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3120,
-    "created_at": "2018-02-26T12:09:53.283630",
-    "updated_at": "2018-02-26T12:09:53.283630"
-  },
-  {
-    "id": null,
-    "name": "Jason Lewis",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "MN",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 3119,
-    "created_at": "2018-02-26T12:09:53.284028",
-    "updated_at": "2018-02-26T12:09:53.284028"
+    "created_at": "2018-02-26T12:19:55.881950",
+    "updated_at": "2018-02-26T12:19:55.881950"
   },
   {
     "id": null,
@@ -1033,8 +812,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2904,
-    "created_at": "2018-02-26T12:09:53.284514",
-    "updated_at": "2018-02-26T12:09:53.284514"
+    "created_at": "2018-02-26T12:19:55.886690",
+    "updated_at": "2018-02-26T12:19:55.886690"
   },
   {
     "id": null,
@@ -1050,25 +829,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2865,
-    "created_at": "2018-02-26T12:09:53.285088",
-    "updated_at": "2018-02-26T12:09:53.285088"
-  },
-  {
-    "id": null,
-    "name": "Steve Pearce",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "NM",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 2818,
-    "created_at": "2018-02-26T12:09:53.285823",
-    "updated_at": "2018-02-26T12:09:53.285823"
+    "created_at": "2018-02-26T12:19:55.887158",
+    "updated_at": "2018-02-26T12:19:55.887158"
   },
   {
     "id": null,
@@ -1084,8 +846,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2583,
-    "created_at": "2018-02-26T12:09:53.286222",
-    "updated_at": "2018-02-26T12:09:53.286222"
+    "created_at": "2018-02-26T12:19:55.888672",
+    "updated_at": "2018-02-26T12:19:55.888672"
   },
   {
     "id": null,
@@ -1101,8 +863,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2447,
-    "created_at": "2018-02-26T12:09:53.286528",
-    "updated_at": "2018-02-26T12:09:53.286528"
+    "created_at": "2018-02-26T12:19:55.889222",
+    "updated_at": "2018-02-26T12:19:55.889222"
   },
   {
     "id": null,
@@ -1118,59 +880,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2436,
-    "created_at": "2018-02-26T12:09:53.286839",
-    "updated_at": "2018-02-26T12:09:53.286839"
-  },
-  {
-    "id": null,
-    "name": "Dave Trott",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Dave_Trott_Executive_Creative_Director_The_Gate.jpg/220px-Dave_Trott_Executive_Creative_Director_The_Gate.jpg",
-    "position": "Representative",
-    "state": "MI",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 2435,
-    "created_at": "2018-02-26T12:09:53.287177",
-    "updated_at": "2018-02-26T12:09:53.287177"
-  },
-  {
-    "id": null,
-    "name": "Thomas MacArthur",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "NJ",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 2312,
-    "created_at": "2018-02-26T12:09:53.287491",
-    "updated_at": "2018-02-26T12:09:53.287491"
-  },
-  {
-    "id": null,
-    "name": "Tom Reed",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "NY",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 2273,
-    "created_at": "2018-02-26T12:09:53.287782",
-    "updated_at": "2018-02-26T12:09:53.287782"
+    "created_at": "2018-02-26T12:19:55.889878",
+    "updated_at": "2018-02-26T12:19:55.889878"
   },
   {
     "id": null,
@@ -1186,25 +897,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2179,
-    "created_at": "2018-02-26T12:09:53.289030",
-    "updated_at": "2018-02-26T12:09:53.289030"
-  },
-  {
-    "id": null,
-    "name": "Scott Taylor",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "VA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 1790,
-    "created_at": "2018-02-26T12:09:53.289703",
-    "updated_at": "2018-02-26T12:09:53.289703"
+    "created_at": "2018-02-26T12:19:55.896511",
+    "updated_at": "2018-02-26T12:19:55.896511"
   },
   {
     "id": null,
@@ -1220,25 +914,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1699,
-    "created_at": "2018-02-26T12:09:53.290044",
-    "updated_at": "2018-02-26T12:09:53.290044"
-  },
-  {
-    "id": null,
-    "name": "Andy Barr",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "KY",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 1374,
-    "created_at": "2018-02-26T12:09:53.290352",
-    "updated_at": "2018-02-26T12:09:53.290352"
+    "created_at": "2018-02-26T12:19:55.897604",
+    "updated_at": "2018-02-26T12:19:55.897604"
   },
   {
     "id": null,
@@ -1254,25 +931,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1341,
-    "created_at": "2018-02-26T12:09:53.290635",
-    "updated_at": "2018-02-26T12:09:53.290635"
-  },
-  {
-    "id": null,
-    "name": "Mike Lee",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Senator",
-    "state": "UT",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 1174,
-    "created_at": "2018-02-26T12:09:53.297282",
-    "updated_at": "2018-02-26T12:09:53.297282"
+    "created_at": "2018-02-26T12:19:55.898529",
+    "updated_at": "2018-02-26T12:19:55.898529"
   },
   {
     "id": null,
@@ -1288,8 +948,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1013,
-    "created_at": "2018-02-26T12:09:53.298122",
-    "updated_at": "2018-02-26T12:09:53.298122"
+    "created_at": "2018-02-26T12:19:55.902440",
+    "updated_at": "2018-02-26T12:19:55.902440"
   },
   {
     "id": null,
@@ -1305,8 +965,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 934,
-    "created_at": "2018-02-26T12:09:53.298501",
-    "updated_at": "2018-02-26T12:09:53.298501"
+    "created_at": "2018-02-26T12:19:55.902940",
+    "updated_at": "2018-02-26T12:19:55.902940"
   },
   {
     "id": null,
@@ -1322,8 +982,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 816,
-    "created_at": "2018-02-26T12:09:53.299299",
-    "updated_at": "2018-02-26T12:09:53.299299"
+    "created_at": "2018-02-26T12:19:55.904036",
+    "updated_at": "2018-02-26T12:19:55.904036"
   },
   {
     "id": null,
@@ -1339,25 +999,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 816,
-    "created_at": "2018-02-26T12:09:53.299598",
-    "updated_at": "2018-02-26T12:09:53.299598"
-  },
-  {
-    "id": null,
-    "name": "Michael Turner",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "OH",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 757,
-    "created_at": "2018-02-26T12:09:53.300025",
-    "updated_at": "2018-02-26T12:09:53.300025"
+    "created_at": "2018-02-26T12:19:55.904367",
+    "updated_at": "2018-02-26T12:19:55.904367"
   },
   {
     "id": null,
@@ -1373,8 +1016,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 702,
-    "created_at": "2018-02-26T12:09:53.300666",
-    "updated_at": "2018-02-26T12:09:53.300666"
+    "created_at": "2018-02-26T12:19:55.905761",
+    "updated_at": "2018-02-26T12:19:55.905761"
   },
   {
     "id": null,
@@ -1390,8 +1033,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 693,
-    "created_at": "2018-02-26T12:09:53.301128",
-    "updated_at": "2018-02-26T12:09:53.301128"
+    "created_at": "2018-02-26T12:19:55.907121",
+    "updated_at": "2018-02-26T12:19:55.907121"
   },
   {
     "id": null,
@@ -1407,8 +1050,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 427,
-    "created_at": "2018-02-26T12:09:53.309005",
-    "updated_at": "2018-02-26T12:09:53.309005"
+    "created_at": "2018-02-26T12:19:55.911057",
+    "updated_at": "2018-02-26T12:19:55.911057"
   },
   {
     "id": null,
@@ -1424,8 +1067,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 361,
-    "created_at": "2018-02-26T12:09:53.310257",
-    "updated_at": "2018-02-26T12:09:53.310257"
+    "created_at": "2018-02-26T12:19:55.911879",
+    "updated_at": "2018-02-26T12:19:55.911879"
   },
   {
     "id": null,
@@ -1441,8 +1084,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 333,
-    "created_at": "2018-02-26T12:09:53.310619",
-    "updated_at": "2018-02-26T12:09:53.310619"
+    "created_at": "2018-02-26T12:19:55.912853",
+    "updated_at": "2018-02-26T12:19:55.912853"
   },
   {
     "id": null,
@@ -1458,25 +1101,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 121,
-    "created_at": "2018-02-26T12:09:53.319042",
-    "updated_at": "2018-02-26T12:09:53.319042"
-  },
-  {
-    "id": null,
-    "name": "Mary Landrieu",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mary_Landrieu_Senate_portrait.jpg/220px-Mary_Landrieu_Senate_portrait.jpg",
-    "position": "Senator",
-    "state": "LA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 767,
-    "created_at": "2018-02-26T12:09:53.548175",
-    "updated_at": "2018-02-26T12:09:53.548175"
+    "created_at": "2018-02-26T12:19:55.913686",
+    "updated_at": "2018-02-26T12:19:55.913686"
   },
   {
     "id": null,
@@ -1492,8 +1118,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1961654,
-    "created_at": "2018-02-26T12:09:53.592823",
-    "updated_at": "2018-02-26T12:09:53.592823"
+    "created_at": "2018-02-26T12:19:55.435410",
+    "updated_at": "2018-02-26T12:19:55.435410"
   },
   {
     "id": null,
@@ -1509,8 +1135,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1958814,
-    "created_at": "2018-02-26T12:09:53.593454",
-    "updated_at": "2018-02-26T12:09:53.593454"
+    "created_at": "2018-02-26T12:19:55.437308",
+    "updated_at": "2018-02-26T12:19:55.437308"
   },
   {
     "id": null,
@@ -1526,8 +1152,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1224692,
-    "created_at": "2018-02-26T12:09:53.594091",
-    "updated_at": "2018-02-26T12:09:53.594091"
+    "created_at": "2018-02-26T12:19:55.442473",
+    "updated_at": "2018-02-26T12:19:55.442473"
   },
   {
     "id": null,
@@ -1543,8 +1169,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 663384,
-    "created_at": "2018-02-26T12:09:53.595250",
-    "updated_at": "2018-02-26T12:09:53.595250"
+    "created_at": "2018-02-26T12:19:55.446440",
+    "updated_at": "2018-02-26T12:19:55.446440"
   },
   {
     "id": null,
@@ -1560,25 +1186,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 660506,
-    "created_at": "2018-02-26T12:09:53.595617",
-    "updated_at": "2018-02-26T12:09:53.595617"
-  },
-  {
-    "id": null,
-    "name": "French Hill",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Hagivaa_hazarfatit.JPG/250px-Hagivaa_hazarfatit.JPG",
-    "position": "Representative",
-    "state": "AR",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 540612,
-    "created_at": "2018-02-26T12:09:53.596094",
-    "updated_at": "2018-02-26T12:09:53.596094"
+    "created_at": "2018-02-26T12:19:55.446976",
+    "updated_at": "2018-02-26T12:19:55.446976"
   },
   {
     "id": null,
@@ -1594,25 +1203,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 409201,
-    "created_at": "2018-02-26T12:09:53.651960",
-    "updated_at": "2018-02-26T12:09:53.651960"
-  },
-  {
-    "id": null,
-    "name": "David Young",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "IA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 355798,
-    "created_at": "2018-02-26T12:09:53.657564",
-    "updated_at": "2018-02-26T12:09:53.657564"
+    "created_at": "2018-02-26T12:19:55.448726",
+    "updated_at": "2018-02-26T12:19:55.448726"
   },
   {
     "id": null,
@@ -1628,8 +1220,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 350904,
-    "created_at": "2018-02-26T12:09:53.658705",
-    "updated_at": "2018-02-26T12:09:53.658705"
+    "created_at": "2018-02-26T12:19:55.452544",
+    "updated_at": "2018-02-26T12:19:55.452544"
   },
   {
     "id": null,
@@ -1645,8 +1237,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 340689,
-    "created_at": "2018-02-26T12:09:53.667799",
-    "updated_at": "2018-02-26T12:09:53.667799"
+    "created_at": "2018-02-26T12:19:55.467111",
+    "updated_at": "2018-02-26T12:19:55.467111"
   },
   {
     "id": null,
@@ -1662,25 +1254,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 322084,
-    "created_at": "2018-02-26T12:09:53.668295",
-    "updated_at": "2018-02-26T12:09:53.668295"
-  },
-  {
-    "id": null,
-    "name": "Dan Benishek",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Dan_Benishek%2C_Official_Portrait%2C_112th_Congress.JPG/220px-Dan_Benishek%2C_Official_Portrait%2C_112th_Congress.JPG",
-    "position": "Representative",
-    "state": "MI",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 82254,
-    "created_at": "2018-02-26T12:09:53.764125",
-    "updated_at": "2018-02-26T12:09:53.764125"
+    "created_at": "2018-02-26T12:19:55.467955",
+    "updated_at": "2018-02-26T12:19:55.467955"
   },
   {
     "id": null,
@@ -1696,8 +1271,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 83983,
-    "created_at": "2018-02-26T12:09:53.764610",
-    "updated_at": "2018-02-26T12:09:53.764610"
+    "created_at": "2018-02-26T12:19:55.476602",
+    "updated_at": "2018-02-26T12:19:55.476602"
   },
   {
     "id": null,
@@ -1713,25 +1288,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 80798,
-    "created_at": "2018-02-26T12:09:53.764958",
-    "updated_at": "2018-02-26T12:09:53.764958"
-  },
-  {
-    "id": null,
-    "name": "David Jolly",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/David_Jolly.jpg/220px-David_Jolly.jpg",
-    "position": "Representative",
-    "state": "FL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 74792,
-    "created_at": "2018-02-26T12:09:53.774186",
-    "updated_at": "2018-02-26T12:09:53.774186"
+    "created_at": "2018-02-26T12:19:55.477178",
+    "updated_at": "2018-02-26T12:19:55.477178"
   },
   {
     "id": null,
@@ -1747,8 +1305,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 63673,
-    "created_at": "2018-02-26T12:09:53.775109",
-    "updated_at": "2018-02-26T12:09:53.775109"
+    "created_at": "2018-02-26T12:19:55.479968",
+    "updated_at": "2018-02-26T12:19:55.479968"
   },
   {
     "id": null,
@@ -1764,8 +1322,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 43894,
-    "created_at": "2018-02-26T12:09:53.775904",
-    "updated_at": "2018-02-26T12:09:53.775904"
+    "created_at": "2018-02-26T12:19:55.480606",
+    "updated_at": "2018-02-26T12:19:55.480606"
   },
   {
     "id": null,
@@ -1781,25 +1339,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 41627,
-    "created_at": "2018-02-26T12:09:53.776283",
-    "updated_at": "2018-02-26T12:09:53.776283"
-  },
-  {
-    "id": null,
-    "name": "Frank Guinta",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Frank_Guinta_official_portrait_114th_Congress.jpg/220px-Frank_Guinta_official_portrait_114th_Congress.jpg",
-    "position": "Representative",
-    "state": "NH",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 41107,
-    "created_at": "2018-02-26T12:09:53.776817",
-    "updated_at": "2018-02-26T12:09:53.776817"
+    "created_at": "2018-02-26T12:19:55.480910",
+    "updated_at": "2018-02-26T12:19:55.480910"
   },
   {
     "id": null,
@@ -1815,8 +1356,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 36584,
-    "created_at": "2018-02-26T12:09:53.777605",
-    "updated_at": "2018-02-26T12:09:53.777605"
+    "created_at": "2018-02-26T12:19:55.485994",
+    "updated_at": "2018-02-26T12:19:55.485994"
   },
   {
     "id": null,
@@ -1832,25 +1373,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 33981,
-    "created_at": "2018-02-26T12:09:53.778234",
-    "updated_at": "2018-02-26T12:09:53.778234"
-  },
-  {
-    "id": null,
-    "name": "Chris Gibson",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "NY",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 31831,
-    "created_at": "2018-02-26T12:09:53.778935",
-    "updated_at": "2018-02-26T12:09:53.778935"
+    "created_at": "2018-02-26T12:19:55.486612",
+    "updated_at": "2018-02-26T12:19:55.486612"
   },
   {
     "id": null,
@@ -1866,25 +1390,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 31483,
-    "created_at": "2018-02-26T12:09:53.779979",
-    "updated_at": "2018-02-26T12:09:53.779979"
-  },
-  {
-    "id": null,
-    "name": "David Joyce",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "OH",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 25883,
-    "created_at": "2018-02-26T12:09:53.780479",
-    "updated_at": "2018-02-26T12:09:53.780479"
+    "created_at": "2018-02-26T12:19:55.487837",
+    "updated_at": "2018-02-26T12:19:55.487837"
   },
   {
     "id": null,
@@ -1900,8 +1407,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 22276,
-    "created_at": "2018-02-26T12:09:53.781615",
-    "updated_at": "2018-02-26T12:09:53.781615"
+    "created_at": "2018-02-26T12:19:55.491682",
+    "updated_at": "2018-02-26T12:19:55.491682"
   },
   {
     "id": null,
@@ -1917,8 +1424,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 21094,
-    "created_at": "2018-02-26T12:09:53.781861",
-    "updated_at": "2018-02-26T12:09:53.781861"
+    "created_at": "2018-02-26T12:19:55.492363",
+    "updated_at": "2018-02-26T12:19:55.492363"
   },
   {
     "id": null,
@@ -1934,8 +1441,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 19836,
-    "created_at": "2018-02-26T12:09:53.782078",
-    "updated_at": "2018-02-26T12:09:53.782078"
+    "created_at": "2018-02-26T12:19:55.492766",
+    "updated_at": "2018-02-26T12:19:55.492766"
   },
   {
     "id": null,
@@ -1951,8 +1458,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 19356,
-    "created_at": "2018-02-26T12:09:53.836433",
-    "updated_at": "2018-02-26T12:09:53.836433"
+    "created_at": "2018-02-26T12:19:55.493111",
+    "updated_at": "2018-02-26T12:19:55.493111"
   },
   {
     "id": null,
@@ -1968,8 +1475,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 18510,
-    "created_at": "2018-02-26T12:09:53.852642",
-    "updated_at": "2018-02-26T12:09:53.852642"
+    "created_at": "2018-02-26T12:19:55.493536",
+    "updated_at": "2018-02-26T12:19:55.493536"
   },
   {
     "id": null,
@@ -1985,42 +1492,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 9315,
-    "created_at": "2018-02-26T12:09:53.854607",
-    "updated_at": "2018-02-26T12:09:53.854607"
-  },
-  {
-    "id": null,
-    "name": "Mike Kelly",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "PA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 8818,
-    "created_at": "2018-02-26T12:09:53.854908",
-    "updated_at": "2018-02-26T12:09:53.854908"
-  },
-  {
-    "id": null,
-    "name": "Bill Johnson",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "OH",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 8422,
-    "created_at": "2018-02-26T12:09:53.855147",
-    "updated_at": "2018-02-26T12:09:53.855147"
+    "created_at": "2018-02-26T12:19:55.494633",
+    "updated_at": "2018-02-26T12:19:55.494633"
   },
   {
     "id": null,
@@ -2036,8 +1509,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 7765,
-    "created_at": "2018-02-26T12:09:53.855922",
-    "updated_at": "2018-02-26T12:09:53.855922"
+    "created_at": "2018-02-26T12:19:55.495932",
+    "updated_at": "2018-02-26T12:19:55.495932"
   },
   {
     "id": null,
@@ -2053,42 +1526,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 7592,
-    "created_at": "2018-02-26T12:09:53.866639",
-    "updated_at": "2018-02-26T12:09:53.866639"
-  },
-  {
-    "id": null,
-    "name": "Tom Reed",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "NY",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 6939,
-    "created_at": "2018-02-26T12:09:53.867819",
-    "updated_at": "2018-02-26T12:09:53.867819"
-  },
-  {
-    "id": null,
-    "name": "Steve Pearce",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "NM",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 6670,
-    "created_at": "2018-02-26T12:09:53.868297",
-    "updated_at": "2018-02-26T12:09:53.868297"
+    "created_at": "2018-02-26T12:19:55.496358",
+    "updated_at": "2018-02-26T12:19:55.496358"
   },
   {
     "id": null,
@@ -2104,8 +1543,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 6504,
-    "created_at": "2018-02-26T12:09:53.868859",
-    "updated_at": "2018-02-26T12:09:53.868859"
+    "created_at": "2018-02-26T12:19:55.498123",
+    "updated_at": "2018-02-26T12:19:55.498123"
   },
   {
     "id": null,
@@ -2121,25 +1560,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 6290,
-    "created_at": "2018-02-26T12:09:53.869191",
-    "updated_at": "2018-02-26T12:09:53.869191"
-  },
-  {
-    "id": null,
-    "name": "Mike Bishop",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "MI",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 6082,
-    "created_at": "2018-02-26T12:09:53.869553",
-    "updated_at": "2018-02-26T12:09:53.869553"
+    "created_at": "2018-02-26T12:19:55.499786",
+    "updated_at": "2018-02-26T12:19:55.499786"
   },
   {
     "id": null,
@@ -2155,25 +1577,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5994,
-    "created_at": "2018-02-26T12:09:53.869846",
-    "updated_at": "2018-02-26T12:09:53.869846"
-  },
-  {
-    "id": null,
-    "name": "John Kline",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "MN",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 5574,
-    "created_at": "2018-02-26T12:09:53.870636",
-    "updated_at": "2018-02-26T12:09:53.870636"
+    "created_at": "2018-02-26T12:19:55.500674",
+    "updated_at": "2018-02-26T12:19:55.500674"
   },
   {
     "id": null,
@@ -2189,42 +1594,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5554,
-    "created_at": "2018-02-26T12:09:53.875778",
-    "updated_at": "2018-02-26T12:09:53.875778"
-  },
-  {
-    "id": null,
-    "name": "Scott Garrett",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Scott_Garrett_official_congressional_photo.jpg/220px-Scott_Garrett_official_congressional_photo.jpg",
-    "position": "Representative",
-    "state": "NJ",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 5475,
-    "created_at": "2018-02-26T12:09:53.876240",
-    "updated_at": "2018-02-26T12:09:53.876240"
-  },
-  {
-    "id": null,
-    "name": "Thomas MacArthur",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "NJ",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 4968,
-    "created_at": "2018-02-26T12:09:53.877376",
-    "updated_at": "2018-02-26T12:09:53.877376"
+    "created_at": "2018-02-26T12:19:55.501633",
+    "updated_at": "2018-02-26T12:19:55.501633"
   },
   {
     "id": null,
@@ -2240,25 +1611,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4788,
-    "created_at": "2018-02-26T12:09:53.877883",
-    "updated_at": "2018-02-26T12:09:53.877883"
-  },
-  {
-    "id": null,
-    "name": "Rodney Davis",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "IL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 4367,
-    "created_at": "2018-02-26T12:09:53.878285",
-    "updated_at": "2018-02-26T12:09:53.878285"
+    "created_at": "2018-02-26T12:19:55.506002",
+    "updated_at": "2018-02-26T12:19:55.506002"
   },
   {
     "id": null,
@@ -2274,8 +1628,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4133,
-    "created_at": "2018-02-26T12:09:53.879160",
-    "updated_at": "2018-02-26T12:09:53.879160"
+    "created_at": "2018-02-26T12:19:55.507628",
+    "updated_at": "2018-02-26T12:19:55.507628"
   },
   {
     "id": null,
@@ -2291,8 +1645,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3946,
-    "created_at": "2018-02-26T12:09:53.879756",
-    "updated_at": "2018-02-26T12:09:53.879756"
+    "created_at": "2018-02-26T12:19:55.508147",
+    "updated_at": "2018-02-26T12:19:55.508147"
   },
   {
     "id": null,
@@ -2308,8 +1662,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3880,
-    "created_at": "2018-02-26T12:09:53.880080",
-    "updated_at": "2018-02-26T12:09:53.880080"
+    "created_at": "2018-02-26T12:19:55.508780",
+    "updated_at": "2018-02-26T12:19:55.508780"
   },
   {
     "id": null,
@@ -2325,8 +1679,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3735,
-    "created_at": "2018-02-26T12:09:53.881004",
-    "updated_at": "2018-02-26T12:09:53.881004"
+    "created_at": "2018-02-26T12:19:55.509549",
+    "updated_at": "2018-02-26T12:19:55.509549"
   },
   {
     "id": null,
@@ -2342,25 +1696,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3237,
-    "created_at": "2018-02-26T12:09:53.881696",
-    "updated_at": "2018-02-26T12:09:53.881696"
-  },
-  {
-    "id": null,
-    "name": "Ralph Abraham",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "LA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 2974,
-    "created_at": "2018-02-26T12:09:53.882708",
-    "updated_at": "2018-02-26T12:09:53.882708"
+    "created_at": "2018-02-26T12:19:55.510145",
+    "updated_at": "2018-02-26T12:19:55.510145"
   },
   {
     "id": null,
@@ -2376,8 +1713,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2900,
-    "created_at": "2018-02-26T12:09:53.883096",
-    "updated_at": "2018-02-26T12:09:53.883096"
+    "created_at": "2018-02-26T12:19:55.511736",
+    "updated_at": "2018-02-26T12:19:55.511736"
   },
   {
     "id": null,
@@ -2393,8 +1730,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1687,
-    "created_at": "2018-02-26T12:09:53.885620",
-    "updated_at": "2018-02-26T12:09:53.885620"
+    "created_at": "2018-02-26T12:19:55.513542",
+    "updated_at": "2018-02-26T12:19:55.513542"
   },
   {
     "id": null,
@@ -2410,8 +1747,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1623,
-    "created_at": "2018-02-26T12:09:53.886229",
-    "updated_at": "2018-02-26T12:09:53.886229"
+    "created_at": "2018-02-26T12:19:55.513848",
+    "updated_at": "2018-02-26T12:19:55.513848"
   },
   {
     "id": null,
@@ -2427,8 +1764,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1571,
-    "created_at": "2018-02-26T12:09:53.887029",
-    "updated_at": "2018-02-26T12:09:53.887029"
+    "created_at": "2018-02-26T12:19:55.514115",
+    "updated_at": "2018-02-26T12:19:55.514115"
   },
   {
     "id": null,
@@ -2444,8 +1781,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1463,
-    "created_at": "2018-02-26T12:09:53.887408",
-    "updated_at": "2018-02-26T12:09:53.887408"
+    "created_at": "2018-02-26T12:19:55.514396",
+    "updated_at": "2018-02-26T12:19:55.514396"
   },
   {
     "id": null,
@@ -2461,25 +1798,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1463,
-    "created_at": "2018-02-26T12:09:53.888314",
-    "updated_at": "2018-02-26T12:09:53.888314"
-  },
-  {
-    "id": null,
-    "name": "Dan Sullivan",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Senator",
-    "state": "AK",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 565,
-    "created_at": "2018-02-26T12:09:53.889288",
-    "updated_at": "2018-02-26T12:09:53.889288"
+    "created_at": "2018-02-26T12:19:55.514672",
+    "updated_at": "2018-02-26T12:19:55.514672"
   },
   {
     "id": null,
@@ -2495,8 +1815,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 563,
-    "created_at": "2018-02-26T12:09:53.889567",
-    "updated_at": "2018-02-26T12:09:53.889567"
+    "created_at": "2018-02-26T12:19:55.515807",
+    "updated_at": "2018-02-26T12:19:55.515807"
   },
   {
     "id": null,
@@ -2512,8 +1832,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 563,
-    "created_at": "2018-02-26T12:09:53.889849",
-    "updated_at": "2018-02-26T12:09:53.889849"
+    "created_at": "2018-02-26T12:19:55.516037",
+    "updated_at": "2018-02-26T12:19:55.516037"
   },
   {
     "id": null,
@@ -2529,8 +1849,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 352,
-    "created_at": "2018-02-26T12:09:53.890603",
-    "updated_at": "2018-02-26T12:09:53.890603"
+    "created_at": "2018-02-26T12:19:55.516350",
+    "updated_at": "2018-02-26T12:19:55.516350"
   },
   {
     "id": null,
@@ -2546,8 +1866,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 30,
-    "created_at": "2018-02-26T12:09:53.893822",
-    "updated_at": "2018-02-26T12:09:53.893822"
+    "created_at": "2018-02-26T12:19:55.519926",
+    "updated_at": "2018-02-26T12:19:55.519926"
   },
   {
     "id": null,
@@ -2563,25 +1883,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 20,
-    "created_at": "2018-02-26T12:09:53.894216",
-    "updated_at": "2018-02-26T12:09:53.894216"
-  },
-  {
-    "id": null,
-    "name": "Bob Dold",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Robert_Dold_official_portrait_114th_Congress.jpg/220px-Robert_Dold_official_portrait_114th_Congress.jpg",
-    "position": "Representative",
-    "state": "IL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 20,
-    "created_at": "2018-02-26T12:09:53.894699",
-    "updated_at": "2018-02-26T12:09:53.894699"
+    "created_at": "2018-02-26T12:19:55.520480",
+    "updated_at": "2018-02-26T12:19:55.520480"
   },
   {
     "id": null,
@@ -2597,8 +1900,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 20,
-    "created_at": "2018-02-26T12:09:53.895685",
-    "updated_at": "2018-02-26T12:09:53.895685"
+    "created_at": "2018-02-26T12:19:55.522506",
+    "updated_at": "2018-02-26T12:19:55.522506"
   },
   {
     "id": null,
@@ -2614,25 +1917,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 20,
-    "created_at": "2018-02-26T12:09:53.896368",
-    "updated_at": "2018-02-26T12:09:53.896368"
-  },
-  {
-    "id": null,
-    "name": "Aaron Schock",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Aaron_Schock_113th_Congress.jpg/220px-Aaron_Schock_113th_Congress.jpg",
-    "position": "Representative",
-    "state": "IL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 20,
-    "created_at": "2018-02-26T12:09:53.896949",
-    "updated_at": "2018-02-26T12:09:53.896949"
+    "created_at": "2018-02-26T12:19:55.523044",
+    "updated_at": "2018-02-26T12:19:55.523044"
   },
   {
     "id": null,
@@ -2648,25 +1934,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 20,
-    "created_at": "2018-02-26T12:09:53.897785",
-    "updated_at": "2018-02-26T12:09:53.897785"
-  },
-  {
-    "id": null,
-    "name": "Barack Obama",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg",
-    "position": "President",
-    "state": "USA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 3289,
-    "created_at": "2018-02-26T12:09:53.986747",
-    "updated_at": "2018-02-26T12:09:53.986747"
+    "created_at": "2018-02-26T12:19:55.523855",
+    "updated_at": "2018-02-26T12:19:55.523855"
   },
   {
     "id": null,
@@ -2682,8 +1951,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 10713,
-    "created_at": "2018-02-26T12:09:53.987419",
-    "updated_at": "2018-02-26T12:09:53.987419"
+    "created_at": "2018-02-26T12:19:56.989810",
+    "updated_at": "2018-02-26T12:19:56.989810"
   },
   {
     "id": null,
@@ -2699,8 +1968,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 346902,
-    "created_at": "2018-02-26T12:09:53.988387",
-    "updated_at": "2018-02-26T12:09:53.988387"
+    "created_at": "2018-02-26T12:19:56.991589",
+    "updated_at": "2018-02-26T12:19:56.991589"
   },
   {
     "id": null,
@@ -2716,8 +1985,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 116348,
-    "created_at": "2018-02-26T12:09:53.989950",
-    "updated_at": "2018-02-26T12:09:53.989950"
+    "created_at": "2018-02-26T12:19:57.195257",
+    "updated_at": "2018-02-26T12:19:57.195257"
   },
   {
     "id": null,
@@ -2733,25 +2002,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 65300,
-    "created_at": "2018-02-26T12:09:53.990460",
-    "updated_at": "2018-02-26T12:09:53.990460"
-  },
-  {
-    "id": null,
-    "name": "Steven King",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "IA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 41283,
-    "created_at": "2018-02-26T12:09:53.991668",
-    "updated_at": "2018-02-26T12:09:53.991668"
+    "created_at": "2018-02-26T12:19:57.197711",
+    "updated_at": "2018-02-26T12:19:57.197711"
   },
   {
     "id": null,
@@ -2767,8 +2019,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 41243,
-    "created_at": "2018-02-26T12:09:53.992176",
-    "updated_at": "2018-02-26T12:09:53.992176"
+    "created_at": "2018-02-26T12:19:57.207262",
+    "updated_at": "2018-02-26T12:19:57.207262"
   },
   {
     "id": null,
@@ -2784,25 +2036,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 40564,
-    "created_at": "2018-02-26T12:09:53.992701",
-    "updated_at": "2018-02-26T12:09:53.992701"
-  },
-  {
-    "id": null,
-    "name": "Dan Benishek",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Dan_Benishek%2C_Official_Portrait%2C_112th_Congress.JPG/220px-Dan_Benishek%2C_Official_Portrait%2C_112th_Congress.JPG",
-    "position": "Representative",
-    "state": "MI",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 39524,
-    "created_at": "2018-02-26T12:09:53.993074",
-    "updated_at": "2018-02-26T12:09:53.993074"
+    "created_at": "2018-02-26T12:19:57.212565",
+    "updated_at": "2018-02-26T12:19:57.212565"
   },
   {
     "id": null,
@@ -2818,59 +2053,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 38364,
-    "created_at": "2018-02-26T12:09:53.993416",
-    "updated_at": "2018-02-26T12:09:53.993416"
-  },
-  {
-    "id": null,
-    "name": "Reid Ribble",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Reid_Ribble%2C_Official_Portrait%2C_112th_Congress_2.jpg/220px-Reid_Ribble%2C_Official_Portrait%2C_112th_Congress_2.jpg",
-    "position": "Representative",
-    "state": "WI",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 37092,
-    "created_at": "2018-02-26T12:09:53.993755",
-    "updated_at": "2018-02-26T12:09:53.993755"
-  },
-  {
-    "id": null,
-    "name": "Bill Johnson",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "OH",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 36113,
-    "created_at": "2018-02-26T12:09:53.994042",
-    "updated_at": "2018-02-26T12:09:53.994042"
-  },
-  {
-    "id": null,
-    "name": "Chris Gibson",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "NY",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 33912,
-    "created_at": "2018-02-26T12:09:53.994615",
-    "updated_at": "2018-02-26T12:09:53.994615"
+    "created_at": "2018-02-26T12:19:57.216322",
+    "updated_at": "2018-02-26T12:19:57.216322"
   },
   {
     "id": null,
@@ -2886,76 +2070,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 28440,
-    "created_at": "2018-02-26T12:09:53.995924",
-    "updated_at": "2018-02-26T12:09:53.995924"
-  },
-  {
-    "id": null,
-    "name": "Steve Southerland",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "FL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 27448,
-    "created_at": "2018-02-26T12:09:53.996243",
-    "updated_at": "2018-02-26T12:09:53.996243"
-  },
-  {
-    "id": null,
-    "name": "Michael Fitzpatrick",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "PA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 26488,
-    "created_at": "2018-02-26T12:09:53.996572",
-    "updated_at": "2018-02-26T12:09:53.996572"
-  },
-  {
-    "id": null,
-    "name": "Rodney Davis",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "IL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 25002,
-    "created_at": "2018-02-26T12:09:53.996983",
-    "updated_at": "2018-02-26T12:09:53.996983"
-  },
-  {
-    "id": null,
-    "name": "Daniel Webster",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Daniel_Webster.jpg/220px-Daniel_Webster.jpg",
-    "position": "Representative",
-    "state": "FL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 22976,
-    "created_at": "2018-02-26T12:09:53.997455",
-    "updated_at": "2018-02-26T12:09:53.997455"
+    "created_at": "2018-02-26T12:19:57.251442",
+    "updated_at": "2018-02-26T12:19:57.251442"
   },
   {
     "id": null,
@@ -2971,42 +2087,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 17311,
-    "created_at": "2018-02-26T12:09:53.999593",
-    "updated_at": "2018-02-26T12:09:53.999593"
-  },
-  {
-    "id": null,
-    "name": "Jon Runyan",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Jon_Runyan%2C_Official_Portrait%2C_112th_Congress.jpg/220px-Jon_Runyan%2C_Official_Portrait%2C_112th_Congress.jpg",
-    "position": "Representative",
-    "state": "NJ",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 14860,
-    "created_at": "2018-02-26T12:09:54.000259",
-    "updated_at": "2018-02-26T12:09:54.000259"
-  },
-  {
-    "id": null,
-    "name": "Scott Rigell",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Scott_Rigell_Official_Photo.jpg/220px-Scott_Rigell_Official_Photo.jpg",
-    "position": "Representative",
-    "state": "VA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 14639,
-    "created_at": "2018-02-26T12:09:54.001302",
-    "updated_at": "2018-02-26T12:09:54.001302"
+    "created_at": "2018-02-26T12:19:57.253074",
+    "updated_at": "2018-02-26T12:19:57.253074"
   },
   {
     "id": null,
@@ -3022,8 +2104,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 13114,
-    "created_at": "2018-02-26T12:09:54.002250",
-    "updated_at": "2018-02-26T12:09:54.002250"
+    "created_at": "2018-02-26T12:19:57.253588",
+    "updated_at": "2018-02-26T12:19:57.253588"
   },
   {
     "id": null,
@@ -3039,25 +2121,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 12634,
-    "created_at": "2018-02-26T12:09:54.003056",
-    "updated_at": "2018-02-26T12:09:54.003056"
-  },
-  {
-    "id": null,
-    "name": "Kerry Bentivolio",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kerry_Bentivolio%2C_official_portrait%2C_113th_Congress.jpg/220px-Kerry_Bentivolio%2C_official_portrait%2C_113th_Congress.jpg",
-    "position": "Representative",
-    "state": "MI",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 10919,
-    "created_at": "2018-02-26T12:09:54.003765",
-    "updated_at": "2018-02-26T12:09:54.003765"
+    "created_at": "2018-02-26T12:19:57.253777",
+    "updated_at": "2018-02-26T12:19:57.253777"
   },
   {
     "id": null,
@@ -3073,8 +2138,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 9640,
-    "created_at": "2018-02-26T12:09:54.004466",
-    "updated_at": "2018-02-26T12:09:54.004466"
+    "created_at": "2018-02-26T12:19:57.254395",
+    "updated_at": "2018-02-26T12:19:57.254395"
   },
   {
     "id": null,
@@ -3090,8 +2155,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 8359,
-    "created_at": "2018-02-26T12:09:54.005386",
-    "updated_at": "2018-02-26T12:09:54.005386"
+    "created_at": "2018-02-26T12:19:57.255182",
+    "updated_at": "2018-02-26T12:19:57.255182"
   },
   {
     "id": null,
@@ -3107,8 +2172,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 7818,
-    "created_at": "2018-02-26T12:09:54.006217",
-    "updated_at": "2018-02-26T12:09:54.006217"
+    "created_at": "2018-02-26T12:19:57.256821",
+    "updated_at": "2018-02-26T12:19:57.256821"
   },
   {
     "id": null,
@@ -3124,8 +2189,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 7289,
-    "created_at": "2018-02-26T12:09:54.006578",
-    "updated_at": "2018-02-26T12:09:54.006578"
+    "created_at": "2018-02-26T12:19:57.257045",
+    "updated_at": "2018-02-26T12:19:57.257045"
   },
   {
     "id": null,
@@ -3141,42 +2206,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 6029,
-    "created_at": "2018-02-26T12:09:54.006910",
-    "updated_at": "2018-02-26T12:09:54.006910"
-  },
-  {
-    "id": null,
-    "name": "Bill Owens",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "NY",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 4658,
-    "created_at": "2018-02-26T12:09:54.007244",
-    "updated_at": "2018-02-26T12:09:54.007244"
-  },
-  {
-    "id": null,
-    "name": "Gary Miller",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/112_miller_ca42.jpg/220px-112_miller_ca42.jpg",
-    "position": "Representative",
-    "state": "CA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 4915,
-    "created_at": "2018-02-26T12:09:54.007558",
-    "updated_at": "2018-02-26T12:09:54.007558"
+    "created_at": "2018-02-26T12:19:57.257257",
+    "updated_at": "2018-02-26T12:19:57.257257"
   },
   {
     "id": null,
@@ -3192,59 +2223,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4666,
-    "created_at": "2018-02-26T12:09:54.007899",
-    "updated_at": "2018-02-26T12:09:54.007899"
-  },
-  {
-    "id": null,
-    "name": "John Barrow",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "GA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 4658,
-    "created_at": "2018-02-26T12:09:54.008263",
-    "updated_at": "2018-02-26T12:09:54.008263"
-  },
-  {
-    "id": null,
-    "name": "Jim Matheson",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Mathesonbio.jpg/220px-Mathesonbio.jpg",
-    "position": "Representative",
-    "state": "UT",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 4658,
-    "created_at": "2018-02-26T12:09:54.008661",
-    "updated_at": "2018-02-26T12:09:54.008661"
-  },
-  {
-    "id": null,
-    "name": "Nick Rahall",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Nick_Rahall.jpg/220px-Nick_Rahall.jpg",
-    "position": "Representative",
-    "state": "WV",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 4658,
-    "created_at": "2018-02-26T12:09:54.009086",
-    "updated_at": "2018-02-26T12:09:54.009086"
+    "created_at": "2018-02-26T12:19:57.257781",
+    "updated_at": "2018-02-26T12:19:57.257781"
   },
   {
     "id": null,
@@ -3260,8 +2240,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4658,
-    "created_at": "2018-02-26T12:09:54.009410",
-    "updated_at": "2018-02-26T12:09:54.009410"
+    "created_at": "2018-02-26T12:19:57.258675",
+    "updated_at": "2018-02-26T12:19:57.258675"
   },
   {
     "id": null,
@@ -3277,8 +2257,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4379,
-    "created_at": "2018-02-26T12:09:54.009892",
-    "updated_at": "2018-02-26T12:09:54.009892"
+    "created_at": "2018-02-26T12:19:57.258975",
+    "updated_at": "2018-02-26T12:19:57.258975"
   },
   {
     "id": null,
@@ -3294,8 +2274,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3641,
-    "created_at": "2018-02-26T12:09:54.011389",
-    "updated_at": "2018-02-26T12:09:54.011389"
+    "created_at": "2018-02-26T12:19:57.259496",
+    "updated_at": "2018-02-26T12:19:57.259496"
   },
   {
     "id": null,
@@ -3311,8 +2291,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3590,
-    "created_at": "2018-02-26T12:09:54.011605",
-    "updated_at": "2018-02-26T12:09:54.011605"
+    "created_at": "2018-02-26T12:19:57.259663",
+    "updated_at": "2018-02-26T12:19:57.259663"
   },
   {
     "id": null,
@@ -3328,8 +2308,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3578,
-    "created_at": "2018-02-26T12:09:54.017089",
-    "updated_at": "2018-02-26T12:09:54.017089"
+    "created_at": "2018-02-26T12:19:57.259826",
+    "updated_at": "2018-02-26T12:19:57.259826"
   },
   {
     "id": null,
@@ -3345,8 +2325,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2928,
-    "created_at": "2018-02-26T12:09:54.017869",
-    "updated_at": "2018-02-26T12:09:54.017869"
+    "created_at": "2018-02-26T12:19:57.260298",
+    "updated_at": "2018-02-26T12:19:57.260298"
   },
   {
     "id": null,
@@ -3362,25 +2342,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2600,
-    "created_at": "2018-02-26T12:09:54.018698",
-    "updated_at": "2018-02-26T12:09:54.018698"
-  },
-  {
-    "id": null,
-    "name": "Eric Cantor",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Eric_Cantor%2C_official_113th_Congress_photo_portrait.jpg/220px-Eric_Cantor%2C_official_113th_Congress_photo_portrait.jpg",
-    "position": "Representative",
-    "state": "VA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 2520,
-    "created_at": "2018-02-26T12:09:54.019052",
-    "updated_at": "2018-02-26T12:09:54.019052"
+    "created_at": "2018-02-26T12:19:57.260855",
+    "updated_at": "2018-02-26T12:19:57.260855"
   },
   {
     "id": null,
@@ -3396,59 +2359,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2511,
-    "created_at": "2018-02-26T12:09:54.019320",
-    "updated_at": "2018-02-26T12:09:54.019320"
-  },
-  {
-    "id": null,
-    "name": "David Joyce",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "OH",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 2437,
-    "created_at": "2018-02-26T12:09:54.019776",
-    "updated_at": "2018-02-26T12:09:54.019776"
-  },
-  {
-    "id": null,
-    "name": "Michele Bachmann",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Bachmann2011.jpg/220px-Bachmann2011.jpg",
-    "position": "Representative",
-    "state": "MN",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 2428,
-    "created_at": "2018-02-26T12:09:54.020040",
-    "updated_at": "2018-02-26T12:09:54.020040"
-  },
-  {
-    "id": null,
-    "name": "Rick Crawford",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/US_Navy_030130-N-9693M-003_NASCAR_driver_Richard_Crawford.jpg/220px-US_Navy_030130-N-9693M-003_NASCAR_driver_Richard_Crawford.jpg",
-    "position": "Representative",
-    "state": "AR",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 1977,
-    "created_at": "2018-02-26T12:09:54.020591",
-    "updated_at": "2018-02-26T12:09:54.020591"
+    "created_at": "2018-02-26T12:19:57.262992",
+    "updated_at": "2018-02-26T12:19:57.262992"
   },
   {
     "id": null,
@@ -3464,59 +2376,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1969,
-    "created_at": "2018-02-26T12:09:54.021100",
-    "updated_at": "2018-02-26T12:09:54.021100"
-  },
-  {
-    "id": null,
-    "name": "Jim Gerlach",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Rep._Jim_Gerlach.jpg/220px-Rep._Jim_Gerlach.jpg",
-    "position": "Representative",
-    "state": "PA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 1519,
-    "created_at": "2018-02-26T12:09:54.022199",
-    "updated_at": "2018-02-26T12:09:54.022199"
-  },
-  {
-    "id": null,
-    "name": "Tim Murphy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "PA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 1234,
-    "created_at": "2018-02-26T12:09:54.022717",
-    "updated_at": "2018-02-26T12:09:54.022717"
-  },
-  {
-    "id": null,
-    "name": "Lee Terry",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Lee_Terry%2C_Official_Portrait%2C113th_Congress.jpg/220px-Lee_Terry%2C_Official_Portrait%2C113th_Congress.jpg",
-    "position": "Representative",
-    "state": "NE",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 1199,
-    "created_at": "2018-02-26T12:09:54.022951",
-    "updated_at": "2018-02-26T12:09:54.022951"
+    "created_at": "2018-02-26T12:19:57.264331",
+    "updated_at": "2018-02-26T12:19:57.264331"
   },
   {
     "id": null,
@@ -3532,25 +2393,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1166,
-    "created_at": "2018-02-26T12:09:54.023168",
-    "updated_at": "2018-02-26T12:09:54.023168"
-  },
-  {
-    "id": null,
-    "name": "Mike Kelly",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "PA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 1132,
-    "created_at": "2018-02-26T12:09:54.030204",
-    "updated_at": "2018-02-26T12:09:54.030204"
+    "created_at": "2018-02-26T12:19:57.266438",
+    "updated_at": "2018-02-26T12:19:57.266438"
   },
   {
     "id": null,
@@ -3566,8 +2410,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1096,
-    "created_at": "2018-02-26T12:09:54.030785",
-    "updated_at": "2018-02-26T12:09:54.030785"
+    "created_at": "2018-02-26T12:19:57.267116",
+    "updated_at": "2018-02-26T12:19:57.267116"
   },
   {
     "id": null,
@@ -3583,8 +2427,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1037,
-    "created_at": "2018-02-26T12:09:54.032379",
-    "updated_at": "2018-02-26T12:09:54.032379"
+    "created_at": "2018-02-26T12:19:57.274932",
+    "updated_at": "2018-02-26T12:19:57.274932"
   },
   {
     "id": null,
@@ -3600,8 +2444,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 942,
-    "created_at": "2018-02-26T12:09:54.033424",
-    "updated_at": "2018-02-26T12:09:54.033424"
+    "created_at": "2018-02-26T12:19:57.278737",
+    "updated_at": "2018-02-26T12:19:57.278737"
   },
   {
     "id": null,
@@ -3617,8 +2461,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 797,
-    "created_at": "2018-02-26T12:09:54.034493",
-    "updated_at": "2018-02-26T12:09:54.034493"
+    "created_at": "2018-02-26T12:19:57.281172",
+    "updated_at": "2018-02-26T12:19:57.281172"
   },
   {
     "id": null,
@@ -3634,8 +2478,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 769,
-    "created_at": "2018-02-26T12:09:54.034816",
-    "updated_at": "2018-02-26T12:09:54.034816"
+    "created_at": "2018-02-26T12:19:57.281481",
+    "updated_at": "2018-02-26T12:19:57.281481"
   },
   {
     "id": null,
@@ -3651,8 +2495,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 763,
-    "created_at": "2018-02-26T12:09:54.035125",
-    "updated_at": "2018-02-26T12:09:54.035125"
+    "created_at": "2018-02-26T12:19:57.281702",
+    "updated_at": "2018-02-26T12:19:57.281702"
   },
   {
     "id": null,
@@ -3668,8 +2512,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 756,
-    "created_at": "2018-02-26T12:09:54.035392",
-    "updated_at": "2018-02-26T12:09:54.035392"
+    "created_at": "2018-02-26T12:19:57.284329",
+    "updated_at": "2018-02-26T12:19:57.284329"
   },
   {
     "id": null,
@@ -3685,8 +2529,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 437,
-    "created_at": "2018-02-26T12:09:54.036437",
-    "updated_at": "2018-02-26T12:09:54.036437"
+    "created_at": "2018-02-26T12:19:57.285175",
+    "updated_at": "2018-02-26T12:19:57.285175"
   },
   {
     "id": null,
@@ -3702,8 +2546,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 351,
-    "created_at": "2018-02-26T12:09:54.036841",
-    "updated_at": "2018-02-26T12:09:54.036841"
+    "created_at": "2018-02-26T12:19:57.288857",
+    "updated_at": "2018-02-26T12:19:57.288857"
   },
   {
     "id": null,
@@ -3719,8 +2563,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 318,
-    "created_at": "2018-02-26T12:09:54.037323",
-    "updated_at": "2018-02-26T12:09:54.037323"
+    "created_at": "2018-02-26T12:19:57.289244",
+    "updated_at": "2018-02-26T12:19:57.289244"
   },
   {
     "id": null,
@@ -3736,8 +2580,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 92,
-    "created_at": "2018-02-26T12:09:54.041033",
-    "updated_at": "2018-02-26T12:09:54.041033"
+    "created_at": "2018-02-26T12:19:57.291151",
+    "updated_at": "2018-02-26T12:19:57.291151"
   },
   {
     "id": null,
@@ -3753,8 +2597,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 35,
-    "created_at": "2018-02-26T12:09:54.417053",
-    "updated_at": "2018-02-26T12:09:54.417053"
+    "created_at": "2018-02-26T12:19:57.292402",
+    "updated_at": "2018-02-26T12:19:57.292402"
   },
   {
     "id": null,
@@ -3770,8 +2614,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 882034,
-    "created_at": "2018-02-26T12:09:53.213636",
-    "updated_at": "2018-02-26T12:09:53.213636"
+    "created_at": "2018-02-26T12:19:55.519360",
+    "updated_at": "2018-02-26T12:19:55.519360"
   },
   {
     "id": null,
@@ -3787,8 +2631,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 805108,
-    "created_at": "2018-02-26T12:09:53.223532",
-    "updated_at": "2018-02-26T12:09:53.223532"
+    "created_at": "2018-02-26T12:19:55.618567",
+    "updated_at": "2018-02-26T12:19:55.618567"
   },
   {
     "id": null,
@@ -3804,25 +2648,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 721475,
-    "created_at": "2018-02-26T12:09:53.224179",
-    "updated_at": "2018-02-26T12:09:53.224179"
-  },
-  {
-    "id": null,
-    "name": "Ron Johnson",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Senator",
-    "state": "WI",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 605652,
-    "created_at": "2018-02-26T12:09:53.224666",
-    "updated_at": "2018-02-26T12:09:53.224666"
+    "created_at": "2018-02-26T12:19:55.619700",
+    "updated_at": "2018-02-26T12:19:55.619700"
   },
   {
     "id": null,
@@ -3838,25 +2665,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 99059,
-    "created_at": "2018-02-26T12:09:53.226725",
-    "updated_at": "2018-02-26T12:09:53.226725"
-  },
-  {
-    "id": null,
-    "name": "Charles Bass",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Charles_Bass_112th_Congress_Portrait.jpg/220px-Charles_Bass_112th_Congress_Portrait.jpg",
-    "position": "Representative",
-    "state": "NH",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 98284,
-    "created_at": "2018-02-26T12:09:53.227194",
-    "updated_at": "2018-02-26T12:09:53.227194"
+    "created_at": "2018-02-26T12:19:55.624573",
+    "updated_at": "2018-02-26T12:19:55.624573"
   },
   {
     "id": null,
@@ -3872,8 +2682,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 91100,
-    "created_at": "2018-02-26T12:09:53.228874",
-    "updated_at": "2018-02-26T12:09:53.228874"
+    "created_at": "2018-02-26T12:19:55.626745",
+    "updated_at": "2018-02-26T12:19:55.626745"
   },
   {
     "id": null,
@@ -3889,8 +2699,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 26000,
-    "created_at": "2018-02-26T12:09:53.230344",
-    "updated_at": "2018-02-26T12:09:53.230344"
+    "created_at": "2018-02-26T12:19:55.633658",
+    "updated_at": "2018-02-26T12:19:55.633658"
   },
   {
     "id": null,
@@ -3906,8 +2716,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 60749,
-    "created_at": "2018-02-26T12:09:53.230711",
-    "updated_at": "2018-02-26T12:09:53.230711"
+    "created_at": "2018-02-26T12:19:55.634138",
+    "updated_at": "2018-02-26T12:19:55.634138"
   },
   {
     "id": null,
@@ -3923,25 +2733,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 57615,
-    "created_at": "2018-02-26T12:09:53.231110",
-    "updated_at": "2018-02-26T12:09:53.231110"
-  },
-  {
-    "id": null,
-    "name": "Bobby Schilling",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bobby_Schilling%2C_Official_Portrait%2C_112th_Congress.jpg/220px-Bobby_Schilling%2C_Official_Portrait%2C_112th_Congress.jpg",
-    "position": "Representative",
-    "state": "IL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 55045,
-    "created_at": "2018-02-26T12:09:53.231915",
-    "updated_at": "2018-02-26T12:09:53.231915"
+    "created_at": "2018-02-26T12:19:55.634811",
+    "updated_at": "2018-02-26T12:19:55.634811"
   },
   {
     "id": null,
@@ -3957,25 +2750,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 43592,
-    "created_at": "2018-02-26T12:09:53.233399",
-    "updated_at": "2018-02-26T12:09:53.233399"
-  },
-  {
-    "id": null,
-    "name": "Scott Brown",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Senator",
-    "state": "MA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 42604,
-    "created_at": "2018-02-26T12:09:53.234109",
-    "updated_at": "2018-02-26T12:09:53.234109"
+    "created_at": "2018-02-26T12:19:55.649144",
+    "updated_at": "2018-02-26T12:19:55.649144"
   },
   {
     "id": null,
@@ -3991,42 +2767,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 34788,
-    "created_at": "2018-02-26T12:09:53.234958",
-    "updated_at": "2018-02-26T12:09:53.234958"
-  },
-  {
-    "id": null,
-    "name": "Nan Hayworth",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Nan-Hayworth.jpg/220px-Nan-Hayworth.jpg",
-    "position": "Representative",
-    "state": "NY",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 32072,
-    "created_at": "2018-02-26T12:09:53.236235",
-    "updated_at": "2018-02-26T12:09:53.236235"
-  },
-  {
-    "id": null,
-    "name": "Heath Shuler",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Heathshuler.jpg/220px-Heathshuler.jpg",
-    "position": "Representative",
-    "state": "NC",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 31807,
-    "created_at": "2018-02-26T12:09:53.236852",
-    "updated_at": "2018-02-26T12:09:53.236852"
+    "created_at": "2018-02-26T12:19:55.652859",
+    "updated_at": "2018-02-26T12:19:55.652859"
   },
   {
     "id": null,
@@ -4042,8 +2784,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 28836,
-    "created_at": "2018-02-26T12:09:53.238489",
-    "updated_at": "2018-02-26T12:09:53.238489"
+    "created_at": "2018-02-26T12:19:55.659755",
+    "updated_at": "2018-02-26T12:19:55.659755"
   },
   {
     "id": null,
@@ -4059,8 +2801,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 25222,
-    "created_at": "2018-02-26T12:09:53.239048",
-    "updated_at": "2018-02-26T12:09:53.239048"
+    "created_at": "2018-02-26T12:19:55.660194",
+    "updated_at": "2018-02-26T12:19:55.660194"
   },
   {
     "id": null,
@@ -4076,76 +2818,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 22753,
-    "created_at": "2018-02-26T12:09:53.239686",
-    "updated_at": "2018-02-26T12:09:53.239686"
-  },
-  {
-    "id": null,
-    "name": "Sandy Adams",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sandy_Adams%2C_Official_Portrait%2C_112th_Congress.jpg/220px-Sandy_Adams%2C_Official_Portrait%2C_112th_Congress.jpg",
-    "position": "Representative",
-    "state": "FL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 22415,
-    "created_at": "2018-02-26T12:09:53.240287",
-    "updated_at": "2018-02-26T12:09:53.240287"
-  },
-  {
-    "id": null,
-    "name": "Frank Guinta",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Frank_Guinta_official_portrait_114th_Congress.jpg/220px-Frank_Guinta_official_portrait_114th_Congress.jpg",
-    "position": "Representative",
-    "state": "NH",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 18241,
-    "created_at": "2018-02-26T12:09:53.242725",
-    "updated_at": "2018-02-26T12:09:53.242725"
-  },
-  {
-    "id": null,
-    "name": "David Rivera",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/David_Rivera%2C_Official_Portrait%2C_112th_Congress.jpg/220px-David_Rivera%2C_Official_Portrait%2C_112th_Congress.jpg",
-    "position": "Representative",
-    "state": "FL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 17979,
-    "created_at": "2018-02-26T12:09:53.243274",
-    "updated_at": "2018-02-26T12:09:53.243274"
-  },
-  {
-    "id": null,
-    "name": "Mike Kelly",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "PA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 13159,
-    "created_at": "2018-02-26T12:09:53.244291",
-    "updated_at": "2018-02-26T12:09:53.244291"
+    "created_at": "2018-02-26T12:19:55.660930",
+    "updated_at": "2018-02-26T12:19:55.660930"
   },
   {
     "id": null,
@@ -4161,8 +2835,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 12646,
-    "created_at": "2018-02-26T12:09:53.244818",
-    "updated_at": "2018-02-26T12:09:53.244818"
+    "created_at": "2018-02-26T12:19:55.674609",
+    "updated_at": "2018-02-26T12:19:55.674609"
   },
   {
     "id": null,
@@ -4178,8 +2852,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 11597,
-    "created_at": "2018-02-26T12:09:53.245530",
-    "updated_at": "2018-02-26T12:09:53.245530"
+    "created_at": "2018-02-26T12:19:55.676282",
+    "updated_at": "2018-02-26T12:19:55.676282"
   },
   {
     "id": null,
@@ -4195,8 +2869,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 10938,
-    "created_at": "2018-02-26T12:09:53.245824",
-    "updated_at": "2018-02-26T12:09:53.245824"
+    "created_at": "2018-02-26T12:19:55.676996",
+    "updated_at": "2018-02-26T12:19:55.676996"
   },
   {
     "id": null,
@@ -4212,8 +2886,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 10505,
-    "created_at": "2018-02-26T12:09:53.246072",
-    "updated_at": "2018-02-26T12:09:53.246072"
+    "created_at": "2018-02-26T12:19:55.677388",
+    "updated_at": "2018-02-26T12:19:55.677388"
   },
   {
     "id": null,
@@ -4229,59 +2903,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 10393,
-    "created_at": "2018-02-26T12:09:53.246346",
-    "updated_at": "2018-02-26T12:09:53.246346"
-  },
-  {
-    "id": null,
-    "name": "Jason Altmire",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Jason_Altmire_Official_Headshot.jpg/220px-Jason_Altmire_Official_Headshot.jpg",
-    "position": "Representative",
-    "state": "PA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 10219,
-    "created_at": "2018-02-26T12:09:53.246654",
-    "updated_at": "2018-02-26T12:09:53.246654"
-  },
-  {
-    "id": null,
-    "name": "Tim Huelskamp",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tim_Huelskamp.jpg/220px-Tim_Huelskamp.jpg",
-    "position": "Representative",
-    "state": "KS",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 9627,
-    "created_at": "2018-02-26T12:09:53.247126",
-    "updated_at": "2018-02-26T12:09:53.247126"
-  },
-  {
-    "id": null,
-    "name": "Jim Matheson",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Mathesonbio.jpg/220px-Mathesonbio.jpg",
-    "position": "Representative",
-    "state": "UT",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 8704,
-    "created_at": "2018-02-26T12:09:53.248293",
-    "updated_at": "2018-02-26T12:09:53.248293"
+    "created_at": "2018-02-26T12:19:55.677804",
+    "updated_at": "2018-02-26T12:19:55.677804"
   },
   {
     "id": null,
@@ -4297,93 +2920,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 8593,
-    "created_at": "2018-02-26T12:09:53.248596",
-    "updated_at": "2018-02-26T12:09:53.248596"
-  },
-  {
-    "id": null,
-    "name": "Dan Burton",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Dan_Burton%2C_Official_Portrait%2C_108th_Congress.jpg/220px-Dan_Burton%2C_Official_Portrait%2C_108th_Congress.jpg",
-    "position": "Representative",
-    "state": "IN",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 8462,
-    "created_at": "2018-02-26T12:09:53.249146",
-    "updated_at": "2018-02-26T12:09:53.249146"
-  },
-  {
-    "id": null,
-    "name": "Lee Terry",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Lee_Terry%2C_Official_Portrait%2C113th_Congress.jpg/220px-Lee_Terry%2C_Official_Portrait%2C113th_Congress.jpg",
-    "position": "Representative",
-    "state": "NE",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 8407,
-    "created_at": "2018-02-26T12:09:53.250028",
-    "updated_at": "2018-02-26T12:09:53.250028"
-  },
-  {
-    "id": null,
-    "name": "Dennis Ross",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Dennis_Ross.jpg/220px-Dennis_Ross.jpg",
-    "position": "Representative",
-    "state": "FL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 8375,
-    "created_at": "2018-02-26T12:09:53.251471",
-    "updated_at": "2018-02-26T12:09:53.251471"
-  },
-  {
-    "id": null,
-    "name": "Dan Boren",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Dan_Boren%2C_official_Congressional_photo.jpg/220px-Dan_Boren%2C_official_Congressional_photo.jpg",
-    "position": "Representative",
-    "state": "OK",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 8174,
-    "created_at": "2018-02-26T12:09:53.252490",
-    "updated_at": "2018-02-26T12:09:53.252490"
-  },
-  {
-    "id": null,
-    "name": "Mike Ross",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "AR",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 7913,
-    "created_at": "2018-02-26T12:09:53.256776",
-    "updated_at": "2018-02-26T12:09:53.256776"
+    "created_at": "2018-02-26T12:19:55.681267",
+    "updated_at": "2018-02-26T12:19:55.681267"
   },
   {
     "id": null,
@@ -4399,59 +2937,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 7793,
-    "created_at": "2018-02-26T12:09:53.257160",
-    "updated_at": "2018-02-26T12:09:53.257160"
-  },
-  {
-    "id": null,
-    "name": "Nick Rahall",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Nick_Rahall.jpg/220px-Nick_Rahall.jpg",
-    "position": "Representative",
-    "state": "WV",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 7152,
-    "created_at": "2018-02-26T12:09:53.261816",
-    "updated_at": "2018-02-26T12:09:53.261816"
-  },
-  {
-    "id": null,
-    "name": "Daniel Webster",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Daniel_Webster.jpg/220px-Daniel_Webster.jpg",
-    "position": "Representative",
-    "state": "FL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 6862,
-    "created_at": "2018-02-26T12:09:53.262207",
-    "updated_at": "2018-02-26T12:09:53.262207"
-  },
-  {
-    "id": null,
-    "name": "Jon Runyan",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Jon_Runyan%2C_Official_Portrait%2C_112th_Congress.jpg/220px-Jon_Runyan%2C_Official_Portrait%2C_112th_Congress.jpg",
-    "position": "Representative",
-    "state": "NJ",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 6806,
-    "created_at": "2018-02-26T12:09:53.264857",
-    "updated_at": "2018-02-26T12:09:53.264857"
+    "created_at": "2018-02-26T12:19:55.687864",
+    "updated_at": "2018-02-26T12:19:55.687864"
   },
   {
     "id": null,
@@ -4467,25 +2954,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 6393,
-    "created_at": "2018-02-26T12:09:53.266957",
-    "updated_at": "2018-02-26T12:09:53.266957"
-  },
-  {
-    "id": null,
-    "name": "Patrick Tiberi",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Pat_Tiberi_official.jpg/220px-Pat_Tiberi_official.jpg",
-    "position": "Representative",
-    "state": "OH",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 6207,
-    "created_at": "2018-02-26T12:09:53.267350",
-    "updated_at": "2018-02-26T12:09:53.267350"
+    "created_at": "2018-02-26T12:19:55.691252",
+    "updated_at": "2018-02-26T12:19:55.691252"
   },
   {
     "id": null,
@@ -4501,25 +2971,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 6136,
-    "created_at": "2018-02-26T12:09:53.283912",
-    "updated_at": "2018-02-26T12:09:53.283912"
-  },
-  {
-    "id": null,
-    "name": "Michael Fitzpatrick",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "PA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 6010,
-    "created_at": "2018-02-26T12:09:53.285783",
-    "updated_at": "2018-02-26T12:09:53.285783"
+    "created_at": "2018-02-26T12:19:55.691995",
+    "updated_at": "2018-02-26T12:19:55.691995"
   },
   {
     "id": null,
@@ -4535,42 +2988,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 5788,
-    "created_at": "2018-02-26T12:09:53.286197",
-    "updated_at": "2018-02-26T12:09:53.286197"
-  },
-  {
-    "id": null,
-    "name": "John Dingell",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/John_dingell.jpg/220px-John_dingell.jpg",
-    "position": "Representative",
-    "state": "MI",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 5370,
-    "created_at": "2018-02-26T12:09:53.286516",
-    "updated_at": "2018-02-26T12:09:53.286516"
-  },
-  {
-    "id": null,
-    "name": "Allen West",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "FL",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 5220,
-    "created_at": "2018-02-26T12:09:53.286978",
-    "updated_at": "2018-02-26T12:09:53.286978"
+    "created_at": "2018-02-26T12:19:55.694654",
+    "updated_at": "2018-02-26T12:19:55.694654"
   },
   {
     "id": null,
@@ -4586,8 +3005,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4900,
-    "created_at": "2018-02-26T12:09:53.287281",
-    "updated_at": "2018-02-26T12:09:53.287281"
+    "created_at": "2018-02-26T12:19:55.696469",
+    "updated_at": "2018-02-26T12:19:55.696469"
   },
   {
     "id": null,
@@ -4603,8 +3022,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4887,
-    "created_at": "2018-02-26T12:09:53.287577",
-    "updated_at": "2018-02-26T12:09:53.287577"
+    "created_at": "2018-02-26T12:19:55.696792",
+    "updated_at": "2018-02-26T12:19:55.696792"
   },
   {
     "id": null,
@@ -4620,25 +3039,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4887,
-    "created_at": "2018-02-26T12:09:53.287849",
-    "updated_at": "2018-02-26T12:09:53.287849"
-  },
-  {
-    "id": null,
-    "name": "Howard Coble",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Howiecoble.jpeg/220px-Howiecoble.jpeg",
-    "position": "Representative",
-    "state": "NC",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 4594,
-    "created_at": "2018-02-26T12:09:53.291386",
-    "updated_at": "2018-02-26T12:09:53.291386"
+    "created_at": "2018-02-26T12:19:55.697108",
+    "updated_at": "2018-02-26T12:19:55.697108"
   },
   {
     "id": null,
@@ -4654,25 +3056,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4342,
-    "created_at": "2018-02-26T12:09:53.291665",
-    "updated_at": "2018-02-26T12:09:53.291665"
-  },
-  {
-    "id": null,
-    "name": "Dennis Cardoza",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Rep_Dennis_Cardoza.jpg/220px-Rep_Dennis_Cardoza.jpg",
-    "position": "Representative",
-    "state": "CA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 4321,
-    "created_at": "2018-02-26T12:09:53.291914",
-    "updated_at": "2018-02-26T12:09:53.291914"
+    "created_at": "2018-02-26T12:19:55.697994",
+    "updated_at": "2018-02-26T12:19:55.697994"
   },
   {
     "id": null,
@@ -4688,42 +3073,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 4316,
-    "created_at": "2018-02-26T12:09:53.292164",
-    "updated_at": "2018-02-26T12:09:53.292164"
-  },
-  {
-    "id": null,
-    "name": "Jim Gerlach",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Rep._Jim_Gerlach.jpg/220px-Rep._Jim_Gerlach.jpg",
-    "position": "Representative",
-    "state": "PA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 3731,
-    "created_at": "2018-02-26T12:09:53.292409",
-    "updated_at": "2018-02-26T12:09:53.292409"
-  },
-  {
-    "id": null,
-    "name": "Dan Lungren",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/DanLungren_2009.jpg/220px-DanLungren_2009.jpg",
-    "position": "Representative",
-    "state": "CA",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 3388,
-    "created_at": "2018-02-26T12:09:53.292653",
-    "updated_at": "2018-02-26T12:09:53.292653"
+    "created_at": "2018-02-26T12:19:55.698681",
+    "updated_at": "2018-02-26T12:19:55.698681"
   },
   {
     "id": null,
@@ -4739,8 +3090,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 3099,
-    "created_at": "2018-02-26T12:09:53.293152",
-    "updated_at": "2018-02-26T12:09:53.293152"
+    "created_at": "2018-02-26T12:19:55.700129",
+    "updated_at": "2018-02-26T12:19:55.700129"
   },
   {
     "id": null,
@@ -4756,25 +3107,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2949,
-    "created_at": "2018-02-26T12:09:53.293540",
-    "updated_at": "2018-02-26T12:09:53.293540"
-  },
-  {
-    "id": null,
-    "name": "Ben Quayle",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Benjamin_Quayle%2C_Official_Portrait%2C_112th_Congress.JPG/220px-Benjamin_Quayle%2C_Official_Portrait%2C_112th_Congress.JPG",
-    "position": "Representative",
-    "state": "AZ",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 2623,
-    "created_at": "2018-02-26T12:09:53.294071",
-    "updated_at": "2018-02-26T12:09:53.294071"
+    "created_at": "2018-02-26T12:19:55.700482",
+    "updated_at": "2018-02-26T12:19:55.700482"
   },
   {
     "id": null,
@@ -4790,42 +3124,8 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 2234,
-    "created_at": "2018-02-26T12:09:53.295056",
-    "updated_at": "2018-02-26T12:09:53.295056"
-  },
-  {
-    "id": null,
-    "name": "Mike Lee",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Senator",
-    "state": "UT",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 2117,
-    "created_at": "2018-02-26T12:09:53.295755",
-    "updated_at": "2018-02-26T12:09:53.295755"
-  },
-  {
-    "id": null,
-    "name": "Michael Grimm",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
-    "position": "Representative",
-    "state": "NY",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 1926,
-    "created_at": "2018-02-26T12:09:53.296357",
-    "updated_at": "2018-02-26T12:09:53.296357"
+    "created_at": "2018-02-26T12:19:55.706393",
+    "updated_at": "2018-02-26T12:19:55.706393"
   },
   {
     "id": null,
@@ -4841,41 +3141,7 @@
     "website": null,
     "twitter": null,
     "money_from_nra": 1262,
-    "created_at": "2018-02-26T12:09:53.297092",
-    "updated_at": "2018-02-26T12:09:53.297092"
-  },
-  {
-    "id": null,
-    "name": "Ben Chandler",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Benchandler.jpeg/220px-Benchandler.jpeg",
-    "position": "Representative",
-    "state": "KY",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Democrat",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 959,
-    "created_at": "2018-02-26T12:09:53.297995",
-    "updated_at": "2018-02-26T12:09:53.297995"
-  },
-  {
-    "id": null,
-    "name": "Renee Ellmers",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/ReneeEllmers113th.jpg/220px-ReneeEllmers113th.jpg",
-    "position": "Representative",
-    "state": "NC",
-    "bio": null,
-    "tweet_id": null,
-    "party": "Republican",
-    "phone": null,
-    "email": null,
-    "website": null,
-    "twitter": null,
-    "money_from_nra": 529,
-    "created_at": "2018-02-26T12:09:53.302575",
-    "updated_at": "2018-02-26T12:09:53.302575"
+    "created_at": "2018-02-26T12:19:55.709526",
+    "updated_at": "2018-02-26T12:19:55.709526"
   }
 ]

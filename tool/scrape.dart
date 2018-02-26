@@ -144,11 +144,14 @@ Future<Politician> scrapeWikipedia(Politician p, http.BaseClient client) async {
 
   try {
     response = await client.get(url);
-    var redirect = response.headers['location'];
-    //print('${p.name} -> $redirect');
 
-    // TODO: Find correct link on sports page
     var doc = html.parse(response.body);
+
+    // Check if incumbent
+    if (doc.querySelector('a[title="Incumbent"]') == null) {
+      print('Not incumbent: ${p.name}');
+      return null;
+    }
 
     p.imageUrl = 'https:' +
         doc
