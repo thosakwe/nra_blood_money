@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Donald Trump",
+    "image_url": "/images/pol/donald_trump.jpg",
+    "position": "President",
+    "state": "United States",
+    "party": "Republican",
+    "bio": "Donald John Trump (born June 14, 1946) is the 45th and current President of the United States, in office since January 20, 2017. Before entering politics, he was a businessman and television personality.",
+    "money_from_nra": 30000000.00,
+    "website": "http://www.donaldjtrump.com",
+    "election": {
+      "month": 11,
+      "year": 2020
+    }
+  },
+  {
+    "name": "Marco Rubio",
+    "image_url": "/images/pol/marco_rubio.jpg",
+    "position": "Senator",
+    "party": "Republican",
+    "state": "Florida",
+    "bio": "Marco Antonio Rubio is an American politician, attorney, and the junior United States Senator for Florida. A Republican Party member, he was previously Speaker of the Florida House of Representatives.",
+    "money_from_nra": 3300000.00,
+    "website": "https://www.rubio.senate.gov",
+    "phone": "202-224-3041",
+    "election": {
+      "month": 11,
+      "year": 2023
+    }
+  }
+]

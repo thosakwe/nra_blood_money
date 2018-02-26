@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:convert';
 import 'dart:io';
 import 'package:blood_money/models.dart';
 import 'package:isolate/isolate_runner.dart';
@@ -26,13 +27,17 @@ main() async {
   });
   */
 
-  var scrapeTasks = [pool.run(fetchFromCycle, 2018)];
+  var scrapeTasks = [pool.run(fetchFromCycle, 2016)];
 
   var polticians = await Future
       .wait(scrapeTasks)
       .then<List<Politician>>((list) => list.reduce((a, b) => a..addAll(b)));
 
-  polticians.forEach((p) => print(p.toJson()));
+  var dbFile = new File('db/politicians_db.json');
+  await dbFile.create(recursive: true);
+
+  var json = new JsonEncoder.withIndent('  ');
+  await dbFile.writeAsString(json.convert(polticians));
 
   client.close();
 }
@@ -79,7 +84,7 @@ Future<List<Politician>> fetchFromCycle(int cycle) async {
         name: '${names[1]} ${names[0]}',
         party: $tds[1].text == 'D' ? 'Democrat' : 'Republican',
         state: $tds[2].text,
-        position: $tds[3].text == 'Senate' ? 'Senator' : 'Representative',
+        position: guessPosition($tds[3].text.trim()),
         createdAt: now,
         updatedAt: now,
       );
@@ -105,6 +110,17 @@ Future<List<Politician>> fetchFromCycle(int cycle) async {
   }
 }
 
+String guessPosition(String s) {
+  switch (s) {
+    case 'Senate':
+      return 'Senator';
+    case 'House':
+      return 'Representative';
+    default:
+      return s;
+  }
+}
+
 Future<Politician> scrapeWikipedia(Politician p, http.BaseClient client) async {
   // search=donald+trump&title=Special%3ASearch&go=Go
   var url = wikipediaIndex.replace(queryParameters: {
@@ -112,17 +128,29 @@ Future<Politician> scrapeWikipedia(Politician p, http.BaseClient client) async {
     'title': 'Special Search',
     'go': 'Go',
   });
-  var response = await client.get(url);
-  var redirect = response.headers['location'];
-  //print('${p.name} -> $redirect');
-  var file = new File('scrape/${p.name}.html');
-  await file.create(recursive: true);
-  await file.writeAsString(response.body);
+  http.Response response;
+  print('Scraping $url');
 
-  // TODO: Find correct link on sports page
-  var doc = html.parse(response.body);
-  p.imageUrl = 'https:' +
-      doc.querySelectorAll('a.image')[0].querySelector('img').attributes['src'];
+  try {
+    var response = await client.get(url);
+    var redirect = response.headers['location'];
+    //print('${p.name} -> $redirect');
 
-  return p;
+    // TODO: Find correct link on sports page
+    var doc = html.parse(response.body);
+
+    p.imageUrl = 'https:' +
+        doc
+            .querySelectorAll('a.image')[0]
+            .querySelector('img')
+            .attributes['src'];
+
+    return p;
+  } catch (e) {
+    print('Error: ${p.name}');
+    var file = new File('scrape/${p.name}.html');
+    await file.create(recursive: true);
+    await file.writeAsString(response?.body);
+    return null;
+  }
 }
