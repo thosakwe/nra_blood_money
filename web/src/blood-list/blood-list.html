@@ -46,7 +46,7 @@
                 margin-top: 1em;
             }
 
-            paper-drawer-panel, paper-scroll-header-panel, paper-header-panel, paper-listbox {
+            iron-list, paper-drawer-panel, paper-scroll-header-panel, paper-header-panel, paper-listbox {
                 @apply(--layout-flex);
                 background-color: var(--primary-background-color);
             }
@@ -119,7 +119,9 @@
                         <paper-item disabled>
                             <paper-item-body two-line>
                                 <div style="color: var(--primary-text-color);">[[s.position]] - [[s.state]]</div>
-                                <div secondary style="font-weight: bold;">Next election in [[s.election.month]]/[[s.election.year]]</div>
+                                <div secondary style="font-weight: bold; white-space: nowrap !important;">
+                                    Next election in [[s.election.month]]/[[s.election.year]]
+                                </div>
                             </paper-item-body>
                         </paper-item>
 
@@ -169,7 +171,7 @@
                 </div>
             </paper-header-panel>
 
-            <paper-scroll-header-panel slot="main" condenses>
+            <paper-scroll-header-panel slot="main">
                 <paper-toolbar class="medium-tall" slot="header">
                     <template is="dom-if" if="[[!desktop]]">
                         <paper-icon-button on-tap="__toggleDrawer" icon="menu" slot="top"></paper-icon-button>
@@ -189,6 +191,22 @@
 
                 <!-- TODO: Empty state -->
                 <paper-listbox id="list" slot="content">
+                    <iron-list items="[[__filterPoliticians(politicians)]]" as="p">
+                        <template>
+                            <paper-icon-item on-tap="__selectItem">
+                                <div class="avatar" slot="item-icon" style="[[__computeDrawerHeaderStyle(p)]]">
+                                </div>
+                                <paper-item-body three-line>
+                                    <div>[[p.name]]</div>
+                                    <div secondary>
+                                        <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
+                                    </div>
+                                    <div secondary>[[p.party]]</div>
+                                </paper-item-body>
+                            </paper-icon-item>
+                        </template>
+                    </iron-list>
+                    <!--
                     <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter" sort="__sort">
                         <paper-icon-item on-tap="__selectItem">
                             <div class="avatar" slot="item-icon" style="[[__computeDrawerHeaderStyle(p)]]">
@@ -202,6 +220,7 @@
                             </paper-item-body>
                         </paper-icon-item>
                     </template>
+                    -->
                 </paper-listbox>
             </paper-scroll-header-panel>
         </paper-drawer-panel>
@@ -221,7 +240,7 @@
           return {
             animationConfig: {
               type: Object,
-              value: function() {
+              value: function () {
                 return {
                   node: this,
                   name: 'fade-in-animation'
@@ -241,7 +260,7 @@
 
         static get observers() {
           return [
-            '__searchChanged(tab, search.*)'
+            //'__searchChanged(tab, search.*)'
           ];
         }
 
@@ -249,6 +268,10 @@
           if (s) {
             return `background-image: url('${s.image_url}');`;
           }
+        }
+
+        __filterPoliticians(politicians) {
+          return politicians.filter(this.__filter.bind(this)).sort(this.__sort.bind(this));
         }
 
         __formatMoney(amt) {
