@@ -8,7 +8,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3211",
     "email": null,
     "website": "https://gianforte.house.gov",
     "twitter": null,
@@ -20,8 +20,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.040772",
-    "updated_at": "2018-02-26T18:58:06.040772"
+    "created_at": "2018-02-26T19:45:03.891430",
+    "updated_at": "2018-02-26T19:45:03.891430"
   },
   {
     "id": null,
@@ -32,7 +32,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-4501",
     "email": null,
     "website": "https://handel.house.gov",
     "twitter": null,
@@ -44,8 +44,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.045651",
-    "updated_at": "2018-02-26T18:58:06.045651"
+    "created_at": "2018-02-26T19:45:03.894888",
+    "updated_at": "2018-02-26T19:45:03.894888"
   },
   {
     "id": null,
@@ -56,7 +56,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-6216",
     "email": null,
     "website": "https://estes.house.gov",
     "twitter": null,
@@ -68,8 +68,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.046308",
-    "updated_at": "2018-02-26T18:58:06.046308"
+    "created_at": "2018-02-26T19:45:03.895467",
+    "updated_at": "2018-02-26T19:45:03.895467"
   },
   {
     "id": null,
@@ -80,7 +80,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5501",
     "email": null,
     "website": "https://norman.house.gov",
     "twitter": null,
@@ -92,8 +92,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.046824",
-    "updated_at": "2018-02-26T18:58:06.046824"
+    "created_at": "2018-02-26T19:45:03.896005",
+    "updated_at": "2018-02-26T19:45:03.896005"
   },
   {
     "id": null,
@@ -116,8 +116,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.136916",
-    "updated_at": "2018-02-26T18:58:06.136916"
+    "created_at": "2018-02-26T19:45:03.971053",
+    "updated_at": "2018-02-26T19:45:03.971053"
   },
   {
     "id": null,
@@ -130,7 +130,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://rubio.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 1008030,
     "election": {
@@ -140,8 +140,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.149040",
-    "updated_at": "2018-02-26T18:58:06.149040"
+    "created_at": "2018-02-26T19:45:03.983651",
+    "updated_at": "2018-02-26T19:45:03.983651"
   },
   {
     "id": null,
@@ -154,7 +154,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://portman.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 1452875,
     "election": {
@@ -164,8 +164,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.149895",
-    "updated_at": "2018-02-26T18:58:06.149895"
+    "created_at": "2018-02-26T19:45:03.984136",
+    "updated_at": "2018-02-26T19:45:03.984136"
   },
   {
     "id": null,
@@ -176,7 +176,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 224-3154",
     "email": null,
     "website": "https://burr.senate.gov",
     "twitter": null,
@@ -188,8 +188,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.150531",
-    "updated_at": "2018-02-26T18:58:06.150531"
+    "created_at": "2018-02-26T19:45:03.984666",
+    "updated_at": "2018-02-26T19:45:03.984666"
   },
   {
     "id": null,
@@ -200,9 +200,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(417) 877-7814",
     "email": null,
-    "website": "https://blunt.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 1406097,
     "election": {
@@ -212,8 +212,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.150899",
-    "updated_at": "2018-02-26T18:58:06.150899"
+    "created_at": "2018-02-26T19:45:03.985147",
+    "updated_at": "2018-02-26T19:45:03.985147"
   },
   {
     "id": null,
@@ -226,7 +226,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://young.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 440645,
     "election": {
@@ -236,8 +236,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.178262",
-    "updated_at": "2018-02-26T18:58:06.178262"
+    "created_at": "2018-02-26T19:45:03.985608",
+    "updated_at": "2018-02-26T19:45:03.985608"
   },
   {
     "id": null,
@@ -248,7 +248,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(717) 393-0667",
     "email": null,
     "website": "https://smucker.house.gov",
     "twitter": null,
@@ -260,8 +260,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.179666",
-    "updated_at": "2018-02-26T18:58:06.179666"
+    "created_at": "2018-02-26T19:45:03.986739",
+    "updated_at": "2018-02-26T19:45:03.986739"
   },
   {
     "id": null,
@@ -274,7 +274,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://shelby.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 167441,
     "election": {
@@ -284,8 +284,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.180051",
-    "updated_at": "2018-02-26T18:58:06.180051"
+    "created_at": "2018-02-26T19:45:03.987237",
+    "updated_at": "2018-02-26T19:45:03.987237"
   },
   {
     "id": null,
@@ -298,7 +298,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://grassley.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 174534,
     "election": {
@@ -308,8 +308,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.180753",
-    "updated_at": "2018-02-26T18:58:06.180753"
+    "created_at": "2018-02-26T19:45:03.988855",
+    "updated_at": "2018-02-26T19:45:03.988855"
   },
   {
     "id": null,
@@ -320,7 +320,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-6306",
     "email": null,
     "website": "https://poliquin.house.gov",
     "twitter": null,
@@ -332,8 +332,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.181077",
-    "updated_at": "2018-02-26T18:58:06.181077"
+    "created_at": "2018-02-26T19:45:03.989498",
+    "updated_at": "2018-02-26T19:45:03.989498"
   },
   {
     "id": null,
@@ -344,9 +344,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(270) 782-8303",
     "email": null,
-    "website": "https://paul.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 94556,
     "election": {
@@ -356,8 +356,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.181607",
-    "updated_at": "2018-02-26T18:58:06.181607"
+    "created_at": "2018-02-26T19:45:03.990380",
+    "updated_at": "2018-02-26T19:45:03.990380"
   },
   {
     "id": null,
@@ -368,7 +368,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5136",
     "email": null,
     "website": "https://comstock.house.gov",
     "twitter": null,
@@ -380,8 +380,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.182598",
-    "updated_at": "2018-02-26T18:58:06.182598"
+    "created_at": "2018-02-26T19:45:03.991476",
+    "updated_at": "2018-02-26T19:45:03.991476"
   },
   {
     "id": null,
@@ -392,7 +392,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(719) 587-5105",
     "email": null,
     "website": "https://tipton.house.gov",
     "twitter": null,
@@ -404,8 +404,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.184573",
-    "updated_at": "2018-02-26T18:58:06.184573"
+    "created_at": "2018-02-26T19:45:03.992880",
+    "updated_at": "2018-02-26T19:45:03.992880"
   },
   {
     "id": null,
@@ -418,7 +418,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://tenney.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 39579,
     "election": {
@@ -428,8 +428,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.185200",
-    "updated_at": "2018-02-26T18:58:06.185200"
+    "created_at": "2018-02-26T19:45:03.993612",
+    "updated_at": "2018-02-26T19:45:03.993612"
   },
   {
     "id": null,
@@ -440,7 +440,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3826",
     "email": null,
     "website": "https://zeldin.house.gov",
     "twitter": null,
@@ -452,8 +452,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.185765",
-    "updated_at": "2018-02-26T18:58:06.185765"
+    "created_at": "2018-02-26T19:45:03.996956",
+    "updated_at": "2018-02-26T19:45:03.996956"
   },
   {
     "id": null,
@@ -464,7 +464,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5614",
     "email": null,
     "website": "https://faso.house.gov",
     "twitter": null,
@@ -476,8 +476,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.190820",
-    "updated_at": "2018-02-26T18:58:06.190820"
+    "created_at": "2018-02-26T19:45:03.997901",
+    "updated_at": "2018-02-26T19:45:03.997901"
   },
   {
     "id": null,
@@ -490,7 +490,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://blum.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 36829,
     "election": {
@@ -500,8 +500,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.192010",
-    "updated_at": "2018-02-26T18:58:06.192010"
+    "created_at": "2018-02-26T19:45:03.999288",
+    "updated_at": "2018-02-26T19:45:03.999288"
   },
   {
     "id": null,
@@ -514,7 +514,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://coffman.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 77354,
     "election": {
@@ -524,8 +524,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.192368",
-    "updated_at": "2018-02-26T18:58:06.192368"
+    "created_at": "2018-02-26T19:45:03.999722",
+    "updated_at": "2018-02-26T19:45:03.999722"
   },
   {
     "id": null,
@@ -536,7 +536,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3701",
     "email": null,
     "website": "https://katko.house.gov",
     "twitter": null,
@@ -548,8 +548,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.192699",
-    "updated_at": "2018-02-26T18:58:06.192699"
+    "created_at": "2018-02-26T19:45:04.001049",
+    "updated_at": "2018-02-26T19:45:04.001049"
   },
   {
     "id": null,
@@ -562,7 +562,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://mast.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 26569,
     "election": {
@@ -572,8 +572,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.193030",
-    "updated_at": "2018-02-26T18:58:06.193030"
+    "created_at": "2018-02-26T19:45:04.001425",
+    "updated_at": "2018-02-26T19:45:04.001425"
   },
   {
     "id": null,
@@ -586,7 +586,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://isakson.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 26768,
     "election": {
@@ -596,8 +596,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.194839",
-    "updated_at": "2018-02-26T18:58:06.194839"
+    "created_at": "2018-02-26T19:45:04.001789",
+    "updated_at": "2018-02-26T19:45:04.001789"
   },
   {
     "id": null,
@@ -608,9 +608,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 224-4843",
     "email": null,
-    "website": "https://boozman.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 59698,
     "election": {
@@ -620,8 +620,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.197347",
-    "updated_at": "2018-02-26T18:58:06.197347"
+    "created_at": "2018-02-26T19:45:04.003042",
+    "updated_at": "2018-02-26T19:45:04.003042"
   },
   {
     "id": null,
@@ -632,7 +632,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-4511",
     "email": null,
     "website": "https://hurd.house.gov",
     "twitter": null,
@@ -644,8 +644,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.197631",
-    "updated_at": "2018-02-26T18:58:06.197631"
+    "created_at": "2018-02-26T19:45:04.003249",
+    "updated_at": "2018-02-26T19:45:04.003249"
   },
   {
     "id": null,
@@ -658,7 +658,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://moran.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 14478,
     "election": {
@@ -668,8 +668,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.198038",
-    "updated_at": "2018-02-26T18:58:06.198038"
+    "created_at": "2018-02-26T19:45:04.003856",
+    "updated_at": "2018-02-26T19:45:04.003856"
   },
   {
     "id": null,
@@ -680,7 +680,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2542",
     "email": null,
     "website": "https://mcsally.house.gov",
     "twitter": null,
@@ -692,8 +692,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.198435",
-    "updated_at": "2018-02-26T18:58:06.198435"
+    "created_at": "2018-02-26T19:45:04.004297",
+    "updated_at": "2018-02-26T19:45:04.004297"
   },
   {
     "id": null,
@@ -704,7 +704,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(309) 671-7027",
     "email": null,
     "website": "https://lahood.house.gov",
     "twitter": null,
@@ -716,8 +716,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.198754",
-    "updated_at": "2018-02-26T18:58:06.198754"
+    "created_at": "2018-02-26T19:45:04.004929",
+    "updated_at": "2018-02-26T19:45:04.004929"
   },
   {
     "id": null,
@@ -728,7 +728,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5431",
     "email": null,
     "website": "https://goodlatte.house.gov",
     "twitter": null,
@@ -740,8 +740,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.199031",
-    "updated_at": "2018-02-26T18:58:06.199031"
+    "created_at": "2018-02-26T19:45:04.005366",
+    "updated_at": "2018-02-26T19:45:04.005366"
   },
   {
     "id": null,
@@ -752,7 +752,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(209) 579-5458",
     "email": null,
     "website": "https://denham.house.gov",
     "twitter": null,
@@ -764,8 +764,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.200168",
-    "updated_at": "2018-02-26T18:58:06.200168"
+    "created_at": "2018-02-26T19:45:04.007401",
+    "updated_at": "2018-02-26T19:45:04.007401"
   },
   {
     "id": null,
@@ -776,7 +776,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2865",
     "email": null,
     "website": "https://yoder.house.gov",
     "twitter": null,
@@ -788,8 +788,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.201272",
-    "updated_at": "2018-02-26T18:58:06.201272"
+    "created_at": "2018-02-26T19:45:04.007920",
+    "updated_at": "2018-02-26T19:45:04.007920"
   },
   {
     "id": null,
@@ -802,7 +802,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://shuster.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 51650,
     "election": {
@@ -812,8 +812,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.201787",
-    "updated_at": "2018-02-26T18:58:06.201787"
+    "created_at": "2018-02-26T19:45:04.008507",
+    "updated_at": "2018-02-26T19:45:04.008507"
   },
   {
     "id": null,
@@ -824,7 +824,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-4731",
     "email": null,
     "website": "https://brady.house.gov",
     "twitter": null,
@@ -836,8 +836,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.204552",
-    "updated_at": "2018-02-26T18:58:06.204552"
+    "created_at": "2018-02-26T19:45:04.010762",
+    "updated_at": "2018-02-26T19:45:04.010762"
   },
   {
     "id": null,
@@ -850,7 +850,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://issa.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 7656,
     "election": {
@@ -860,8 +860,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.205147",
-    "updated_at": "2018-02-26T18:58:06.205147"
+    "created_at": "2018-02-26T19:45:04.011171",
+    "updated_at": "2018-02-26T19:45:04.011171"
   },
   {
     "id": null,
@@ -872,7 +872,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-4231",
     "email": null,
     "website": "https://black.house.gov",
     "twitter": null,
@@ -884,8 +884,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.206602",
-    "updated_at": "2018-02-26T18:58:06.206602"
+    "created_at": "2018-02-26T19:45:04.011595",
+    "updated_at": "2018-02-26T19:45:04.011595"
   },
   {
     "id": null,
@@ -898,7 +898,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://zinke.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 6868,
     "election": {
@@ -908,8 +908,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.207506",
-    "updated_at": "2018-02-26T18:58:06.207506"
+    "created_at": "2018-02-26T19:45:04.012055",
+    "updated_at": "2018-02-26T19:45:04.012055"
   },
   {
     "id": null,
@@ -920,7 +920,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 224-5754",
     "email": null,
     "website": "https://lankford.senate.gov",
     "twitter": null,
@@ -932,8 +932,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.209281",
-    "updated_at": "2018-02-26T18:58:06.209281"
+    "created_at": "2018-02-26T19:45:04.013435",
+    "updated_at": "2018-02-26T19:45:04.013435"
   },
   {
     "id": null,
@@ -944,7 +944,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(907) 271-3735",
     "email": null,
     "website": "https://murkowski.senate.gov",
     "twitter": null,
@@ -956,8 +956,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.209556",
-    "updated_at": "2018-02-26T18:58:06.209556"
+    "created_at": "2018-02-26T19:45:04.013842",
+    "updated_at": "2018-02-26T19:45:04.013842"
   },
   {
     "id": null,
@@ -970,7 +970,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://angelle.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 5165,
     "election": {
@@ -980,8 +980,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.240999",
-    "updated_at": "2018-02-26T18:58:06.240999"
+    "created_at": "2018-02-26T19:45:04.015284",
+    "updated_at": "2018-02-26T19:45:04.015284"
   },
   {
     "id": null,
@@ -992,7 +992,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5476",
     "email": null,
     "website": "https://young.house.gov",
     "twitter": null,
@@ -1004,8 +1004,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.242028",
-    "updated_at": "2018-02-26T18:58:06.242028"
+    "created_at": "2018-02-26T19:45:04.015909",
+    "updated_at": "2018-02-26T19:45:04.015909"
   },
   {
     "id": null,
@@ -1016,7 +1016,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(713) 682-8828",
     "email": null,
     "website": "https://culberson.house.gov",
     "twitter": null,
@@ -1028,8 +1028,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.245729",
-    "updated_at": "2018-02-26T18:58:06.245729"
+    "created_at": "2018-02-26T19:45:04.016270",
+    "updated_at": "2018-02-26T19:45:04.016270"
   },
   {
     "id": null,
@@ -1040,7 +1040,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5661",
     "email": null,
     "website": "https://bost.house.gov",
     "twitter": null,
@@ -1052,8 +1052,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.246360",
-    "updated_at": "2018-02-26T18:58:06.246360"
+    "created_at": "2018-02-26T19:45:04.016856",
+    "updated_at": "2018-02-26T19:45:04.016856"
   },
   {
     "id": null,
@@ -1066,7 +1066,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://hoeven.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 6650,
     "election": {
@@ -1076,8 +1076,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.246899",
-    "updated_at": "2018-02-26T18:58:06.246899"
+    "created_at": "2018-02-26T19:45:04.017283",
+    "updated_at": "2018-02-26T19:45:04.017283"
   },
   {
     "id": null,
@@ -1088,7 +1088,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-6276",
     "email": null,
     "website": "https://walberg.house.gov",
     "twitter": null,
@@ -1100,8 +1100,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.247336",
-    "updated_at": "2018-02-26T18:58:06.247336"
+    "created_at": "2018-02-26T19:45:04.017675",
+    "updated_at": "2018-02-26T19:45:04.017675"
   },
   {
     "id": null,
@@ -1112,7 +1112,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2711",
     "email": null,
     "website": "https://mooney.house.gov",
     "twitter": null,
@@ -1124,8 +1124,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.247727",
-    "updated_at": "2018-02-26T18:58:06.247727"
+    "created_at": "2018-02-26T19:45:04.018141",
+    "updated_at": "2018-02-26T19:45:04.018141"
   },
   {
     "id": null,
@@ -1136,9 +1136,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(208) 334-1776",
     "email": null,
-    "website": "https://crapo.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 5853,
     "election": {
@@ -1148,8 +1148,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.248468",
-    "updated_at": "2018-02-26T18:58:06.248468"
+    "created_at": "2018-02-26T19:45:04.019148",
+    "updated_at": "2018-02-26T19:45:04.019148"
   },
   {
     "id": null,
@@ -1162,7 +1162,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://hollingsworth.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 2865,
     "election": {
@@ -1172,8 +1172,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.248760",
-    "updated_at": "2018-02-26T18:58:06.248760"
+    "created_at": "2018-02-26T19:45:04.019646",
+    "updated_at": "2018-02-26T19:45:04.019646"
   },
   {
     "id": null,
@@ -1184,7 +1184,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2871",
     "email": null,
     "website": "https://paulsen.house.gov",
     "twitter": null,
@@ -1196,8 +1196,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.249423",
-    "updated_at": "2018-02-26T18:58:06.249423"
+    "created_at": "2018-02-26T19:45:04.020530",
+    "updated_at": "2018-02-26T19:45:04.020530"
   },
   {
     "id": null,
@@ -1208,7 +1208,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-1976",
     "email": null,
     "website": "https://pittenger.house.gov",
     "twitter": null,
@@ -1220,8 +1220,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.249750",
-    "updated_at": "2018-02-26T18:58:06.249750"
+    "created_at": "2018-02-26T19:45:04.021063",
+    "updated_at": "2018-02-26T19:45:04.021063"
   },
   {
     "id": null,
@@ -1232,7 +1232,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3671",
     "email": null,
     "website": "https://posey.house.gov",
     "twitter": null,
@@ -1244,8 +1244,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.250960",
-    "updated_at": "2018-02-26T18:58:06.250960"
+    "created_at": "2018-02-26T19:45:04.021484",
+    "updated_at": "2018-02-26T19:45:04.021484"
   },
   {
     "id": null,
@@ -1256,7 +1256,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(518) 743-0964",
     "email": null,
     "website": "https://stefanik.house.gov",
     "twitter": null,
@@ -1268,8 +1268,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.252753",
-    "updated_at": "2018-02-26T18:58:06.252753"
+    "created_at": "2018-02-26T19:45:04.025298",
+    "updated_at": "2018-02-26T19:45:04.025298"
   },
   {
     "id": null,
@@ -1280,9 +1280,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5235",
     "email": null,
-    "website": "https://dunn.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 1699,
     "election": {
@@ -1292,8 +1292,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.253494",
-    "updated_at": "2018-02-26T18:58:06.253494"
+    "created_at": "2018-02-26T19:45:04.026302",
+    "updated_at": "2018-02-26T19:45:04.026302"
   },
   {
     "id": null,
@@ -1306,7 +1306,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://thune.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 1341,
     "election": {
@@ -1316,8 +1316,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.254219",
-    "updated_at": "2018-02-26T18:58:06.254219"
+    "created_at": "2018-02-26T19:45:04.027107",
+    "updated_at": "2018-02-26T19:45:04.027107"
   },
   {
     "id": null,
@@ -1328,7 +1328,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3011",
     "email": null,
     "website": "https://love.house.gov",
     "twitter": null,
@@ -1340,8 +1340,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.256425",
-    "updated_at": "2018-02-26T18:58:06.256425"
+    "created_at": "2018-02-26T19:45:04.029723",
+    "updated_at": "2018-02-26T19:45:04.029723"
   },
   {
     "id": null,
@@ -1352,7 +1352,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(559) 582-5526",
     "email": null,
     "website": "https://valadao.house.gov",
     "twitter": null,
@@ -1364,8 +1364,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.256762",
-    "updated_at": "2018-02-26T18:58:06.256762"
+    "created_at": "2018-02-26T19:45:04.030120",
+    "updated_at": "2018-02-26T19:45:04.030120"
   },
   {
     "id": null,
@@ -1376,7 +1376,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-6405",
     "email": null,
     "website": "https://latta.house.gov",
     "twitter": null,
@@ -1388,8 +1388,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.263978",
-    "updated_at": "2018-02-26T18:58:06.263978"
+    "created_at": "2018-02-26T19:45:04.031186",
+    "updated_at": "2018-02-26T19:45:04.031186"
   },
   {
     "id": null,
@@ -1400,7 +1400,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3876",
     "email": null,
     "website": "https://renacci.house.gov",
     "twitter": null,
@@ -1412,8 +1412,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.264280",
-    "updated_at": "2018-02-26T18:58:06.264280"
+    "created_at": "2018-02-26T19:45:04.031554",
+    "updated_at": "2018-02-26T19:45:04.031554"
   },
   {
     "id": null,
@@ -1424,7 +1424,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3861",
     "email": null,
     "website": "https://griffith.house.gov",
     "twitter": null,
@@ -1436,8 +1436,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.265298",
-    "updated_at": "2018-02-26T18:58:06.265298"
+    "created_at": "2018-02-26T19:45:04.032637",
+    "updated_at": "2018-02-26T19:45:04.032637"
   },
   {
     "id": null,
@@ -1448,7 +1448,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2876",
     "email": null,
     "website": "https://hartzler.house.gov",
     "twitter": null,
@@ -1460,8 +1460,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.265795",
-    "updated_at": "2018-02-26T18:58:06.265795"
+    "created_at": "2018-02-26T19:45:04.033129",
+    "updated_at": "2018-02-26T19:45:04.033129"
   },
   {
     "id": null,
@@ -1472,7 +1472,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2731",
     "email": null,
     "website": "https://rouzer.house.gov",
     "twitter": null,
@@ -1484,8 +1484,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.272390",
-    "updated_at": "2018-02-26T18:58:06.272390"
+    "created_at": "2018-02-26T19:45:04.034993",
+    "updated_at": "2018-02-26T19:45:04.034993"
   },
   {
     "id": null,
@@ -1496,7 +1496,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2701",
     "email": null,
     "website": "https://mullin.house.gov",
     "twitter": null,
@@ -1508,8 +1508,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.272791",
-    "updated_at": "2018-02-26T18:58:06.272791"
+    "created_at": "2018-02-26T19:45:04.035359",
+    "updated_at": "2018-02-26T19:45:04.035359"
   },
   {
     "id": null,
@@ -1520,7 +1520,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5261",
     "email": null,
     "website": "https://ryan.house.gov",
     "twitter": null,
@@ -1532,8 +1532,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.273147",
-    "updated_at": "2018-02-26T18:58:06.273147"
+    "created_at": "2018-02-26T19:45:04.037199",
+    "updated_at": "2018-02-26T19:45:04.037199"
   },
   {
     "id": null,
@@ -1544,7 +1544,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(513) 684-2723",
     "email": null,
     "website": "https://chabot.house.gov",
     "twitter": null,
@@ -1556,8 +1556,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.273472",
-    "updated_at": "2018-02-26T18:58:06.273472"
+    "created_at": "2018-02-26T19:45:04.037633",
+    "updated_at": "2018-02-26T19:45:04.037633"
   },
   {
     "id": null,
@@ -1568,9 +1568,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 224-6342",
     "email": null,
-    "website": "https://tillis.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 1961654,
     "election": {
@@ -1580,8 +1580,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.122567",
-    "updated_at": "2018-02-26T18:58:06.122567"
+    "created_at": "2018-02-26T19:45:04.856917",
+    "updated_at": "2018-02-26T19:45:04.856917"
   },
   {
     "id": null,
@@ -1592,9 +1592,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(479) 751-0879",
     "email": null,
-    "website": "https://cotton.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 1958814,
     "election": {
@@ -1604,8 +1604,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.123145",
-    "updated_at": "2018-02-26T18:58:06.123145"
+    "created_at": "2018-02-26T19:45:04.991473",
+    "updated_at": "2018-02-26T19:45:04.991473"
   },
   {
     "id": null,
@@ -1616,7 +1616,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(719) 543-1324",
     "email": null,
     "website": "https://gardner.senate.gov",
     "twitter": null,
@@ -1628,8 +1628,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.123938",
-    "updated_at": "2018-02-26T18:58:06.123938"
+    "created_at": "2018-02-26T19:45:04.992338",
+    "updated_at": "2018-02-26T19:45:04.992338"
   },
   {
     "id": null,
@@ -1642,7 +1642,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://roberts.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 663384,
     "election": {
@@ -1652,8 +1652,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.125288",
-    "updated_at": "2018-02-26T18:58:06.125288"
+    "created_at": "2018-02-26T19:45:04.998114",
+    "updated_at": "2018-02-26T19:45:04.998114"
   },
   {
     "id": null,
@@ -1666,7 +1666,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://mcconnell.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 660506,
     "election": {
@@ -1676,8 +1676,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.127625",
-    "updated_at": "2018-02-26T18:58:06.127625"
+    "created_at": "2018-02-26T19:45:05.010504",
+    "updated_at": "2018-02-26T19:45:05.010504"
   },
   {
     "id": null,
@@ -1688,9 +1688,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(225) 929-7711",
     "email": null,
-    "website": "https://cassidy.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 409201,
     "election": {
@@ -1700,8 +1700,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.129195",
-    "updated_at": "2018-02-26T18:58:06.129195"
+    "created_at": "2018-02-26T19:45:05.025057",
+    "updated_at": "2018-02-26T19:45:05.025057"
   },
   {
     "id": null,
@@ -1712,7 +1712,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(404) 865-0087",
     "email": null,
     "website": "https://perdue.senate.gov",
     "twitter": null,
@@ -1724,8 +1724,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.129912",
-    "updated_at": "2018-02-26T18:58:06.129912"
+    "created_at": "2018-02-26T19:45:05.031128",
+    "updated_at": "2018-02-26T19:45:05.031128"
   },
   {
     "id": null,
@@ -1738,7 +1738,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://simpson.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 341445,
     "election": {
@@ -1748,8 +1748,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.130166",
-    "updated_at": "2018-02-26T18:58:06.130166"
+    "created_at": "2018-02-26T19:45:05.035182",
+    "updated_at": "2018-02-26T19:45:05.035182"
   },
   {
     "id": null,
@@ -1760,9 +1760,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 224-3254",
     "email": null,
-    "website": "https://ernst.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 322084,
     "election": {
@@ -1772,8 +1772,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.130903",
-    "updated_at": "2018-02-26T18:58:06.130903"
+    "created_at": "2018-02-26T19:45:05.043364",
+    "updated_at": "2018-02-26T19:45:05.043364"
   },
   {
     "id": null,
@@ -1784,9 +1784,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(605) 224-1450",
     "email": null,
-    "website": "https://rounds.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 83983,
     "election": {
@@ -1796,8 +1796,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.180847",
-    "updated_at": "2018-02-26T18:58:06.180847"
+    "created_at": "2018-02-26T19:45:05.067618",
+    "updated_at": "2018-02-26T19:45:05.067618"
   },
   {
     "id": null,
@@ -1810,7 +1810,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://capito.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 80798,
     "election": {
@@ -1820,8 +1820,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.181359",
-    "updated_at": "2018-02-26T18:58:06.181359"
+    "created_at": "2018-02-26T19:45:05.069728",
+    "updated_at": "2018-02-26T19:45:05.069728"
   },
   {
     "id": null,
@@ -1832,9 +1832,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(402) 550-8040",
     "email": null,
-    "website": "https://sasse.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 63673,
     "election": {
@@ -1844,8 +1844,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.190233",
-    "updated_at": "2018-02-26T18:58:06.190233"
+    "created_at": "2018-02-26T19:45:05.108392",
+    "updated_at": "2018-02-26T19:45:05.108392"
   },
   {
     "id": null,
@@ -1856,7 +1856,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5136",
     "email": null,
     "website": "https://comstock.house.gov",
     "twitter": null,
@@ -1868,8 +1868,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.191136",
-    "updated_at": "2018-02-26T18:58:06.191136"
+    "created_at": "2018-02-26T19:45:05.109273",
+    "updated_at": "2018-02-26T19:45:05.109273"
   },
   {
     "id": null,
@@ -1882,7 +1882,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://shuster.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 41627,
     "election": {
@@ -1892,8 +1892,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.191637",
-    "updated_at": "2018-02-26T18:58:06.191637"
+    "created_at": "2018-02-26T19:45:05.109711",
+    "updated_at": "2018-02-26T19:45:05.109711"
   },
   {
     "id": null,
@@ -1904,7 +1904,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(305) 222-0160",
     "email": null,
     "website": "https://curbelo.house.gov",
     "twitter": null,
@@ -1916,8 +1916,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.194397",
-    "updated_at": "2018-02-26T18:58:06.194397"
+    "created_at": "2018-02-26T19:45:05.112692",
+    "updated_at": "2018-02-26T19:45:05.112692"
   },
   {
     "id": null,
@@ -1930,7 +1930,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://coffman.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 33981,
     "election": {
@@ -1940,8 +1940,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.195212",
-    "updated_at": "2018-02-26T18:58:06.195212"
+    "created_at": "2018-02-26T19:45:05.113362",
+    "updated_at": "2018-02-26T19:45:05.113362"
   },
   {
     "id": null,
@@ -1954,7 +1954,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://cochran.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 31483,
     "election": {
@@ -1964,8 +1964,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.196734",
-    "updated_at": "2018-02-26T18:58:06.196734"
+    "created_at": "2018-02-26T19:45:05.115347",
+    "updated_at": "2018-02-26T19:45:05.115347"
   },
   {
     "id": null,
@@ -1976,7 +1976,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(559) 582-5526",
     "email": null,
     "website": "https://valadao.house.gov",
     "twitter": null,
@@ -1988,8 +1988,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.237576",
-    "updated_at": "2018-02-26T18:58:06.237576"
+    "created_at": "2018-02-26T19:45:05.117049",
+    "updated_at": "2018-02-26T19:45:05.117049"
   },
   {
     "id": null,
@@ -2000,7 +2000,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-4315",
     "email": null,
     "website": "https://costello.house.gov",
     "twitter": null,
@@ -2012,8 +2012,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.238143",
-    "updated_at": "2018-02-26T18:58:06.238143"
+    "created_at": "2018-02-26T19:45:05.118601",
+    "updated_at": "2018-02-26T19:45:05.118601"
   },
   {
     "id": null,
@@ -2026,7 +2026,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://cornyn.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 19836,
     "election": {
@@ -2036,8 +2036,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.238615",
-    "updated_at": "2018-02-26T18:58:06.238615"
+    "created_at": "2018-02-26T19:45:05.120471",
+    "updated_at": "2018-02-26T19:45:05.120471"
   },
   {
     "id": null,
@@ -2048,7 +2048,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2542",
     "email": null,
     "website": "https://mcsally.house.gov",
     "twitter": null,
@@ -2060,8 +2060,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.239175",
-    "updated_at": "2018-02-26T18:58:06.239175"
+    "created_at": "2018-02-26T19:45:05.121421",
+    "updated_at": "2018-02-26T19:45:05.121421"
   },
   {
     "id": null,
@@ -2074,7 +2074,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://riser.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 18510,
     "election": {
@@ -2084,8 +2084,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.239505",
-    "updated_at": "2018-02-26T18:58:06.239505"
+    "created_at": "2018-02-26T19:45:05.122723",
+    "updated_at": "2018-02-26T19:45:05.122723"
   },
   {
     "id": null,
@@ -2098,7 +2098,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://mcclintock.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 9315,
     "election": {
@@ -2108,8 +2108,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.243105",
-    "updated_at": "2018-02-26T18:58:06.243105"
+    "created_at": "2018-02-26T19:45:05.127439",
+    "updated_at": "2018-02-26T19:45:05.127439"
   },
   {
     "id": null,
@@ -2122,7 +2122,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://blum.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 7765,
     "election": {
@@ -2132,8 +2132,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.244246",
-    "updated_at": "2018-02-26T18:58:06.244246"
+    "created_at": "2018-02-26T19:45:05.131056",
+    "updated_at": "2018-02-26T19:45:05.131056"
   },
   {
     "id": null,
@@ -2144,7 +2144,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-6306",
     "email": null,
     "website": "https://poliquin.house.gov",
     "twitter": null,
@@ -2156,8 +2156,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.244581",
-    "updated_at": "2018-02-26T18:58:06.244581"
+    "created_at": "2018-02-26T19:45:05.131671",
+    "updated_at": "2018-02-26T19:45:05.131671"
   },
   {
     "id": null,
@@ -2168,7 +2168,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3772",
     "email": null,
     "website": "https://westerman.house.gov",
     "twitter": null,
@@ -2180,8 +2180,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.246612",
-    "updated_at": "2018-02-26T18:58:06.246612"
+    "created_at": "2018-02-26T19:45:05.135999",
+    "updated_at": "2018-02-26T19:45:05.135999"
   },
   {
     "id": null,
@@ -2192,7 +2192,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3176",
     "email": null,
     "website": "https://sanford.house.gov",
     "twitter": null,
@@ -2204,8 +2204,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.247008",
-    "updated_at": "2018-02-26T18:58:06.247008"
+    "created_at": "2018-02-26T19:45:05.136725",
+    "updated_at": "2018-02-26T19:45:05.136725"
   },
   {
     "id": null,
@@ -2216,7 +2216,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3915",
     "email": null,
     "website": "https://walorski.house.gov",
     "twitter": null,
@@ -2228,8 +2228,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.247617",
-    "updated_at": "2018-02-26T18:58:06.247617"
+    "created_at": "2018-02-26T19:45:05.137895",
+    "updated_at": "2018-02-26T19:45:05.137895"
   },
   {
     "id": null,
@@ -2240,7 +2240,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3561",
     "email": null,
     "website": "https://moolenaar.house.gov",
     "twitter": null,
@@ -2252,8 +2252,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.251351",
-    "updated_at": "2018-02-26T18:58:06.251351"
+    "created_at": "2018-02-26T19:45:05.141949",
+    "updated_at": "2018-02-26T19:45:05.141949"
   },
   {
     "id": null,
@@ -2264,7 +2264,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3701",
     "email": null,
     "website": "https://katko.house.gov",
     "twitter": null,
@@ -2276,8 +2276,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.252806",
-    "updated_at": "2018-02-26T18:58:06.252806"
+    "created_at": "2018-02-26T19:45:05.143540",
+    "updated_at": "2018-02-26T19:45:05.143540"
   },
   {
     "id": null,
@@ -2288,7 +2288,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(209) 579-5458",
     "email": null,
     "website": "https://denham.house.gov",
     "twitter": null,
@@ -2300,8 +2300,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.253626",
-    "updated_at": "2018-02-26T18:58:06.253626"
+    "created_at": "2018-02-26T19:45:05.144676",
+    "updated_at": "2018-02-26T19:45:05.144676"
   },
   {
     "id": null,
@@ -2312,7 +2312,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2711",
     "email": null,
     "website": "https://mooney.house.gov",
     "twitter": null,
@@ -2324,8 +2324,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.254053",
-    "updated_at": "2018-02-26T18:58:06.254053"
+    "created_at": "2018-02-26T19:45:05.146376",
+    "updated_at": "2018-02-26T19:45:05.146376"
   },
   {
     "id": null,
@@ -2336,7 +2336,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3826",
     "email": null,
     "website": "https://zeldin.house.gov",
     "twitter": null,
@@ -2348,8 +2348,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.254332",
-    "updated_at": "2018-02-26T18:58:06.254332"
+    "created_at": "2018-02-26T19:45:05.148802",
+    "updated_at": "2018-02-26T19:45:05.148802"
   },
   {
     "id": null,
@@ -2360,7 +2360,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-6276",
     "email": null,
     "website": "https://walberg.house.gov",
     "twitter": null,
@@ -2372,8 +2372,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.257289",
-    "updated_at": "2018-02-26T18:58:06.257289"
+    "created_at": "2018-02-26T19:45:05.153910",
+    "updated_at": "2018-02-26T19:45:05.153910"
   },
   {
     "id": null,
@@ -2384,7 +2384,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-4931",
     "email": null,
     "website": "https://byrne.house.gov",
     "twitter": null,
@@ -2396,8 +2396,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.257972",
-    "updated_at": "2018-02-26T18:58:06.257972"
+    "created_at": "2018-02-26T19:45:05.154710",
+    "updated_at": "2018-02-26T19:45:05.154710"
   },
   {
     "id": null,
@@ -2408,7 +2408,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-7041",
     "email": null,
     "website": "https://graves.house.gov",
     "twitter": null,
@@ -2420,8 +2420,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.259243",
-    "updated_at": "2018-02-26T18:58:06.259243"
+    "created_at": "2018-02-26T19:45:05.157590",
+    "updated_at": "2018-02-26T19:45:05.157590"
   },
   {
     "id": null,
@@ -2432,7 +2432,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5476",
     "email": null,
     "website": "https://young.house.gov",
     "twitter": null,
@@ -2444,8 +2444,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.260053",
-    "updated_at": "2018-02-26T18:58:06.260053"
+    "created_at": "2018-02-26T19:45:05.158315",
+    "updated_at": "2018-02-26T19:45:05.158315"
   },
   {
     "id": null,
@@ -2456,9 +2456,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 224-4944",
     "email": null,
-    "website": "https://alexander.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 1623,
     "election": {
@@ -2468,8 +2468,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.262355",
-    "updated_at": "2018-02-26T18:58:06.262355"
+    "created_at": "2018-02-26T19:45:05.158552",
+    "updated_at": "2018-02-26T19:45:05.158552"
   },
   {
     "id": null,
@@ -2480,7 +2480,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(423) 745-4671",
     "email": null,
     "website": "https://fleischmann.house.gov",
     "twitter": null,
@@ -2492,8 +2492,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.262706",
-    "updated_at": "2018-02-26T18:58:06.262706"
+    "created_at": "2018-02-26T19:45:05.158911",
+    "updated_at": "2018-02-26T19:45:05.158911"
   },
   {
     "id": null,
@@ -2504,7 +2504,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 224-4721",
     "email": null,
     "website": "https://inhofe.senate.gov",
     "twitter": null,
@@ -2516,8 +2516,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.263007",
-    "updated_at": "2018-02-26T18:58:06.263007"
+    "created_at": "2018-02-26T19:45:05.159172",
+    "updated_at": "2018-02-26T19:45:05.159172"
   },
   {
     "id": null,
@@ -2528,7 +2528,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 224-5754",
     "email": null,
     "website": "https://lankford.senate.gov",
     "twitter": null,
@@ -2540,8 +2540,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.263280",
-    "updated_at": "2018-02-26T18:58:06.263280"
+    "created_at": "2018-02-26T19:45:05.159401",
+    "updated_at": "2018-02-26T19:45:05.159401"
   },
   {
     "id": null,
@@ -2554,7 +2554,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://graham.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 563,
     "election": {
@@ -2564,8 +2564,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.272488",
-    "updated_at": "2018-02-26T18:58:06.272488"
+    "created_at": "2018-02-26T19:45:05.160291",
+    "updated_at": "2018-02-26T19:45:05.160291"
   },
   {
     "id": null,
@@ -2576,9 +2576,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(803) 771-6112",
     "email": null,
-    "website": "https://scott.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 563,
     "election": {
@@ -2588,8 +2588,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.272775",
-    "updated_at": "2018-02-26T18:58:06.272775"
+    "created_at": "2018-02-26T19:45:05.160506",
+    "updated_at": "2018-02-26T19:45:05.160506"
   },
   {
     "id": null,
@@ -2600,7 +2600,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3864",
     "email": null,
     "website": "https://carter.house.gov",
     "twitter": null,
@@ -2612,8 +2612,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.273027",
-    "updated_at": "2018-02-26T18:58:06.273027"
+    "created_at": "2018-02-26T19:45:05.160717",
+    "updated_at": "2018-02-26T19:45:05.160717"
   },
   {
     "id": null,
@@ -2624,7 +2624,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3635",
     "email": null,
     "website": "https://kinzinger.house.gov",
     "twitter": null,
@@ -2636,8 +2636,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.275464",
-    "updated_at": "2018-02-26T18:58:06.275464"
+    "created_at": "2018-02-26T19:45:05.163997",
+    "updated_at": "2018-02-26T19:45:05.163997"
   },
   {
     "id": null,
@@ -2648,7 +2648,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5661",
     "email": null,
     "website": "https://bost.house.gov",
     "twitter": null,
@@ -2660,8 +2660,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.275718",
-    "updated_at": "2018-02-26T18:58:06.275718"
+    "created_at": "2018-02-26T19:45:05.164395",
+    "updated_at": "2018-02-26T19:45:05.164395"
   },
   {
     "id": null,
@@ -2672,7 +2672,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2976",
     "email": null,
     "website": "https://hultgren.house.gov",
     "twitter": null,
@@ -2684,8 +2684,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.276423",
-    "updated_at": "2018-02-26T18:58:06.276423"
+    "created_at": "2018-02-26T19:45:05.165675",
+    "updated_at": "2018-02-26T19:45:05.165675"
   },
   {
     "id": null,
@@ -2696,7 +2696,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-4561",
     "email": null,
     "website": "https://roskam.house.gov",
     "twitter": null,
@@ -2708,8 +2708,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.278271",
-    "updated_at": "2018-02-26T18:58:06.278271"
+    "created_at": "2018-02-26T19:45:05.166408",
+    "updated_at": "2018-02-26T19:45:05.166408"
   },
   {
     "id": null,
@@ -2720,7 +2720,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5271",
     "email": null,
     "website": "https://shimkus.house.gov",
     "twitter": null,
@@ -2732,8 +2732,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.279662",
-    "updated_at": "2018-02-26T18:58:06.279662"
+    "created_at": "2018-02-26T19:45:05.167400",
+    "updated_at": "2018-02-26T19:45:05.167400"
   },
   {
     "id": null,
@@ -2744,7 +2744,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Democrat",
-    "phone": null,
+    "phone": "(216) 522-7272",
     "email": null,
     "website": "https://brown.senate.gov",
     "twitter": null,
@@ -2756,8 +2756,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.407582",
-    "updated_at": "2018-02-26T18:58:07.407582"
+    "created_at": "2018-02-26T19:45:04.037469",
+    "updated_at": "2018-02-26T19:45:04.037469"
   },
   {
     "id": null,
@@ -2770,7 +2770,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://flake.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 346902,
     "election": {
@@ -2780,8 +2780,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.408340",
-    "updated_at": "2018-02-26T18:58:07.408340"
+    "created_at": "2018-02-26T19:45:04.039295",
+    "updated_at": "2018-02-26T19:45:04.039295"
   },
   {
     "id": null,
@@ -2794,7 +2794,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://hatch.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 116348,
     "election": {
@@ -2804,8 +2804,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.410004",
-    "updated_at": "2018-02-26T18:58:07.410004"
+    "created_at": "2018-02-26T19:45:04.042233",
+    "updated_at": "2018-02-26T19:45:04.042233"
   },
   {
     "id": null,
@@ -2816,9 +2816,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(512) 916-5834",
     "email": null,
-    "website": "https://cruz.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 65300,
     "election": {
@@ -2828,8 +2828,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.410622",
-    "updated_at": "2018-02-26T18:58:07.410622"
+    "created_at": "2018-02-26T19:45:04.043597",
+    "updated_at": "2018-02-26T19:45:04.043597"
   },
   {
     "id": null,
@@ -2840,7 +2840,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(719) 587-5105",
     "email": null,
     "website": "https://tipton.house.gov",
     "twitter": null,
@@ -2852,8 +2852,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.411864",
-    "updated_at": "2018-02-26T18:58:07.411864"
+    "created_at": "2018-02-26T19:45:04.046408",
+    "updated_at": "2018-02-26T19:45:04.046408"
   },
   {
     "id": null,
@@ -2866,7 +2866,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://duffy.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 40564,
     "election": {
@@ -2876,8 +2876,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.412148",
-    "updated_at": "2018-02-26T18:58:07.412148"
+    "created_at": "2018-02-26T19:45:04.047155",
+    "updated_at": "2018-02-26T19:45:04.047155"
   },
   {
     "id": null,
@@ -2890,7 +2890,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://heller.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 38364,
     "election": {
@@ -2900,8 +2900,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.412471",
-    "updated_at": "2018-02-26T18:58:07.412471"
+    "created_at": "2018-02-26T19:45:04.051581",
+    "updated_at": "2018-02-26T19:45:04.051581"
   },
   {
     "id": null,
@@ -2912,7 +2912,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3876",
     "email": null,
     "website": "https://renacci.house.gov",
     "twitter": null,
@@ -2924,8 +2924,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.413766",
-    "updated_at": "2018-02-26T18:58:07.413766"
+    "created_at": "2018-02-26T19:45:04.059986",
+    "updated_at": "2018-02-26T19:45:04.059986"
   },
   {
     "id": null,
@@ -2938,12 +2938,12 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://heck.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 28249,
     "election": null,
-    "created_at": "2018-02-26T18:58:07.415445",
-    "updated_at": "2018-02-26T18:58:07.415445"
+    "created_at": "2018-02-26T19:45:04.109451",
+    "updated_at": "2018-02-26T19:45:04.109451"
   },
   {
     "id": null,
@@ -2956,7 +2956,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://coffman.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 13114,
     "election": {
@@ -2966,8 +2966,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.416001",
-    "updated_at": "2018-02-26T18:58:07.416001"
+    "created_at": "2018-02-26T19:45:04.111396",
+    "updated_at": "2018-02-26T19:45:04.111396"
   },
   {
     "id": null,
@@ -2978,7 +2978,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(209) 579-5458",
     "email": null,
     "website": "https://denham.house.gov",
     "twitter": null,
@@ -2990,8 +2990,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.416240",
-    "updated_at": "2018-02-26T18:58:07.416240"
+    "created_at": "2018-02-26T19:45:04.111940",
+    "updated_at": "2018-02-26T19:45:04.111940"
   },
   {
     "id": null,
@@ -3002,7 +3002,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-6155",
     "email": null,
     "website": "https://amodei.house.gov",
     "twitter": null,
@@ -3014,8 +3014,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.416998",
-    "updated_at": "2018-02-26T18:58:07.416998"
+    "created_at": "2018-02-26T19:45:04.117105",
+    "updated_at": "2018-02-26T19:45:04.117105"
   },
   {
     "id": null,
@@ -3028,7 +3028,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://fischer.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 8359,
     "election": {
@@ -3038,8 +3038,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.417605",
-    "updated_at": "2018-02-26T18:58:07.417605"
+    "created_at": "2018-02-26T19:45:04.119259",
+    "updated_at": "2018-02-26T19:45:04.119259"
   },
   {
     "id": null,
@@ -3050,7 +3050,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(559) 582-5526",
     "email": null,
     "website": "https://valadao.house.gov",
     "twitter": null,
@@ -3062,8 +3062,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.417891",
-    "updated_at": "2018-02-26T18:58:07.417891"
+    "created_at": "2018-02-26T19:45:04.119996",
+    "updated_at": "2018-02-26T19:45:04.119996"
   },
   {
     "id": null,
@@ -3074,7 +3074,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5431",
     "email": null,
     "website": "https://goodlatte.house.gov",
     "twitter": null,
@@ -3086,8 +3086,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.418050",
-    "updated_at": "2018-02-26T18:58:07.418050"
+    "created_at": "2018-02-26T19:45:04.120558",
+    "updated_at": "2018-02-26T19:45:04.120558"
   },
   {
     "id": null,
@@ -3100,7 +3100,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://corker.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 6029,
     "election": {
@@ -3110,8 +3110,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.418233",
-    "updated_at": "2018-02-26T18:58:07.418233"
+    "created_at": "2018-02-26T19:45:04.120957",
+    "updated_at": "2018-02-26T19:45:04.120957"
   },
   {
     "id": null,
@@ -3122,7 +3122,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-1976",
     "email": null,
     "website": "https://pittenger.house.gov",
     "twitter": null,
@@ -3134,8 +3134,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.418916",
-    "updated_at": "2018-02-26T18:58:07.418916"
+    "created_at": "2018-02-26T19:45:04.128273",
+    "updated_at": "2018-02-26T19:45:04.128273"
   },
   {
     "id": null,
@@ -3148,7 +3148,7 @@
     "party": "Democrat",
     "phone": null,
     "email": null,
-    "website": "https://walz.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 4658,
     "election": {
@@ -3158,8 +3158,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.419738",
-    "updated_at": "2018-02-26T18:58:07.419738"
+    "created_at": "2018-02-26T19:45:04.132813",
+    "updated_at": "2018-02-26T19:45:04.132813"
   },
   {
     "id": null,
@@ -3170,7 +3170,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-4636",
     "email": null,
     "website": "https://bucshon.house.gov",
     "twitter": null,
@@ -3182,8 +3182,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.420148",
-    "updated_at": "2018-02-26T18:58:07.420148"
+    "created_at": "2018-02-26T19:45:04.138177",
+    "updated_at": "2018-02-26T19:45:04.138177"
   },
   {
     "id": null,
@@ -3194,7 +3194,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2315",
     "email": null,
     "website": "https://gosar.house.gov",
     "twitter": null,
@@ -3206,8 +3206,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.585247",
-    "updated_at": "2018-02-26T18:58:07.585247"
+    "created_at": "2018-02-26T19:45:04.140510",
+    "updated_at": "2018-02-26T19:45:04.140510"
   },
   {
     "id": null,
@@ -3218,7 +3218,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(530) 878-5035",
     "email": null,
     "website": "https://lamalfa.house.gov",
     "twitter": null,
@@ -3230,8 +3230,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.585844",
-    "updated_at": "2018-02-26T18:58:07.585844"
+    "created_at": "2018-02-26T19:45:04.141664",
+    "updated_at": "2018-02-26T19:45:04.141664"
   },
   {
     "id": null,
@@ -3242,7 +3242,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-3915",
     "email": null,
     "website": "https://walorski.house.gov",
     "twitter": null,
@@ -3254,8 +3254,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.586180",
-    "updated_at": "2018-02-26T18:58:07.586180"
+    "created_at": "2018-02-26T19:45:04.142303",
+    "updated_at": "2018-02-26T19:45:04.142303"
   },
   {
     "id": null,
@@ -3266,7 +3266,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(269) 385-0039",
     "email": null,
     "website": "https://upton.house.gov",
     "twitter": null,
@@ -3278,8 +3278,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.588183",
-    "updated_at": "2018-02-26T18:58:07.588183"
+    "created_at": "2018-02-26T19:45:04.148372",
+    "updated_at": "2018-02-26T19:45:04.148372"
   },
   {
     "id": null,
@@ -3290,7 +3290,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Democrat",
-    "phone": null,
+    "phone": "(608) 782-2558",
     "email": null,
     "website": "https://kind.house.gov",
     "twitter": null,
@@ -3302,8 +3302,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.628793",
-    "updated_at": "2018-02-26T18:58:07.628793"
+    "created_at": "2018-02-26T19:45:04.149692",
+    "updated_at": "2018-02-26T19:45:04.149692"
   },
   {
     "id": null,
@@ -3314,7 +3314,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-6831",
     "email": null,
     "website": "https://desjarlais.house.gov",
     "twitter": null,
@@ -3326,8 +3326,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.629694",
-    "updated_at": "2018-02-26T18:58:07.629694"
+    "created_at": "2018-02-26T19:45:04.150861",
+    "updated_at": "2018-02-26T19:45:04.150861"
   },
   {
     "id": null,
@@ -3338,7 +3338,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(713) 682-8828",
     "email": null,
     "website": "https://culberson.house.gov",
     "twitter": null,
@@ -3350,8 +3350,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.680445",
-    "updated_at": "2018-02-26T18:58:07.680445"
+    "created_at": "2018-02-26T19:45:04.153870",
+    "updated_at": "2018-02-26T19:45:04.153870"
   },
   {
     "id": null,
@@ -3362,7 +3362,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2876",
     "email": null,
     "website": "https://hartzler.house.gov",
     "twitter": null,
@@ -3374,8 +3374,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.758687",
-    "updated_at": "2018-02-26T18:58:07.758687"
+    "created_at": "2018-02-26T19:45:04.161196",
+    "updated_at": "2018-02-26T19:45:04.161196"
   },
   {
     "id": null,
@@ -3386,7 +3386,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-4231",
     "email": null,
     "website": "https://black.house.gov",
     "twitter": null,
@@ -3398,8 +3398,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.761609",
-    "updated_at": "2018-02-26T18:58:07.761609"
+    "created_at": "2018-02-26T19:45:04.163714",
+    "updated_at": "2018-02-26T19:45:04.163714"
   },
   {
     "id": null,
@@ -3410,7 +3410,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(636) 779-5449",
     "email": null,
     "website": "https://wagner.house.gov",
     "twitter": null,
@@ -3422,8 +3422,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.762895",
-    "updated_at": "2018-02-26T18:58:07.762895"
+    "created_at": "2018-02-26T19:45:04.165643",
+    "updated_at": "2018-02-26T19:45:04.165643"
   },
   {
     "id": null,
@@ -3434,7 +3434,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-6265",
     "email": null,
     "website": "https://gibbs.house.gov",
     "twitter": null,
@@ -3446,8 +3446,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.764282",
-    "updated_at": "2018-02-26T18:58:07.764282"
+    "created_at": "2018-02-26T19:45:04.167891",
+    "updated_at": "2018-02-26T19:45:04.167891"
   },
   {
     "id": null,
@@ -3460,7 +3460,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://holding.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 797,
     "election": {
@@ -3470,8 +3470,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.765311",
-    "updated_at": "2018-02-26T18:58:07.765311"
+    "created_at": "2018-02-26T19:45:04.169018",
+    "updated_at": "2018-02-26T19:45:04.169018"
   },
   {
     "id": null,
@@ -3482,7 +3482,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(855) 225-2801",
     "email": null,
     "website": "https://noem.house.gov",
     "twitter": null,
@@ -3494,8 +3494,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.765568",
-    "updated_at": "2018-02-26T18:58:07.765568"
+    "created_at": "2018-02-26T19:45:04.169339",
+    "updated_at": "2018-02-26T19:45:04.169339"
   },
   {
     "id": null,
@@ -3506,7 +3506,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-6611",
     "email": null,
     "website": "https://labrador.house.gov",
     "twitter": null,
@@ -3518,8 +3518,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.765810",
-    "updated_at": "2018-02-26T18:58:07.765810"
+    "created_at": "2018-02-26T19:45:04.169635",
+    "updated_at": "2018-02-26T19:45:04.169635"
   },
   {
     "id": null,
@@ -3532,7 +3532,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://simpson.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 756,
     "election": {
@@ -3542,8 +3542,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.766400",
-    "updated_at": "2018-02-26T18:58:07.766400"
+    "created_at": "2018-02-26T19:45:04.171320",
+    "updated_at": "2018-02-26T19:45:04.171320"
   },
   {
     "id": null,
@@ -3556,7 +3556,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://gardner.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 437,
     "election": {
@@ -3566,8 +3566,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.769337",
-    "updated_at": "2018-02-26T18:58:07.769337"
+    "created_at": "2018-02-26T19:45:04.174286",
+    "updated_at": "2018-02-26T19:45:04.174286"
   },
   {
     "id": null,
@@ -3578,7 +3578,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(423) 745-4671",
     "email": null,
     "website": "https://fleischmann.house.gov",
     "twitter": null,
@@ -3590,8 +3590,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.769750",
-    "updated_at": "2018-02-26T18:58:07.769750"
+    "created_at": "2018-02-26T19:45:04.174799",
+    "updated_at": "2018-02-26T19:45:04.174799"
   },
   {
     "id": null,
@@ -3604,7 +3604,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://barrasso.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 318,
     "election": {
@@ -3614,8 +3614,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.770057",
-    "updated_at": "2018-02-26T18:58:07.770057"
+    "created_at": "2018-02-26T19:45:04.175246",
+    "updated_at": "2018-02-26T19:45:04.175246"
   },
   {
     "id": null,
@@ -3628,7 +3628,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://yoho.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 92,
     "election": {
@@ -3638,8 +3638,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.773274",
-    "updated_at": "2018-02-26T18:58:07.773274"
+    "created_at": "2018-02-26T19:45:04.181009",
+    "updated_at": "2018-02-26T19:45:04.181009"
   },
   {
     "id": null,
@@ -3650,9 +3650,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(417) 877-7814",
     "email": null,
-    "website": "https://blunt.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 35,
     "election": {
@@ -3662,8 +3662,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:07.773554",
-    "updated_at": "2018-02-26T18:58:07.773554"
+    "created_at": "2018-02-26T19:45:04.181650",
+    "updated_at": "2018-02-26T19:45:04.181650"
   },
   {
     "id": null,
@@ -3674,7 +3674,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(814) 453-3010",
     "email": null,
     "website": "https://toomey.senate.gov",
     "twitter": null,
@@ -3686,8 +3686,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.227794",
-    "updated_at": "2018-02-26T18:58:06.227794"
+    "created_at": "2018-02-26T19:45:04.453306",
+    "updated_at": "2018-02-26T19:45:04.453306"
   },
   {
     "id": null,
@@ -3698,9 +3698,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(417) 877-7814",
     "email": null,
-    "website": "https://blunt.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 805108,
     "election": {
@@ -3710,8 +3710,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.241380",
-    "updated_at": "2018-02-26T18:58:06.241380"
+    "created_at": "2018-02-26T19:45:04.453711",
+    "updated_at": "2018-02-26T19:45:04.453711"
   },
   {
     "id": null,
@@ -3724,7 +3724,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://portman.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 721475,
     "election": {
@@ -3734,8 +3734,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.243697",
-    "updated_at": "2018-02-26T18:58:06.243697"
+    "created_at": "2018-02-26T19:45:04.454351",
+    "updated_at": "2018-02-26T19:45:04.454351"
   },
   {
     "id": null,
@@ -3746,7 +3746,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 224-3154",
     "email": null,
     "website": "https://burr.senate.gov",
     "twitter": null,
@@ -3758,8 +3758,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.246580",
-    "updated_at": "2018-02-26T18:58:06.246580"
+    "created_at": "2018-02-26T19:45:04.456199",
+    "updated_at": "2018-02-26T19:45:04.456199"
   },
   {
     "id": null,
@@ -3772,7 +3772,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://mulvaney.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 91100,
     "election": {
@@ -3782,8 +3782,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.247735",
-    "updated_at": "2018-02-26T18:58:06.247735"
+    "created_at": "2018-02-26T19:45:04.458595",
+    "updated_at": "2018-02-26T19:45:04.458595"
   },
   {
     "id": null,
@@ -3794,7 +3794,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Democrat",
-    "phone": null,
+    "phone": "(302) 573-6345",
     "email": null,
     "website": "https://coons.senate.gov",
     "twitter": null,
@@ -3806,8 +3806,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.251622",
-    "updated_at": "2018-02-26T18:58:06.251622"
+    "created_at": "2018-02-26T19:45:04.459657",
+    "updated_at": "2018-02-26T19:45:04.459657"
   },
   {
     "id": null,
@@ -3820,7 +3820,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://grassley.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 60749,
     "election": {
@@ -3830,8 +3830,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.252057",
-    "updated_at": "2018-02-26T18:58:06.252057"
+    "created_at": "2018-02-26T19:45:04.459990",
+    "updated_at": "2018-02-26T19:45:04.459990"
   },
   {
     "id": null,
@@ -3842,9 +3842,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(480) 946-2411",
     "email": null,
-    "website": "https://schweikert.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 57615,
     "election": {
@@ -3854,8 +3854,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.252462",
-    "updated_at": "2018-02-26T18:58:06.252462"
+    "created_at": "2018-02-26T19:45:04.460314",
+    "updated_at": "2018-02-26T19:45:04.460314"
   },
   {
     "id": null,
@@ -3866,9 +3866,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 224-4843",
     "email": null,
-    "website": "https://boozman.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 43592,
     "election": {
@@ -3878,8 +3878,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.254589",
-    "updated_at": "2018-02-26T18:58:06.254589"
+    "created_at": "2018-02-26T19:45:04.461761",
+    "updated_at": "2018-02-26T19:45:04.461761"
   },
   {
     "id": null,
@@ -3890,7 +3890,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-6276",
     "email": null,
     "website": "https://walberg.house.gov",
     "twitter": null,
@@ -3902,8 +3902,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.256419",
-    "updated_at": "2018-02-26T18:58:06.256419"
+    "created_at": "2018-02-26T19:45:04.462453",
+    "updated_at": "2018-02-26T19:45:04.462453"
   },
   {
     "id": null,
@@ -3914,7 +3914,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(610) 770-3490",
     "email": null,
     "website": "https://dent.house.gov",
     "twitter": null,
@@ -3926,8 +3926,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.258912",
-    "updated_at": "2018-02-26T18:58:06.258912"
+    "created_at": "2018-02-26T19:45:04.463925",
+    "updated_at": "2018-02-26T19:45:04.463925"
   },
   {
     "id": null,
@@ -3940,7 +3940,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://buerkle.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 25222,
     "election": {
@@ -3950,8 +3950,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.259355",
-    "updated_at": "2018-02-26T18:58:06.259355"
+    "created_at": "2018-02-26T19:45:04.464323",
+    "updated_at": "2018-02-26T19:45:04.464323"
   },
   {
     "id": null,
@@ -3962,7 +3962,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2865",
     "email": null,
     "website": "https://yoder.house.gov",
     "twitter": null,
@@ -3974,8 +3974,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.259979",
-    "updated_at": "2018-02-26T18:58:06.259979"
+    "created_at": "2018-02-26T19:45:04.464726",
+    "updated_at": "2018-02-26T19:45:04.464726"
   },
   {
     "id": null,
@@ -3986,7 +3986,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2015",
     "email": null,
     "website": "https://stivers.house.gov",
     "twitter": null,
@@ -3998,8 +3998,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.269617",
-    "updated_at": "2018-02-26T18:58:06.269617"
+    "created_at": "2018-02-26T19:45:04.467030",
+    "updated_at": "2018-02-26T19:45:04.467030"
   },
   {
     "id": null,
@@ -4010,7 +4010,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-5476",
     "email": null,
     "website": "https://young.house.gov",
     "twitter": null,
@@ -4022,8 +4022,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.270413",
-    "updated_at": "2018-02-26T18:58:06.270413"
+    "created_at": "2018-02-26T19:45:04.467469",
+    "updated_at": "2018-02-26T19:45:04.467469"
   },
   {
     "id": null,
@@ -4036,12 +4036,12 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://heck.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 10938,
     "election": null,
-    "created_at": "2018-02-26T18:58:06.270765",
-    "updated_at": "2018-02-26T18:58:06.270765"
+    "created_at": "2018-02-26T19:45:04.467708",
+    "updated_at": "2018-02-26T19:45:04.467708"
   },
   {
     "id": null,
@@ -4052,7 +4052,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(513) 684-2723",
     "email": null,
     "website": "https://chabot.house.gov",
     "twitter": null,
@@ -4064,8 +4064,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.273972",
-    "updated_at": "2018-02-26T18:58:06.273972"
+    "created_at": "2018-02-26T19:45:04.467985",
+    "updated_at": "2018-02-26T19:45:04.467985"
   },
   {
     "id": null,
@@ -4078,12 +4078,12 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://souder.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 10393,
     "election": null,
-    "created_at": "2018-02-26T18:58:06.274418",
-    "updated_at": "2018-02-26T18:58:06.274418"
+    "created_at": "2018-02-26T19:45:04.468205",
+    "updated_at": "2018-02-26T19:45:04.468205"
   },
   {
     "id": null,
@@ -4096,7 +4096,7 @@
     "party": "Democrat",
     "phone": null,
     "email": null,
-    "website": "https://holden.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 8593,
     "election": {
@@ -4106,8 +4106,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.278779",
-    "updated_at": "2018-02-26T18:58:06.278779"
+    "created_at": "2018-02-26T19:45:04.470116",
+    "updated_at": "2018-02-26T19:45:04.470116"
   },
   {
     "id": null,
@@ -4120,7 +4120,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://mccain.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 7793,
     "election": {
@@ -4130,8 +4130,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.282040",
-    "updated_at": "2018-02-26T18:58:06.282040"
+    "created_at": "2018-02-26T19:45:04.982973",
+    "updated_at": "2018-02-26T19:45:04.982973"
   },
   {
     "id": null,
@@ -4142,7 +4142,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(907) 271-3735",
     "email": null,
     "website": "https://murkowski.senate.gov",
     "twitter": null,
@@ -4154,8 +4154,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.285498",
-    "updated_at": "2018-02-26T18:58:06.285498"
+    "created_at": "2018-02-26T19:45:04.985390",
+    "updated_at": "2018-02-26T19:45:04.985390"
   },
   {
     "id": null,
@@ -4168,7 +4168,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://pompeo.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 6136,
     "election": {
@@ -4178,8 +4178,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.286178",
-    "updated_at": "2018-02-26T18:58:06.286178"
+    "created_at": "2018-02-26T19:45:04.985954",
+    "updated_at": "2018-02-26T19:45:04.985954"
   },
   {
     "id": null,
@@ -4190,7 +4190,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Democrat",
-    "phone": null,
+    "phone": "(202) 225-2165",
     "email": null,
     "website": "https://peterson.house.gov",
     "twitter": null,
@@ -4202,8 +4202,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.287299",
-    "updated_at": "2018-02-26T18:58:06.287299"
+    "created_at": "2018-02-26T19:45:04.987276",
+    "updated_at": "2018-02-26T19:45:04.987276"
   },
   {
     "id": null,
@@ -4216,7 +4216,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://griffin.house.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 4900,
     "election": {
@@ -4226,8 +4226,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.288978",
-    "updated_at": "2018-02-26T18:58:06.288978"
+    "created_at": "2018-02-26T19:45:04.988105",
+    "updated_at": "2018-02-26T19:45:04.988105"
   },
   {
     "id": null,
@@ -4238,7 +4238,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Democrat",
-    "phone": null,
+    "phone": "(202) 225-5711",
     "email": null,
     "website": "https://schrader.house.gov",
     "twitter": null,
@@ -4250,8 +4250,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.289507",
-    "updated_at": "2018-02-26T18:58:06.289507"
+    "created_at": "2018-02-26T19:45:04.988270",
+    "updated_at": "2018-02-26T19:45:04.988270"
   },
   {
     "id": null,
@@ -4262,7 +4262,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(541) 776-4646",
     "email": null,
     "website": "https://walden.house.gov",
     "twitter": null,
@@ -4274,8 +4274,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.289884",
-    "updated_at": "2018-02-26T18:58:06.289884"
+    "created_at": "2018-02-26T19:45:04.988434",
+    "updated_at": "2018-02-26T19:45:04.988434"
   },
   {
     "id": null,
@@ -4286,7 +4286,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-4231",
     "email": null,
     "website": "https://black.house.gov",
     "twitter": null,
@@ -4298,8 +4298,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.290725",
-    "updated_at": "2018-02-26T18:58:06.290725"
+    "created_at": "2018-02-26T19:45:04.989738",
+    "updated_at": "2018-02-26T19:45:04.989738"
   },
   {
     "id": null,
@@ -4310,7 +4310,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2576",
     "email": null,
     "website": "https://mchenry.house.gov",
     "twitter": null,
@@ -4322,8 +4322,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.291449",
-    "updated_at": "2018-02-26T18:58:06.291449"
+    "created_at": "2018-02-26T19:45:04.990164",
+    "updated_at": "2018-02-26T19:45:04.990164"
   },
   {
     "id": null,
@@ -4336,7 +4336,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://hoeven.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 3099,
     "election": {
@@ -4346,8 +4346,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.292611",
-    "updated_at": "2018-02-26T18:58:06.292611"
+    "created_at": "2018-02-26T19:45:04.990955",
+    "updated_at": "2018-02-26T19:45:04.990955"
   },
   {
     "id": null,
@@ -4358,9 +4358,9 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(208) 334-1776",
     "email": null,
-    "website": "https://crapo.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 2949,
     "election": {
@@ -4370,8 +4370,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.292929",
-    "updated_at": "2018-02-26T18:58:06.292929"
+    "created_at": "2018-02-26T19:45:04.991187",
+    "updated_at": "2018-02-26T19:45:04.991187"
   },
   {
     "id": null,
@@ -4382,7 +4382,7 @@
     "bio": null,
     "tweet_id": null,
     "party": "Republican",
-    "phone": null,
+    "phone": "(202) 225-2976",
     "email": null,
     "website": "https://hultgren.house.gov",
     "twitter": null,
@@ -4394,8 +4394,8 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.370646",
-    "updated_at": "2018-02-26T18:58:06.370646"
+    "created_at": "2018-02-26T19:45:04.991862",
+    "updated_at": "2018-02-26T19:45:04.991862"
   },
   {
     "id": null,
@@ -4408,7 +4408,7 @@
     "party": "Republican",
     "phone": null,
     "email": null,
-    "website": "https://isakson.senate.gov",
+    "website": null,
     "twitter": null,
     "money_from_nra": 1262,
     "election": {
@@ -4418,7 +4418,7 @@
       "created_at": null,
       "updated_at": null
     },
-    "created_at": "2018-02-26T18:58:06.420420",
-    "updated_at": "2018-02-26T18:58:06.420420"
+    "created_at": "2018-02-26T19:45:04.993002",
+    "updated_at": "2018-02-26T19:45:04.993002"
   }
 ]

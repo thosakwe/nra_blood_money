@@ -188,25 +188,24 @@
                     </paper-tabs>
                 </paper-toolbar>
 
-
-                <!-- TODO: Empty state -->
-                <paper-listbox id="list" slot="content">
-                    <iron-list items="[[__filterPoliticians(politicians)]]" as="p">
-                        <template>
-                            <paper-icon-item on-tap="__selectItem">
-                                <div class="avatar" slot="item-icon" style="[[__computeDrawerHeaderStyle(p)]]">
+                <!--
+                <iron-list items="[[__filterPoliticians(politicians, search.state)]]" as="p">
+                    <template>
+                        <paper-icon-item on-tap="__selectItem">
+                            <div class="avatar" slot="item-icon" style="[[__computeDrawerHeaderStyle(p)]]">
+                            </div>
+                            <paper-item-body three-line>
+                                <div>[[p.name]]</div>
+                                <div secondary>
+                                    <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
                                 </div>
-                                <paper-item-body three-line>
-                                    <div>[[p.name]]</div>
-                                    <div secondary>
-                                        <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
-                                    </div>
-                                    <div secondary>[[p.party]]</div>
-                                </paper-item-body>
-                            </paper-icon-item>
-                        </template>
-                    </iron-list>
-                    <!--
+                                <div secondary>[[p.party]]</div>
+                            </paper-item-body>
+                        </paper-icon-item>
+                    </template>
+                </iron-list>-->
+
+                <paper-listbox id="list" slot="content">
                     <template id="listRepeat" is="dom-repeat" items="[[politicians]]" as="p" filter="__filter" sort="__sort">
                         <paper-icon-item on-tap="__selectItem">
                             <div class="avatar" slot="item-icon" style="[[__computeDrawerHeaderStyle(p)]]">
@@ -220,7 +219,7 @@
                             </paper-item-body>
                         </paper-icon-item>
                     </template>
-                    -->
+
                 </paper-listbox>
             </paper-scroll-header-panel>
         </paper-drawer-panel>
@@ -260,7 +259,7 @@
 
         static get observers() {
           return [
-            //'__searchChanged(tab, search.*)'
+            '__searchChanged(tab, search.*)'
           ];
         }
 
