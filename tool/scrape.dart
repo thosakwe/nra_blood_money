@@ -261,7 +261,5 @@ Politician scrapeReelectionFromVcard(Politician p, html.Document doc) {
     }
   }
 
-  // TODO: Apply election info
-
   return p;
 }

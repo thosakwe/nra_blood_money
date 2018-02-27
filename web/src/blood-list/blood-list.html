@@ -118,10 +118,8 @@
                     <paper-listbox>
                         <paper-item disabled>
                             <paper-item-body two-line>
-                                <div style="color: var(--primary-text-color);">About</div>
-                                <div secondary style="font-weight: bold;">
-                                    Next election in [[s.election.month]]/[[s.election.year]]
-                                </div>
+                                <div style="color: var(--primary-text-color);">[[s.position]] - [[s.state]]</div>
+                                <div secondary style="font-weight: bold;">Next election in [[s.election.month]]/[[s.election.year]]</div>
                             </paper-item-body>
                         </paper-item>
 
@@ -195,11 +193,12 @@
                         <paper-icon-item on-tap="__selectItem">
                             <div class="avatar" slot="item-icon" style="[[__computeDrawerHeaderStyle(p)]]">
                             </div>
-                            <paper-item-body two-line>
+                            <paper-item-body three-line>
                                 <div>[[p.name]]</div>
                                 <div secondary>
                                     <span style="font-weight: bold;">[[p.position]]</span> @ [[p.state]]
                                 </div>
+                                <div secondary>[[p.party]]</div>
                             </paper-item-body>
                         </paper-icon-item>
                     </template>
