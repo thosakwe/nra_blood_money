@@ -2,9 +2,11 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:blood_money/models.dart';
+import 'package:intl/intl.dart';
 import 'package:isolate/isolate_runner.dart';
 import 'package:isolate/load_balancer.dart';
 import 'package:isolate/runner.dart';
+import 'package:html/dom.dart' as html;
 import 'package:html/parser.dart' as html;
 import 'package:http/http.dart' as http;
 
@@ -16,6 +18,12 @@ final Uri wikipediaIndex = Uri.parse('https://en.wikipedia.org/w/index.php');
 final RegExp commaOrSpace = new RegExp(r'[, ]');
 
 final RegExp moneyValid = new RegExp(r'[0-9,.]+');
+
+final RegExp assumedOffice = new RegExp(r'[Aa]ssumed office');
+
+var dateFormat = new DateFormat('MMMM d, yyy');
+
+final DateTime now = new DateTime.now();
 
 main() async {
   var client = new http.Client();
@@ -186,6 +194,8 @@ Future<Politician> scrapeWikipedia(Politician p, http.BaseClient client) async {
             .querySelector('img')
             .attributes['src'];
 
+    p = await scrapeReelectionFromVcard(p, doc);
+
     return p;
   } catch (e) {
     print('Error scraping ${p.name}.');
@@ -194,4 +204,64 @@ Future<Politician> scrapeWikipedia(Politician p, http.BaseClient client) async {
     await file.writeAsString(response?.body);
     return null;
   }
+}
+
+Politician scrapeReelectionFromVcard(Politician p, html.Document doc) {
+  var $vcard = doc.querySelector('table.vcard');
+
+  if ($vcard ==
+      null) // Will never happen, because the 'Incumbent tag' is sourced from a v-card.
+    return null;
+
+  var $trs = $vcard.querySelectorAll('tr');
+
+  bool scannedAssumed = false;
+
+  for (var $tr in $trs) {
+    if (!scannedAssumed) {
+      var $tds = $tr.querySelectorAll('td');
+
+      for (var $td in $tds) {
+        if (!scannedAssumed) {
+          var txt = $td.text.trim();
+          if (scannedAssumed = txt.trim().startsWith(assumedOffice)) {
+            var dateString = txt.replaceAll(assumedOffice, '').trim();
+            var termStarted = dateFormat.parse(dateString);
+            int termLength;
+
+            switch(p.position) {
+              case 'Representative':
+                termLength = 2;
+                break;
+              case 'Senator':
+                termLength = 6;
+                break;
+              case 'President':
+                termLength = 4;
+                break;
+              default:
+                print('Cannot determine term length for ${p.name}, a ${p.position}.');
+                return null;
+            }
+
+            int reelectionYear = termStarted.year + termLength - 1;
+
+            while (reelectionYear <= now.year)
+              reelectionYear += termLength;
+
+            p.election = new ElectionInfo(
+              month: 11,
+              year: reelectionYear,
+            );
+          }
+        }
+      }
+    } else {
+      break;
+    }
+  }
+
+  // TODO: Apply election info
+
+  return p;
 }

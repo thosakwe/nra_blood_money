@@ -19,4 +19,11 @@ class _Politician extends Model {
       website,
       twitter;
   num moneyFromNra;
+
+  ElectionInfo election;
+}
+
+@serializable
+class _ElectionInfo extends Model {
+  int month, year;
 }
