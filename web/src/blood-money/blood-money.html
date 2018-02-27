@@ -54,7 +54,7 @@
                 persisted-data="{{persistedPoliticians}}">
         </app-indexeddb-mirror>
 
-        <app-location route="{{route}}"></app-location>
+        <app-location route="{{route}}" use-hash-as-path></app-location>
 
         <app-route data="{{routeData}}" route="{{route}}" pattern="/:page"></app-route>
 
@@ -152,6 +152,9 @@
 
         __pageChanged(page) {
           let promise;
+
+          if (page === undefined)
+            page = '';
 
           // Find corresponding page
           const targetPage = this.$.pages.querySelector(`[name="${page}"]`);
