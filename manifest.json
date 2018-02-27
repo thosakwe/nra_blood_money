@@ -1,0 +1,16 @@
+{
+  "name": "NRA Blood Money",
+  "short_name": "#VoteThemOut",
+  "description": "A Web-based list of NRA legislators accepting NRA donations.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#212121",
+  "background_color": "#f1f1f1",
+  "icons": [
+    {
+      "src": "images/never_again.png",
+      "type": "image/png",
+      "sizes": "400x400"
+    }
+  ]
+}
